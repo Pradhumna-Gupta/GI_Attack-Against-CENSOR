@@ -1,0 +1,22 @@
+
+>>> [INFO] Training architecture parameters directly from scratch: The size of tensor a (3) must match the size of tensor b (7) at non-singleton dimension 3
+
+=========================================================================================================
+               UNSLICED CENSOR TRAINING PIPELINE: CONVERGENCE vs LEAKAGE DECAY               
+=========================================================================================================
+ Target Architecture       : ResNet18
+ Total Evaluation Epochs   : 10
+ Processing Batch Partition: 16 Images Per Node Stream
+ Total Expected Batches    : 3125 Blocks per Epoch Sweep
+=========================================================================================================
+
+[EPOCH 0/10] Sweeping Full Training Pool (3,125 Batches)...
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ [HOOK ATTACHED] RUNNING REAL-TIME ADVERSARIAL PRIVACY CHECK
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ Batch Target Labels     : [8, 2, 3, 6, 4, 0, 6, 8, 6, 5, 4, 9, 0, 1, 8, 3]
+ Attacker Inferred Label : [2] -> BIRD
+ Interception Result     : 🚨 LEAKED
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+

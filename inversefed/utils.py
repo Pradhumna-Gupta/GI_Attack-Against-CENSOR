@@ -24,7 +24,7 @@ def system_startup(args=None, defs=None):
     print(datetime.datetime.now().strftime("%A, %d. %B %Y %I:%M%p"))
     print(f'CPUs: {torch.get_num_threads()}, GPUs: {torch.cuda.device_count()} on {socket.gethostname()}.')
     # if args is not None:
-        # print(args)
+    #     print(args)
     if defs is not None:
         print(repr(defs))
     if torch.cuda.is_available():
@@ -39,18 +39,21 @@ def save_to_table(out_dir, name, dryrun, **kwargs):
     fname = os.path.join(out_dir, f'table_{name}.csv')
     fieldnames = list(kwargs.keys())
 
-    # Read or write header
+    # Create a single-row DataFrame from the incoming metadata dictionary
+    new_row_df = pd.DataFrame([kwargs])
+
+    # Read or write header safely using modern pandas concat patterns
     try:
         if os.path.isfile(fname):
             old_table = pd.read_csv(fname)
-        data = old_table.append(kwargs, ignore_index=True)
-        # with open(fname, 'r') as f:
-        #     reader = csv.reader(f, delimiter='\t')
-        #     header = [line for line in reader][0]
+            data = pd.concat([old_table, new_row_df], ignore_index=True)
+        else:
+            print('Creating a new .csv table...')
+            data = new_row_df
     except Exception as e:
-        print('Creating a new .csv table...')
-        data = pd.DataFrame(columns = fieldnames)
-        data = data.append(kwargs, ignore_index=True)
+        print('Error reading existing table, creating a fresh fallback schema...')
+        data = new_row_df
+
     if not dryrun:
         # Add row for this experiment
         data.to_csv(fname, index=None)
@@ -97,4 +100,3 @@ def show_image(image, title=''):
     plt.title(title, fontsize=16)
     plt.axis('off')
     return
-

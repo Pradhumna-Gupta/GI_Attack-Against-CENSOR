@@ -1,0 +1,4244 @@
+--------------------------------------------------------------------------------
+0 trial loss: 2.3735930919647217
+Gradient updated, Loss reduced to 2.3735930919647217
+Gradient updated, Loss reduced to 2.3735833168029785
+5 trial loss: 2.3736178874969482
+10 trial loss: 2.3735909461975098
+15 trial loss: 2.373591423034668
+20 trial loss: 2.373568296432495
+Gradient updated, Loss reduced to 2.373568296432495
+Gradient updated, Loss reduced to 2.3735673427581787
+25 trial loss: 2.3736045360565186
+0 trial loss: 2.369647741317749
+Gradient updated, Loss reduced to 2.369647741317749
+5 trial loss: 2.3696494102478027
+10 trial loss: 2.36964750289917
+Gradient updated, Loss reduced to 2.36964750289917
+15 trial loss: 2.3696489334106445
+Gradient updated, Loss reduced to 2.3696465492248535
+20 trial loss: 2.369647741317749
+Gradient updated, Loss reduced to 2.3696460723876953
+25 trial loss: 2.3696484565734863
+0 trial loss: 2.3805830478668213
+Gradient updated, Loss reduced to 2.3805830478668213
+Gradient updated, Loss reduced to 2.380582094192505
+5 trial loss: 2.380584478378296
+Gradient updated, Loss reduced to 2.3805809020996094
+Gradient updated, Loss reduced to 2.3805792331695557
+10 trial loss: 2.380579710006714
+Gradient updated, Loss reduced to 2.3805770874023438
+15 trial loss: 2.3805830478668213
+20 trial loss: 2.3805832862854004
+25 trial loss: 2.3805837631225586
+0 trial loss: 2.3752410411834717
+Gradient updated, Loss reduced to 2.3752410411834717
+5 trial loss: 2.375241994857788
+Gradient updated, Loss reduced to 2.3752388954162598
+10 trial loss: 2.3752434253692627
+15 trial loss: 2.3752429485321045
+Gradient updated, Loss reduced to 2.3752386569976807
+Gradient updated, Loss reduced to 2.3752384185791016
+20 trial loss: 2.3752403259277344
+25 trial loss: 2.375243663787842
+0 trial loss: 2.3684897422790527
+Gradient updated, Loss reduced to 2.3684897422790527
+5 trial loss: 2.3684890270233154
+Gradient updated, Loss reduced to 2.3684890270233154
+10 trial loss: 2.3684897422790527
+15 trial loss: 2.3684942722320557
+20 trial loss: 2.368492364883423
+25 trial loss: 2.368490695953369
+0 trial loss: 2.3891327381134033
+Gradient updated, Loss reduced to 2.389124870300293
+5 trial loss: 2.3891310691833496
+10 trial loss: 2.389129161834717
+15 trial loss: 2.389126777648926
+20 trial loss: 2.3891305923461914
+25 trial loss: 2.3891284465789795
+0 trial loss: 2.3911027908325195
+Gradient updated, Loss reduced to 2.3911027908325195
+5 trial loss: 2.3911030292510986
+10 trial loss: 2.391104221343994
+Gradient updated, Loss reduced to 2.391101598739624
+Gradient updated, Loss reduced to 2.3911006450653076
+15 trial loss: 2.3911054134368896
+20 trial loss: 2.3911030292510986
+25 trial loss: 2.3911075592041016
+0 trial loss: 2.368483543395996
+Gradient updated, Loss reduced to 2.3684818744659424
+Gradient updated, Loss reduced to 2.368480682373047
+Gradient updated, Loss reduced to 2.3684802055358887
+5 trial loss: 2.368485927581787
+Gradient updated, Loss reduced to 2.3684792518615723
+10 trial loss: 2.368483066558838
+15 trial loss: 2.368481159210205
+Gradient updated, Loss reduced to 2.368478536605835
+20 trial loss: 2.368483543395996
+25 trial loss: 2.368480920791626
+0 trial loss: 2.382274627685547
+Gradient updated, Loss reduced to 2.382274627685547
+5 trial loss: 2.3822803497314453
+Gradient updated, Loss reduced to 2.382272481918335
+10 trial loss: 2.382277011871338
+15 trial loss: 2.382277727127075
+20 trial loss: 2.382277250289917
+25 trial loss: 2.3822805881500244
+0 trial loss: 2.3909807205200195
+Gradient updated, Loss reduced to 2.3909807205200195
+Gradient updated, Loss reduced to 2.390979290008545
+Gradient updated, Loss reduced to 2.3909778594970703
+Gradient updated, Loss reduced to 2.390976667404175
+5 trial loss: 2.3909785747528076
+10 trial loss: 2.3909788131713867
+15 trial loss: 2.3909807205200195
+20 trial loss: 2.390982151031494
+25 trial loss: 2.3909811973571777
+Gradient updated, Loss reduced to 2.3909752368927
+0 trial loss: 2.385629892349243
+Gradient updated, Loss reduced to 2.385629892349243
+Gradient updated, Loss reduced to 2.385627269744873
+5 trial loss: 2.3856279850006104
+Gradient updated, Loss reduced to 2.385626792907715
+10 trial loss: 2.385629415512085
+15 trial loss: 2.385627508163452
+20 trial loss: 2.385624885559082
+Gradient updated, Loss reduced to 2.385624885559082
+25 trial loss: 2.385629415512085
+0 trial loss: 2.3756163120269775
+Gradient updated, Loss reduced to 2.3756163120269775
+5 trial loss: 2.375617027282715
+Gradient updated, Loss reduced to 2.375614643096924
+10 trial loss: 2.3756165504455566
+15 trial loss: 2.3756186962127686
+20 trial loss: 2.3756163120269775
+25 trial loss: 2.3756160736083984
+0 trial loss: 2.38264799118042
+Gradient updated, Loss reduced to 2.38264799118042
+Gradient updated, Loss reduced to 2.382647752761841
+5 trial loss: 2.3826465606689453
+Gradient updated, Loss reduced to 2.3826465606689453
+Gradient updated, Loss reduced to 2.3826451301574707
+10 trial loss: 2.382648468017578
+15 trial loss: 2.382652759552002
+20 trial loss: 2.3826518058776855
+Gradient updated, Loss reduced to 2.3826444149017334
+25 trial loss: 2.3826494216918945
+0 trial loss: 2.3803036212921143
+Gradient updated, Loss reduced to 2.3803036212921143
+Gradient updated, Loss reduced to 2.380303144454956
+Gradient updated, Loss reduced to 2.380302906036377
+Gradient updated, Loss reduced to 2.3803014755249023
+5 trial loss: 2.3803036212921143
+10 trial loss: 2.380305290222168
+15 trial loss: 2.3803048133850098
+20 trial loss: 2.380305528640747
+25 trial loss: 2.3803045749664307
+0 trial loss: 2.3628878593444824
+Gradient updated, Loss reduced to 2.3628878593444824
+Gradient updated, Loss reduced to 2.362887382507324
+Gradient updated, Loss reduced to 2.362886667251587
+5 trial loss: 2.3628897666931152
+10 trial loss: 2.3628876209259033
+15 trial loss: 2.362889528274536
+Gradient updated, Loss reduced to 2.362886428833008
+20 trial loss: 2.3628902435302734
+Gradient updated, Loss reduced to 2.3628861904144287
+25 trial loss: 2.3628878593444824
+0 trial loss: 2.4101598262786865
+Gradient updated, Loss reduced to 2.4101598262786865
+Gradient updated, Loss reduced to 2.410159111022949
+5 trial loss: 2.4101693630218506
+10 trial loss: 2.410163640975952
+15 trial loss: 2.410168409347534
+20 trial loss: 2.4101619720458984
+Gradient updated, Loss reduced to 2.410158634185791
+25 trial loss: 2.410162925720215
+Gradient updated, Loss reduced to 2.4101548194885254
+0 trial loss: 2.3748159408569336
+Gradient updated, Loss reduced to 2.3748159408569336
+Gradient updated, Loss reduced to 2.3748137950897217
+5 trial loss: 2.37481951713562
+10 trial loss: 2.374819278717041
+15 trial loss: 2.374816656112671
+20 trial loss: 2.3748178482055664
+Gradient updated, Loss reduced to 2.3748135566711426
+25 trial loss: 2.3748183250427246
+0 trial loss: 2.403322696685791
+Gradient updated, Loss reduced to 2.403322696685791
+5 trial loss: 2.403325319290161
+Gradient updated, Loss reduced to 2.403320074081421
+10 trial loss: 2.403322696685791
+15 trial loss: 2.4033284187316895
+20 trial loss: 2.4033265113830566
+25 trial loss: 2.4033265113830566
+0 trial loss: 2.3843138217926025
+Gradient updated, Loss reduced to 2.3843138217926025
+Gradient updated, Loss reduced to 2.384312391281128
+5 trial loss: 2.384316921234131
+Gradient updated, Loss reduced to 2.3843119144439697
+10 trial loss: 2.384315252304077
+15 trial loss: 2.3843162059783936
+20 trial loss: 2.384315252304077
+25 trial loss: 2.38431978225708
+0 trial loss: 2.3837640285491943
+Gradient updated, Loss reduced to 2.3837640285491943
+Gradient updated, Loss reduced to 2.383763313293457
+5 trial loss: 2.3837687969207764
+Gradient updated, Loss reduced to 2.383761167526245
+10 trial loss: 2.3837671279907227
+15 trial loss: 2.3837714195251465
+20 trial loss: 2.3837640285491943
+25 trial loss: 2.38376522064209
+0 trial loss: 2.410836935043335
+Gradient updated, Loss reduced to 2.410836935043335
+Gradient updated, Loss reduced to 2.4108359813690186
+Gradient updated, Loss reduced to 2.4108340740203857
+5 trial loss: 2.4108383655548096
+10 trial loss: 2.4108386039733887
+15 trial loss: 2.4108352661132812
+Gradient updated, Loss reduced to 2.4108328819274902
+20 trial loss: 2.4108355045318604
+25 trial loss: 2.410835027694702
+0 trial loss: 2.3703222274780273
+Gradient updated, Loss reduced to 2.3703222274780273
+5 trial loss: 2.3703229427337646
+Gradient updated, Loss reduced to 2.3703219890594482
+10 trial loss: 2.3703229427337646
+15 trial loss: 2.3703250885009766
+20 trial loss: 2.370326280593872
+25 trial loss: 2.3703231811523438
+0 trial loss: 2.3862974643707275
+Gradient updated, Loss reduced to 2.3862974643707275
+Gradient updated, Loss reduced to 2.3862967491149902
+5 trial loss: 2.386298418045044
+Gradient updated, Loss reduced to 2.386296510696411
+Gradient updated, Loss reduced to 2.386294364929199
+10 trial loss: 2.3862991333007812
+Gradient updated, Loss reduced to 2.386293888092041
+15 trial loss: 2.386296033859253
+20 trial loss: 2.3862991333007812
+25 trial loss: 2.386298894882202
+0 trial loss: 2.3642752170562744
+Gradient updated, Loss reduced to 2.3642752170562744
+5 trial loss: 2.3642756938934326
+Gradient updated, Loss reduced to 2.364274263381958
+10 trial loss: 2.364274501800537
+Gradient updated, Loss reduced to 2.3642735481262207
+15 trial loss: 2.3642776012420654
+20 trial loss: 2.364274024963379
+Gradient updated, Loss reduced to 2.3642725944519043
+25 trial loss: 2.3642749786376953
+0 trial loss: 2.3771097660064697
+Gradient updated, Loss reduced to 2.3771097660064697
+5 trial loss: 2.3771145343780518
+Gradient updated, Loss reduced to 2.3771090507507324
+Gradient updated, Loss reduced to 2.377106189727783
+10 trial loss: 2.3771066665649414
+15 trial loss: 2.377108097076416
+20 trial loss: 2.377110719680786
+25 trial loss: 2.3771095275878906
+0 trial loss: 2.3627452850341797
+Gradient updated, Loss reduced to 2.3627452850341797
+5 trial loss: 2.362748861312866
+10 trial loss: 2.3627524375915527
+15 trial loss: 2.362748146057129
+20 trial loss: 2.3627490997314453
+25 trial loss: 2.3627490997314453
+0 trial loss: 2.397181749343872
+Gradient updated, Loss reduced to 2.397181749343872
+Gradient updated, Loss reduced to 2.3971807956695557
+Gradient updated, Loss reduced to 2.397179365158081
+5 trial loss: 2.397179365158081
+Gradient updated, Loss reduced to 2.39717435836792
+10 trial loss: 2.3971824645996094
+15 trial loss: 2.3971827030181885
+20 trial loss: 2.397178888320923
+25 trial loss: 2.3971822261810303
+0 trial loss: 2.378305673599243
+Gradient updated, Loss reduced to 2.378305673599243
+Gradient updated, Loss reduced to 2.378305196762085
+Gradient updated, Loss reduced to 2.3783042430877686
+5 trial loss: 2.3783068656921387
+10 trial loss: 2.3783090114593506
+15 trial loss: 2.3783063888549805
+20 trial loss: 2.378308057785034
+25 trial loss: 2.378305435180664
+0 trial loss: 2.3962411880493164
+Gradient updated, Loss reduced to 2.3962411880493164
+5 trial loss: 2.396239995956421
+Gradient updated, Loss reduced to 2.396239995956421
+10 trial loss: 2.396245002746582
+Gradient updated, Loss reduced to 2.3962395191192627
+Gradient updated, Loss reduced to 2.3962388038635254
+15 trial loss: 2.396240234375
+20 trial loss: 2.3962478637695312
+25 trial loss: 2.396246910095215
+0 trial loss: 2.371431589126587
+Gradient updated, Loss reduced to 2.371431589126587
+Gradient updated, Loss reduced to 2.371431350708008
+Gradient updated, Loss reduced to 2.371429443359375
+5 trial loss: 2.371431350708008
+10 trial loss: 2.3714303970336914
+Gradient updated, Loss reduced to 2.3714282512664795
+15 trial loss: 2.371431589126587
+20 trial loss: 2.371429681777954
+Gradient updated, Loss reduced to 2.3714277744293213
+25 trial loss: 2.3714327812194824
+Gradient updated, Loss reduced to 2.371427297592163
+0 trial loss: 2.3798959255218506
+Gradient updated, Loss reduced to 2.3798959255218506
+Gradient updated, Loss reduced to 2.3798956871032715
+Gradient updated, Loss reduced to 2.3798954486846924
+5 trial loss: 2.379896640777588
+Gradient updated, Loss reduced to 2.379892349243164
+10 trial loss: 2.379897356033325
+15 trial loss: 2.379897356033325
+20 trial loss: 2.379894971847534
+25 trial loss: 2.3798980712890625
+0 trial loss: 2.3772242069244385
+Gradient updated, Loss reduced to 2.3772215843200684
+Gradient updated, Loss reduced to 2.3772189617156982
+5 trial loss: 2.3772222995758057
+Gradient updated, Loss reduced to 2.377218723297119
+10 trial loss: 2.377220630645752
+15 trial loss: 2.3772244453430176
+20 trial loss: 2.3772213459014893
+25 trial loss: 2.3772196769714355
+0 trial loss: 2.372361898422241
+Gradient updated, Loss reduced to 2.372361898422241
+5 trial loss: 2.372366428375244
+Gradient updated, Loss reduced to 2.372361183166504
+10 trial loss: 2.3723666667938232
+15 trial loss: 2.3723673820495605
+20 trial loss: 2.3723630905151367
+25 trial loss: 2.3723673820495605
+0 trial loss: 2.363947868347168
+Gradient updated, Loss reduced to 2.363942861557007
+Gradient updated, Loss reduced to 2.3639426231384277
+5 trial loss: 2.3639426231384277
+10 trial loss: 2.3639423847198486
+Gradient updated, Loss reduced to 2.3639423847198486
+Gradient updated, Loss reduced to 2.363941192626953
+15 trial loss: 2.363945245742798
+20 trial loss: 2.363943099975586
+25 trial loss: 2.363943338394165
+0 trial loss: 2.378530263900757
+Gradient updated, Loss reduced to 2.378527879714966
+Gradient updated, Loss reduced to 2.378526449203491
+5 trial loss: 2.3785288333892822
+10 trial loss: 2.3785293102264404
+Gradient updated, Loss reduced to 2.378526210784912
+15 trial loss: 2.378528356552124
+20 trial loss: 2.3785293102264404
+Gradient updated, Loss reduced to 2.3785243034362793
+25 trial loss: 2.3785269260406494
+0 trial loss: 2.3664538860321045
+Gradient updated, Loss reduced to 2.366450786590576
+5 trial loss: 2.366452217102051
+10 trial loss: 2.3664519786834717
+15 trial loss: 2.3664565086364746
+20 trial loss: 2.3664543628692627
+25 trial loss: 2.366450309753418
+Gradient updated, Loss reduced to 2.366450309753418
+0 trial loss: 2.3898186683654785
+Gradient updated, Loss reduced to 2.3898186683654785
+5 trial loss: 2.389817953109741
+Gradient updated, Loss reduced to 2.389817953109741
+10 trial loss: 2.3898191452026367
+Gradient updated, Loss reduced to 2.389814615249634
+15 trial loss: 2.3898189067840576
+20 trial loss: 2.3898184299468994
+25 trial loss: 2.3898181915283203
+0 trial loss: 2.3704111576080322
+Gradient updated, Loss reduced to 2.370410442352295
+Gradient updated, Loss reduced to 2.3704094886779785
+5 trial loss: 2.3704118728637695
+Gradient updated, Loss reduced to 2.3704068660736084
+10 trial loss: 2.3704140186309814
+15 trial loss: 2.370410680770874
+20 trial loss: 2.3704097270965576
+25 trial loss: 2.370410442352295
+0 trial loss: 2.3853275775909424
+Gradient updated, Loss reduced to 2.3853275775909424
+5 trial loss: 2.385331392288208
+10 trial loss: 2.385333299636841
+15 trial loss: 2.3853297233581543
+20 trial loss: 2.385331153869629
+25 trial loss: 2.385328531265259
+0 trial loss: 2.369248628616333
+Gradient updated, Loss reduced to 2.369248628616333
+Gradient updated, Loss reduced to 2.369248390197754
+Gradient updated, Loss reduced to 2.3692476749420166
+Gradient updated, Loss reduced to 2.369246244430542
+5 trial loss: 2.3692469596862793
+Gradient updated, Loss reduced to 2.369245767593384
+Gradient updated, Loss reduced to 2.3692455291748047
+10 trial loss: 2.369248628616333
+15 trial loss: 2.3692474365234375
+20 trial loss: 2.3692469596862793
+25 trial loss: 2.369250535964966
+0 trial loss: 2.362866163253784
+Gradient updated, Loss reduced to 2.362866163253784
+Gradient updated, Loss reduced to 2.3628644943237305
+5 trial loss: 2.362865447998047
+Gradient updated, Loss reduced to 2.362863063812256
+10 trial loss: 2.362867832183838
+15 trial loss: 2.362868309020996
+20 trial loss: 2.3628644943237305
+25 trial loss: 2.3628649711608887
+0 trial loss: 2.369894504547119
+Gradient updated, Loss reduced to 2.369894504547119
+Gradient updated, Loss reduced to 2.3698928356170654
+5 trial loss: 2.3698980808258057
+Gradient updated, Loss reduced to 2.3698923587799072
+10 trial loss: 2.369896173477173
+Gradient updated, Loss reduced to 2.369891881942749
+15 trial loss: 2.3698976039886475
+20 trial loss: 2.369893789291382
+25 trial loss: 2.3698947429656982
+0 trial loss: 2.392458200454712
+Gradient updated, Loss reduced to 2.392458200454712
+5 trial loss: 2.3924593925476074
+10 trial loss: 2.3924596309661865
+15 trial loss: 2.392463445663452
+Gradient updated, Loss reduced to 2.3924567699432373
+20 trial loss: 2.3924598693847656
+25 trial loss: 2.3924612998962402
+0 trial loss: 2.4108691215515137
+Gradient updated, Loss reduced to 2.4108691215515137
+5 trial loss: 2.410881519317627
+10 trial loss: 2.410867929458618
+Gradient updated, Loss reduced to 2.410867929458618
+Gradient updated, Loss reduced to 2.4108645915985107
+15 trial loss: 2.410869598388672
+20 trial loss: 2.4108757972717285
+25 trial loss: 2.4108707904815674
+0 trial loss: 2.3709592819213867
+Gradient updated, Loss reduced to 2.3709592819213867
+Gradient updated, Loss reduced to 2.3709566593170166
+5 trial loss: 2.3709585666656494
+10 trial loss: 2.3709568977355957
+15 trial loss: 2.370957612991333
+20 trial loss: 2.3709604740142822
+Gradient updated, Loss reduced to 2.3709545135498047
+25 trial loss: 2.3709590435028076
+0 trial loss: 2.3799777030944824
+Gradient updated, Loss reduced to 2.3799734115600586
+5 trial loss: 2.379976511001587
+10 trial loss: 2.3799757957458496
+15 trial loss: 2.379973888397217
+20 trial loss: 2.3799779415130615
+25 trial loss: 2.379979133605957
+0 trial loss: 2.3688082695007324
+Gradient updated, Loss reduced to 2.3688082695007324
+5 trial loss: 2.368809461593628
+10 trial loss: 2.3688113689422607
+15 trial loss: 2.3688111305236816
+20 trial loss: 2.368811845779419
+25 trial loss: 2.3688132762908936
+0 trial loss: 2.384787082672119
+Gradient updated, Loss reduced to 2.384787082672119
+Gradient updated, Loss reduced to 2.384784698486328
+5 trial loss: 2.384791374206543
+10 trial loss: 2.3847875595092773
+15 trial loss: 2.38478684425354
+Gradient updated, Loss reduced to 2.38478422164917
+20 trial loss: 2.3847877979278564
+25 trial loss: 2.384788751602173
+0 trial loss: 2.3334202766418457
+Gradient updated, Loss reduced to 2.3334202766418457
+5 trial loss: 2.333421230316162
+Gradient updated, Loss reduced to 2.3334152698516846
+10 trial loss: 2.3334298133850098
+Gradient updated, Loss reduced to 2.3334147930145264
+15 trial loss: 2.333420991897583
+20 trial loss: 2.3334152698516846
+25 trial loss: 2.3334293365478516
+0 trial loss: 2.332958698272705
+Gradient updated, Loss reduced to 2.332958698272705
+5 trial loss: 2.3329594135284424
+10 trial loss: 2.332961082458496
+15 trial loss: 2.3329598903656006
+Gradient updated, Loss reduced to 2.3329572677612305
+20 trial loss: 2.3329620361328125
+25 trial loss: 2.3329601287841797
+0 trial loss: 2.334195137023926
+Gradient updated, Loss reduced to 2.334193468093872
+Gradient updated, Loss reduced to 2.3341920375823975
+5 trial loss: 2.3341917991638184
+Gradient updated, Loss reduced to 2.3341917991638184
+10 trial loss: 2.334193468093872
+15 trial loss: 2.334193706512451
+Gradient updated, Loss reduced to 2.33419132232666
+20 trial loss: 2.3341941833496094
+25 trial loss: 2.334193229675293
+0 trial loss: 2.3272907733917236
+Gradient updated, Loss reduced to 2.3272907733917236
+Gradient updated, Loss reduced to 2.32728910446167
+5 trial loss: 2.3272922039031982
+10 trial loss: 2.3272905349731445
+15 trial loss: 2.3272907733917236
+20 trial loss: 2.3272907733917236
+25 trial loss: 2.327291488647461
+0 trial loss: 2.323920249938965
+Gradient updated, Loss reduced to 2.323920249938965
+5 trial loss: 2.323920726776123
+Gradient updated, Loss reduced to 2.3239197731018066
+10 trial loss: 2.3239197731018066
+15 trial loss: 2.3239212036132812
+Gradient updated, Loss reduced to 2.3239190578460693
+20 trial loss: 2.3239214420318604
+25 trial loss: 2.323920965194702
+0 trial loss: 2.334545373916626
+Gradient updated, Loss reduced to 2.334543228149414
+5 trial loss: 2.334542989730835
+Gradient updated, Loss reduced to 2.334542989730835
+10 trial loss: 2.3345425128936768
+Gradient updated, Loss reduced to 2.3345425128936768
+15 trial loss: 2.334543228149414
+20 trial loss: 2.334543466567993
+25 trial loss: 2.3345444202423096
+0 trial loss: 2.3344454765319824
+Gradient updated, Loss reduced to 2.3344454765319824
+5 trial loss: 2.3344478607177734
+Gradient updated, Loss reduced to 2.334444999694824
+Gradient updated, Loss reduced to 2.334444761276245
+10 trial loss: 2.3344476222991943
+15 trial loss: 2.334446430206299
+20 trial loss: 2.3344457149505615
+25 trial loss: 2.3344459533691406
+0 trial loss: 2.3331103324890137
+Gradient updated, Loss reduced to 2.3331103324890137
+Gradient updated, Loss reduced to 2.3331098556518555
+Gradient updated, Loss reduced to 2.333108425140381
+5 trial loss: 2.3331100940704346
+10 trial loss: 2.333110809326172
+15 trial loss: 2.3331103324890137
+20 trial loss: 2.3331105709075928
+25 trial loss: 2.333111524581909
+0 trial loss: 2.3192617893218994
+Gradient updated, Loss reduced to 2.3192617893218994
+Gradient updated, Loss reduced to 2.319260597229004
+Gradient updated, Loss reduced to 2.319260358810425
+5 trial loss: 2.319260358810425
+Gradient updated, Loss reduced to 2.3192601203918457
+Gradient updated, Loss reduced to 2.3192596435546875
+10 trial loss: 2.3192617893218994
+15 trial loss: 2.319258689880371
+Gradient updated, Loss reduced to 2.319258689880371
+20 trial loss: 2.319262742996216
+25 trial loss: 2.3192615509033203
+0 trial loss: 2.329401731491089
+Gradient updated, Loss reduced to 2.329401731491089
+Gradient updated, Loss reduced to 2.3294014930725098
+Gradient updated, Loss reduced to 2.3294003009796143
+5 trial loss: 2.329402208328247
+10 trial loss: 2.3294014930725098
+Gradient updated, Loss reduced to 2.329400062561035
+15 trial loss: 2.3294014930725098
+20 trial loss: 2.3294003009796143
+25 trial loss: 2.329401731491089
+0 trial loss: 2.3261568546295166
+Gradient updated, Loss reduced to 2.3261568546295166
+Gradient updated, Loss reduced to 2.326155662536621
+5 trial loss: 2.326157569885254
+Gradient updated, Loss reduced to 2.326155424118042
+10 trial loss: 2.3261566162109375
+15 trial loss: 2.3261570930480957
+20 trial loss: 2.326155662536621
+Gradient updated, Loss reduced to 2.326155185699463
+25 trial loss: 2.3261563777923584
+0 trial loss: 2.3431148529052734
+Gradient updated, Loss reduced to 2.3431148529052734
+5 trial loss: 2.343116044998169
+10 trial loss: 2.3431167602539062
+15 trial loss: 2.3431179523468018
+20 trial loss: 2.3431169986724854
+25 trial loss: 2.343118906021118
+Gradient updated, Loss reduced to 2.3431143760681152
+0 trial loss: 2.3404791355133057
+Gradient updated, Loss reduced to 2.3404791355133057
+5 trial loss: 2.340480089187622
+Gradient updated, Loss reduced to 2.3404788970947266
+10 trial loss: 2.3404784202575684
+Gradient updated, Loss reduced to 2.3404784202575684
+15 trial loss: 2.3404808044433594
+20 trial loss: 2.3404808044433594
+25 trial loss: 2.3404810428619385
+Gradient updated, Loss reduced to 2.3404781818389893
+Gradient updated, Loss reduced to 2.340477466583252
+0 trial loss: 2.3335511684417725
+Gradient updated, Loss reduced to 2.3335511684417725
+5 trial loss: 2.3335511684417725
+10 trial loss: 2.3335506916046143
+Gradient updated, Loss reduced to 2.3335506916046143
+15 trial loss: 2.3335516452789307
+20 trial loss: 2.3335540294647217
+25 trial loss: 2.3335516452789307
+0 trial loss: 2.328117609024048
+Gradient updated, Loss reduced to 2.328117609024048
+Gradient updated, Loss reduced to 2.3281166553497314
+Gradient updated, Loss reduced to 2.328115940093994
+5 trial loss: 2.3281185626983643
+10 trial loss: 2.3281168937683105
+15 trial loss: 2.3281173706054688
+20 trial loss: 2.3281168937683105
+25 trial loss: 2.3281171321868896
+Gradient updated, Loss reduced to 2.328115701675415
+0 trial loss: 2.3420119285583496
+Gradient updated, Loss reduced to 2.342010974884033
+5 trial loss: 2.342013359069824
+10 trial loss: 2.3420112133026123
+Gradient updated, Loss reduced to 2.342010498046875
+15 trial loss: 2.342010259628296
+Gradient updated, Loss reduced to 2.342010259628296
+20 trial loss: 2.3420114517211914
+25 trial loss: 2.342012643814087
+Gradient updated, Loss reduced to 2.342010021209717
+0 trial loss: 2.329141139984131
+Gradient updated, Loss reduced to 2.329141139984131
+Gradient updated, Loss reduced to 2.3291409015655518
+5 trial loss: 2.3291409015655518
+10 trial loss: 2.3291420936584473
+15 trial loss: 2.3291406631469727
+Gradient updated, Loss reduced to 2.3291406631469727
+20 trial loss: 2.3291430473327637
+25 trial loss: 2.3291409015655518
+0 trial loss: 2.342132806777954
+Gradient updated, Loss reduced to 2.3421318531036377
+5 trial loss: 2.342132091522217
+Gradient updated, Loss reduced to 2.342129707336426
+10 trial loss: 2.3421316146850586
+15 trial loss: 2.342132091522217
+20 trial loss: 2.342133045196533
+25 trial loss: 2.3421332836151123
+0 trial loss: 2.345261812210083
+Gradient updated, Loss reduced to 2.345261812210083
+Gradient updated, Loss reduced to 2.345261573791504
+Gradient updated, Loss reduced to 2.345259428024292
+Gradient updated, Loss reduced to 2.3452584743499756
+5 trial loss: 2.345261573791504
+10 trial loss: 2.345261573791504
+15 trial loss: 2.3452603816986084
+20 trial loss: 2.3452603816986084
+25 trial loss: 2.345259189605713
+0 trial loss: 2.316093921661377
+Gradient updated, Loss reduced to 2.316093921661377
+Gradient updated, Loss reduced to 2.3160929679870605
+5 trial loss: 2.316093683242798
+Gradient updated, Loss reduced to 2.3160922527313232
+10 trial loss: 2.316092014312744
+Gradient updated, Loss reduced to 2.316092014312744
+15 trial loss: 2.316094160079956
+20 trial loss: 2.3160924911499023
+25 trial loss: 2.316093921661377
+0 trial loss: 2.332249402999878
+Gradient updated, Loss reduced to 2.332249402999878
+5 trial loss: 2.332249164581299
+Gradient updated, Loss reduced to 2.332249164581299
+10 trial loss: 2.3322532176971436
+15 trial loss: 2.3322508335113525
+20 trial loss: 2.3322513103485107
+25 trial loss: 2.3322505950927734
+0 trial loss: 2.334571123123169
+Gradient updated, Loss reduced to 2.334571123123169
+Gradient updated, Loss reduced to 2.3345704078674316
+Gradient updated, Loss reduced to 2.3345699310302734
+5 trial loss: 2.3345723152160645
+10 trial loss: 2.334571123123169
+Gradient updated, Loss reduced to 2.334569215774536
+15 trial loss: 2.3345706462860107
+20 trial loss: 2.3345718383789062
+25 trial loss: 2.3345723152160645
+0 trial loss: 2.344268798828125
+Gradient updated, Loss reduced to 2.344268798828125
+Gradient updated, Loss reduced to 2.3442678451538086
+5 trial loss: 2.344268560409546
+Gradient updated, Loss reduced to 2.3442673683166504
+Gradient updated, Loss reduced to 2.344266414642334
+10 trial loss: 2.344268321990967
+15 trial loss: 2.3442697525024414
+20 trial loss: 2.3442695140838623
+25 trial loss: 2.3442676067352295
+0 trial loss: 2.332200527191162
+Gradient updated, Loss reduced to 2.332200527191162
+Gradient updated, Loss reduced to 2.332200050354004
+Gradient updated, Loss reduced to 2.3321993350982666
+5 trial loss: 2.3322012424468994
+Gradient updated, Loss reduced to 2.3321988582611084
+10 trial loss: 2.3322014808654785
+Gradient updated, Loss reduced to 2.3321986198425293
+15 trial loss: 2.3321986198425293
+Gradient updated, Loss reduced to 2.33219838142395
+20 trial loss: 2.332200050354004
+25 trial loss: 2.3321995735168457
+0 trial loss: 2.3377914428710938
+Gradient updated, Loss reduced to 2.3377907276153564
+5 trial loss: 2.3377909660339355
+Gradient updated, Loss reduced to 2.33778977394104
+10 trial loss: 2.3377912044525146
+15 trial loss: 2.337791681289673
+20 trial loss: 2.3377931118011475
+25 trial loss: 2.3377912044525146
+0 trial loss: 2.3362619876861572
+5 trial loss: 2.3362584114074707
+Gradient updated, Loss reduced to 2.3362584114074707
+Gradient updated, Loss reduced to 2.3362581729888916
+10 trial loss: 2.3362603187561035
+15 trial loss: 2.3362598419189453
+20 trial loss: 2.336259603500366
+25 trial loss: 2.336261034011841
+0 trial loss: 2.3293416500091553
+5 trial loss: 2.329340696334839
+10 trial loss: 2.3293426036834717
+15 trial loss: 2.3293404579162598
+Gradient updated, Loss reduced to 2.3293404579162598
+20 trial loss: 2.329341411590576
+25 trial loss: 2.329340696334839
+0 trial loss: 2.3331243991851807
+Gradient updated, Loss reduced to 2.3331243991851807
+Gradient updated, Loss reduced to 2.3331236839294434
+5 trial loss: 2.333125114440918
+10 trial loss: 2.3331265449523926
+Gradient updated, Loss reduced to 2.3331222534179688
+15 trial loss: 2.333123207092285
+20 trial loss: 2.3331241607666016
+25 trial loss: 2.3331236839294434
+0 trial loss: 2.332310438156128
+Gradient updated, Loss reduced to 2.332310438156128
+5 trial loss: 2.3323118686676025
+Gradient updated, Loss reduced to 2.332310199737549
+Gradient updated, Loss reduced to 2.3323094844818115
+10 trial loss: 2.3323121070861816
+15 trial loss: 2.3323121070861816
+20 trial loss: 2.332310676574707
+25 trial loss: 2.332313060760498
+0 trial loss: 2.329988718032837
+Gradient updated, Loss reduced to 2.329988718032837
+Gradient updated, Loss reduced to 2.3299880027770996
+5 trial loss: 2.3299901485443115
+10 trial loss: 2.3299880027770996
+15 trial loss: 2.3299906253814697
+Gradient updated, Loss reduced to 2.3299877643585205
+20 trial loss: 2.3299896717071533
+25 trial loss: 2.3299872875213623
+Gradient updated, Loss reduced to 2.3299872875213623
+0 trial loss: 2.3411543369293213
+Gradient updated, Loss reduced to 2.341154098510742
+Gradient updated, Loss reduced to 2.3411529064178467
+5 trial loss: 2.3411545753479004
+Gradient updated, Loss reduced to 2.3411524295806885
+10 trial loss: 2.3411545753479004
+Gradient updated, Loss reduced to 2.3411521911621094
+15 trial loss: 2.341153383255005
+20 trial loss: 2.3411519527435303
+Gradient updated, Loss reduced to 2.3411519527435303
+25 trial loss: 2.3411543369293213
+0 trial loss: 2.342796802520752
+Gradient updated, Loss reduced to 2.3427953720092773
+Gradient updated, Loss reduced to 2.3427937030792236
+5 trial loss: 2.3427960872650146
+10 trial loss: 2.3427953720092773
+15 trial loss: 2.3427937030792236
+20 trial loss: 2.342794418334961
+25 trial loss: 2.3427960872650146
+Gradient updated, Loss reduced to 2.3427932262420654
+0 trial loss: 2.3387770652770996
+Gradient updated, Loss reduced to 2.3387746810913086
+5 trial loss: 2.3387749195098877
+Gradient updated, Loss reduced to 2.338773727416992
+10 trial loss: 2.3387770652770996
+15 trial loss: 2.3387765884399414
+20 trial loss: 2.338776111602783
+25 trial loss: 2.338775634765625
+0 trial loss: 2.324082612991333
+Gradient updated, Loss reduced to 2.324082612991333
+Gradient updated, Loss reduced to 2.3240818977355957
+5 trial loss: 2.324085235595703
+10 trial loss: 2.324084520339966
+15 trial loss: 2.3240833282470703
+20 trial loss: 2.3240833282470703
+25 trial loss: 2.3240838050842285
+0 trial loss: 2.334076404571533
+Gradient updated, Loss reduced to 2.3340752124786377
+Gradient updated, Loss reduced to 2.3340742588043213
+5 trial loss: 2.3340775966644287
+10 trial loss: 2.334075689315796
+15 trial loss: 2.334078073501587
+20 trial loss: 2.334075450897217
+25 trial loss: 2.3340752124786377
+0 trial loss: 2.336940288543701
+Gradient updated, Loss reduced to 2.3369388580322266
+5 trial loss: 2.3369393348693848
+Gradient updated, Loss reduced to 2.33693790435791
+10 trial loss: 2.336937189102173
+Gradient updated, Loss reduced to 2.336937189102173
+15 trial loss: 2.3369388580322266
+20 trial loss: 2.336939573287964
+Gradient updated, Loss reduced to 2.3369369506835938
+25 trial loss: 2.336940288543701
+0 trial loss: 2.321927547454834
+Gradient updated, Loss reduced to 2.321927070617676
+5 trial loss: 2.321929693222046
+Gradient updated, Loss reduced to 2.3219265937805176
+10 trial loss: 2.321928024291992
+Gradient updated, Loss reduced to 2.3219258785247803
+15 trial loss: 2.321928024291992
+20 trial loss: 2.321927785873413
+Gradient updated, Loss reduced to 2.321925401687622
+25 trial loss: 2.321927547454834
+0 trial loss: 2.3354737758636475
+Gradient updated, Loss reduced to 2.3354737758636475
+Gradient updated, Loss reduced to 2.335472822189331
+5 trial loss: 2.3354735374450684
+Gradient updated, Loss reduced to 2.335472345352173
+10 trial loss: 2.335472822189331
+15 trial loss: 2.335474729537964
+20 trial loss: 2.335472822189331
+25 trial loss: 2.3354740142822266
+0 trial loss: 2.329179525375366
+Gradient updated, Loss reduced to 2.329179525375366
+Gradient updated, Loss reduced to 2.3291783332824707
+5 trial loss: 2.3291800022125244
+10 trial loss: 2.3291797637939453
+Gradient updated, Loss reduced to 2.3291780948638916
+15 trial loss: 2.3291800022125244
+20 trial loss: 2.3291802406311035
+Gradient updated, Loss reduced to 2.3291778564453125
+25 trial loss: 2.3291800022125244
+0 trial loss: 2.3259170055389404
+Gradient updated, Loss reduced to 2.3259170055389404
+Gradient updated, Loss reduced to 2.325916290283203
+5 trial loss: 2.3259150981903076
+Gradient updated, Loss reduced to 2.3259150981903076
+10 trial loss: 2.325918436050415
+15 trial loss: 2.325916051864624
+20 trial loss: 2.325917959213257
+25 trial loss: 2.325916290283203
+0 trial loss: 2.332578182220459
+Gradient updated, Loss reduced to 2.332576274871826
+5 trial loss: 2.3325774669647217
+Gradient updated, Loss reduced to 2.332575559616089
+10 trial loss: 2.332576036453247
+Gradient updated, Loss reduced to 2.3325753211975098
+15 trial loss: 2.3325748443603516
+Gradient updated, Loss reduced to 2.3325748443603516
+20 trial loss: 2.332576036453247
+25 trial loss: 2.3325765132904053
+0 trial loss: 2.3296985626220703
+Gradient updated, Loss reduced to 2.3296985626220703
+5 trial loss: 2.3297007083892822
+10 trial loss: 2.3297009468078613
+15 trial loss: 2.3297014236450195
+20 trial loss: 2.329700231552124
+25 trial loss: 2.3297019004821777
+0 trial loss: 2.3252902030944824
+5 trial loss: 2.3252899646759033
+10 trial loss: 2.3252878189086914
+Gradient updated, Loss reduced to 2.3252878189086914
+15 trial loss: 2.325289249420166
+20 trial loss: 2.325291156768799
+25 trial loss: 2.3252902030944824
+0 trial loss: 2.322036027908325
+Gradient updated, Loss reduced to 2.322033405303955
+5 trial loss: 2.322035074234009
+10 trial loss: 2.322033405303955
+15 trial loss: 2.322035312652588
+20 trial loss: 2.322035074234009
+25 trial loss: 2.3220367431640625
+0 trial loss: 2.335261344909668
+Gradient updated, Loss reduced to 2.335261344909668
+5 trial loss: 2.335265636444092
+10 trial loss: 2.335264205932617
+15 trial loss: 2.335263252258301
+20 trial loss: 2.3352646827697754
+25 trial loss: 2.335264205932617
+0 trial loss: 2.3280656337738037
+Gradient updated, Loss reduced to 2.3280656337738037
+Gradient updated, Loss reduced to 2.3280649185180664
+5 trial loss: 2.3280656337738037
+10 trial loss: 2.3280677795410156
+Gradient updated, Loss reduced to 2.328064441680908
+15 trial loss: 2.3280649185180664
+Gradient updated, Loss reduced to 2.328063726425171
+20 trial loss: 2.32806396484375
+25 trial loss: 2.3280656337738037
+0 trial loss: 2.3409945964813232
+Gradient updated, Loss reduced to 2.3409924507141113
+5 trial loss: 2.3409934043884277
+Gradient updated, Loss reduced to 2.3409922122955322
+10 trial loss: 2.340991258621216
+Gradient updated, Loss reduced to 2.340991258621216
+15 trial loss: 2.3409934043884277
+20 trial loss: 2.340993881225586
+25 trial loss: 2.340993642807007
+0 trial loss: 2.3377461433410645
+Gradient updated, Loss reduced to 2.3377461433410645
+Gradient updated, Loss reduced to 2.3377437591552734
+5 trial loss: 2.3377456665039062
+10 trial loss: 2.3377466201782227
+15 trial loss: 2.3377485275268555
+20 trial loss: 2.3377468585968018
+25 trial loss: 2.337742567062378
+Gradient updated, Loss reduced to 2.337742567062378
+0 trial loss: 2.3231005668640137
+Gradient updated, Loss reduced to 2.3231005668640137
+Gradient updated, Loss reduced to 2.3231000900268555
+Gradient updated, Loss reduced to 2.32309889793396
+5 trial loss: 2.323108196258545
+Gradient updated, Loss reduced to 2.323092222213745
+10 trial loss: 2.3231024742126465
+Gradient updated, Loss reduced to 2.323087215423584
+15 trial loss: 2.3230996131896973
+20 trial loss: 2.32309627532959
+25 trial loss: 2.32309627532959
+0 trial loss: 2.326414108276367
+5 trial loss: 2.326414108276367
+10 trial loss: 2.326413869857788
+15 trial loss: 2.326414108276367
+20 trial loss: 2.326413631439209
+25 trial loss: 2.3264124393463135
+0 trial loss: 2.3104896545410156
+Gradient updated, Loss reduced to 2.3104875087738037
+5 trial loss: 2.3104889392852783
+10 trial loss: 2.3104896545410156
+15 trial loss: 2.3104894161224365
+20 trial loss: 2.3104889392852783
+25 trial loss: 2.3104896545410156
+0 trial loss: 2.3222944736480713
+Gradient updated, Loss reduced to 2.3222944736480713
+Gradient updated, Loss reduced to 2.322293519973755
+5 trial loss: 2.322296380996704
+10 trial loss: 2.322293996810913
+15 trial loss: 2.3222954273223877
+20 trial loss: 2.3222954273223877
+25 trial loss: 2.3222944736480713
+0 trial loss: 2.3251194953918457
+Gradient updated, Loss reduced to 2.3251194953918457
+5 trial loss: 2.3251216411590576
+10 trial loss: 2.3251218795776367
+15 trial loss: 2.325122356414795
+20 trial loss: 2.325122117996216
+25 trial loss: 2.3251218795776367
+0 trial loss: 2.3158841133117676
+Gradient updated, Loss reduced to 2.3158814907073975
+5 trial loss: 2.3158843517303467
+10 trial loss: 2.3158841133117676
+15 trial loss: 2.3158833980560303
+20 trial loss: 2.315882682800293
+25 trial loss: 2.3158833980560303
+0 trial loss: 2.3141961097717285
+Gradient updated, Loss reduced to 2.3141934871673584
+5 trial loss: 2.3141956329345703
+10 trial loss: 2.314196825027466
+Gradient updated, Loss reduced to 2.3141932487487793
+15 trial loss: 2.314194679260254
+20 trial loss: 2.3141956329345703
+25 trial loss: 2.314194917678833
+0 trial loss: 2.316709041595459
+Gradient updated, Loss reduced to 2.3167076110839844
+5 trial loss: 2.316708564758301
+Gradient updated, Loss reduced to 2.316706657409668
+10 trial loss: 2.3167078495025635
+15 trial loss: 2.3167076110839844
+20 trial loss: 2.316708564758301
+25 trial loss: 2.3167073726654053
+0 trial loss: 2.334094762802124
+Gradient updated, Loss reduced to 2.334094762802124
+Gradient updated, Loss reduced to 2.3340935707092285
+Gradient updated, Loss reduced to 2.334092855453491
+5 trial loss: 2.3340935707092285
+10 trial loss: 2.3340933322906494
+15 trial loss: 2.3340930938720703
+20 trial loss: 2.3340933322906494
+25 trial loss: 2.3340930938720703
+0 trial loss: 2.3186652660369873
+5 trial loss: 2.318666934967041
+Gradient updated, Loss reduced to 2.318664312362671
+10 trial loss: 2.3186662197113037
+15 trial loss: 2.318665027618408
+20 trial loss: 2.3186655044555664
+25 trial loss: 2.3186662197113037
+0 trial loss: 2.327587604522705
+Gradient updated, Loss reduced to 2.3275866508483887
+5 trial loss: 2.3275866508483887
+Gradient updated, Loss reduced to 2.327585458755493
+10 trial loss: 2.3275861740112305
+15 trial loss: 2.3275856971740723
+20 trial loss: 2.327587604522705
+Gradient updated, Loss reduced to 2.327584743499756
+25 trial loss: 2.3275866508483887
+0 trial loss: 2.31652569770813
+Gradient updated, Loss reduced to 2.3165245056152344
+5 trial loss: 2.3165252208709717
+Gradient updated, Loss reduced to 2.316524028778076
+10 trial loss: 2.3165247440338135
+15 trial loss: 2.3165268898010254
+20 trial loss: 2.316525936126709
+25 trial loss: 2.316523313522339
+Gradient updated, Loss reduced to 2.316523313522339
+0 trial loss: 2.3224329948425293
+Gradient updated, Loss reduced to 2.3224329948425293
+5 trial loss: 2.3224358558654785
+10 trial loss: 2.3224339485168457
+15 trial loss: 2.322434663772583
+20 trial loss: 2.3224337100982666
+25 trial loss: 2.3224334716796875
+0 trial loss: 2.3209567070007324
+Gradient updated, Loss reduced to 2.3209543228149414
+5 trial loss: 2.3209545612335205
+10 trial loss: 2.320955991744995
+Gradient updated, Loss reduced to 2.320953845977783
+15 trial loss: 2.320955276489258
+20 trial loss: 2.320955514907837
+Gradient updated, Loss reduced to 2.320953607559204
+25 trial loss: 2.320955753326416
+Gradient updated, Loss reduced to 2.320952892303467
+0 trial loss: 2.3299269676208496
+Gradient updated, Loss reduced to 2.3299269676208496
+5 trial loss: 2.329928398132324
+10 trial loss: 2.329929828643799
+15 trial loss: 2.3299293518066406
+20 trial loss: 2.329928159713745
+25 trial loss: 2.329929828643799
+0 trial loss: 2.327637195587158
+Gradient updated, Loss reduced to 2.3276357650756836
+5 trial loss: 2.327636480331421
+10 trial loss: 2.327636480331421
+Gradient updated, Loss reduced to 2.3276352882385254
+15 trial loss: 2.327636480331421
+Gradient updated, Loss reduced to 2.327634811401367
+20 trial loss: 2.3276374340057373
+25 trial loss: 2.3276383876800537
+0 trial loss: 2.3173441886901855
+Gradient updated, Loss reduced to 2.317343235015869
+5 trial loss: 2.317345142364502
+Gradient updated, Loss reduced to 2.31734299659729
+10 trial loss: 2.31734299659729
+Gradient updated, Loss reduced to 2.317342758178711
+15 trial loss: 2.3173439502716064
+20 trial loss: 2.3173444271087646
+25 trial loss: 2.3173444271087646
+0 trial loss: 2.3293464183807373
+Gradient updated, Loss reduced to 2.3293464183807373
+Gradient updated, Loss reduced to 2.329346179962158
+5 trial loss: 2.3293471336364746
+10 trial loss: 2.3293471336364746
+15 trial loss: 2.329347848892212
+Gradient updated, Loss reduced to 2.329345941543579
+Gradient updated, Loss reduced to 2.329345703125
+20 trial loss: 2.329345464706421
+Gradient updated, Loss reduced to 2.329345464706421
+25 trial loss: 2.329346179962158
+Gradient updated, Loss reduced to 2.329345226287842
+0 trial loss: 2.3153769969940186
+Gradient updated, Loss reduced to 2.3153769969940186
+Gradient updated, Loss reduced to 2.3153746128082275
+5 trial loss: 2.315378189086914
+Gradient updated, Loss reduced to 2.3153743743896484
+10 trial loss: 2.315376043319702
+15 trial loss: 2.315375804901123
+20 trial loss: 2.3153765201568604
+25 trial loss: 2.315376043319702
+Gradient updated, Loss reduced to 2.3153738975524902
+0 trial loss: 2.3253064155578613
+Gradient updated, Loss reduced to 2.325305223464966
+5 trial loss: 2.3253071308135986
+Gradient updated, Loss reduced to 2.3253047466278076
+10 trial loss: 2.3253064155578613
+Gradient updated, Loss reduced to 2.3253042697906494
+15 trial loss: 2.3253064155578613
+20 trial loss: 2.325305223464966
+Gradient updated, Loss reduced to 2.325303316116333
+25 trial loss: 2.325305223464966
+0 trial loss: 2.317826747894287
+Gradient updated, Loss reduced to 2.317826747894287
+Gradient updated, Loss reduced to 2.3178255558013916
+5 trial loss: 2.3178253173828125
+Gradient updated, Loss reduced to 2.3178253173828125
+10 trial loss: 2.31782603263855
+15 trial loss: 2.3178281784057617
+20 trial loss: 2.317826986312866
+25 trial loss: 2.317826986312866
+0 trial loss: 2.3190603256225586
+Gradient updated, Loss reduced to 2.3190581798553467
+5 trial loss: 2.3190605640411377
+Gradient updated, Loss reduced to 2.3190572261810303
+10 trial loss: 2.3190598487854004
+15 trial loss: 2.3190600872039795
+20 trial loss: 2.319059371948242
+25 trial loss: 2.3190598487854004
+0 trial loss: 2.3156251907348633
+5 trial loss: 2.3156254291534424
+10 trial loss: 2.3156251907348633
+15 trial loss: 2.315627098083496
+20 trial loss: 2.3156259059906006
+25 trial loss: 2.3156254291534424
+0 trial loss: 2.320573568344116
+Gradient updated, Loss reduced to 2.320573568344116
+5 trial loss: 2.320573329925537
+Gradient updated, Loss reduced to 2.320573329925537
+Gradient updated, Loss reduced to 2.320573091506958
+10 trial loss: 2.3205745220184326
+15 trial loss: 2.3205747604370117
+20 trial loss: 2.320574998855591
+25 trial loss: 2.3205738067626953
+Gradient updated, Loss reduced to 2.320572853088379
+0 trial loss: 2.3212485313415527
+Gradient updated, Loss reduced to 2.3212485313415527
+Gradient updated, Loss reduced to 2.3212482929229736
+5 trial loss: 2.32124924659729
+Gradient updated, Loss reduced to 2.3212480545043945
+10 trial loss: 2.3212485313415527
+15 trial loss: 2.3212497234344482
+20 trial loss: 2.321249008178711
+25 trial loss: 2.3212499618530273
+0 trial loss: 2.318032741546631
+Gradient updated, Loss reduced to 2.318032741546631
+5 trial loss: 2.3180346488952637
+10 trial loss: 2.318035125732422
+15 trial loss: 2.318033218383789
+20 trial loss: 2.318033456802368
+Gradient updated, Loss reduced to 2.3180317878723145
+25 trial loss: 2.3180348873138428
+Gradient updated, Loss reduced to 2.3180315494537354
+0 trial loss: 2.33188533782959
+5 trial loss: 2.33188533782959
+10 trial loss: 2.3318865299224854
+15 trial loss: 2.3318862915039062
+20 trial loss: 2.3318846225738525
+Gradient updated, Loss reduced to 2.3318846225738525
+25 trial loss: 2.3318865299224854
+0 trial loss: 2.315030336380005
+Gradient updated, Loss reduced to 2.315030336380005
+Gradient updated, Loss reduced to 2.3150298595428467
+Gradient updated, Loss reduced to 2.3150293827056885
+5 trial loss: 2.315028667449951
+Gradient updated, Loss reduced to 2.315028667449951
+10 trial loss: 2.3150296211242676
+15 trial loss: 2.315028667449951
+20 trial loss: 2.3150293827056885
+Gradient updated, Loss reduced to 2.315028190612793
+25 trial loss: 2.3150312900543213
+0 trial loss: 2.3189380168914795
+Gradient updated, Loss reduced to 2.3189377784729004
+Gradient updated, Loss reduced to 2.3189353942871094
+5 trial loss: 2.318937301635742
+10 trial loss: 2.3189380168914795
+15 trial loss: 2.318939208984375
+20 trial loss: 2.3189382553100586
+Gradient updated, Loss reduced to 2.3189351558685303
+25 trial loss: 2.318939447402954
+0 trial loss: 2.319776773452759
+Gradient updated, Loss reduced to 2.3197755813598633
+5 trial loss: 2.319777488708496
+Gradient updated, Loss reduced to 2.3197743892669678
+10 trial loss: 2.319776773452759
+15 trial loss: 2.319774627685547
+20 trial loss: 2.3197765350341797
+25 trial loss: 2.319774866104126
+0 trial loss: 2.315646171569824
+Gradient updated, Loss reduced to 2.315646171569824
+5 trial loss: 2.315647602081299
+10 trial loss: 2.315645933151245
+Gradient updated, Loss reduced to 2.315645933151245
+15 trial loss: 2.3156485557556152
+20 trial loss: 2.3156466484069824
+Gradient updated, Loss reduced to 2.315645694732666
+25 trial loss: 2.3156471252441406
+Gradient updated, Loss reduced to 2.315645456314087
+0 trial loss: 2.3223469257354736
+Gradient updated, Loss reduced to 2.32234525680542
+Gradient updated, Loss reduced to 2.322345018386841
+5 trial loss: 2.3223462104797363
+Gradient updated, Loss reduced to 2.3223445415496826
+10 trial loss: 2.3223466873168945
+15 trial loss: 2.322345733642578
+Gradient updated, Loss reduced to 2.3223440647125244
+20 trial loss: 2.322345495223999
+25 trial loss: 2.322345495223999
+0 trial loss: 2.3237879276275635
+Gradient updated, Loss reduced to 2.3237879276275635
+5 trial loss: 2.3237876892089844
+Gradient updated, Loss reduced to 2.3237876892089844
+Gradient updated, Loss reduced to 2.323786973953247
+10 trial loss: 2.323786735534668
+Gradient updated, Loss reduced to 2.323786735534668
+15 trial loss: 2.323788642883301
+20 trial loss: 2.323789119720459
+25 trial loss: 2.3237884044647217
+0 trial loss: 2.3153038024902344
+Gradient updated, Loss reduced to 2.3153021335601807
+Gradient updated, Loss reduced to 2.3153018951416016
+Gradient updated, Loss reduced to 2.315300941467285
+5 trial loss: 2.315303087234497
+10 trial loss: 2.315302848815918
+15 trial loss: 2.3153016567230225
+20 trial loss: 2.315300941467285
+25 trial loss: 2.3153016567230225
+0 trial loss: 2.3185181617736816
+Gradient updated, Loss reduced to 2.3185176849365234
+5 trial loss: 2.3185198307037354
+Gradient updated, Loss reduced to 2.318516731262207
+10 trial loss: 2.318516969680786
+15 trial loss: 2.3185181617736816
+20 trial loss: 2.3185184001922607
+25 trial loss: 2.31851863861084
+Gradient updated, Loss reduced to 2.318516492843628
+0 trial loss: 2.3209784030914307
+5 trial loss: 2.3209800720214844
+10 trial loss: 2.3209779262542725
+Gradient updated, Loss reduced to 2.3209774494171143
+15 trial loss: 2.3209786415100098
+20 trial loss: 2.320979356765747
+Gradient updated, Loss reduced to 2.320976734161377
+25 trial loss: 2.320979595184326
+0 trial loss: 2.320537567138672
+Gradient updated, Loss reduced to 2.3205368518829346
+5 trial loss: 2.320537805557251
+10 trial loss: 2.3205392360687256
+15 trial loss: 2.3205392360687256
+Gradient updated, Loss reduced to 2.3205366134643555
+20 trial loss: 2.3205394744873047
+25 trial loss: 2.3205389976501465
+Gradient updated, Loss reduced to 2.3205363750457764
+0 trial loss: 2.3201262950897217
+5 trial loss: 2.3201277256011963
+10 trial loss: 2.3201258182525635
+15 trial loss: 2.3201277256011963
+20 trial loss: 2.320126533508301
+Gradient updated, Loss reduced to 2.3201253414154053
+25 trial loss: 2.320124626159668
+Gradient updated, Loss reduced to 2.320124626159668
+0 trial loss: 2.3212711811065674
+Gradient updated, Loss reduced to 2.3212692737579346
+5 trial loss: 2.321269989013672
+10 trial loss: 2.321272134780884
+15 trial loss: 2.3212716579437256
+20 trial loss: 2.321272850036621
+25 trial loss: 2.3212730884552
+0 trial loss: 2.3243207931518555
+Gradient updated, Loss reduced to 2.3243207931518555
+Gradient updated, Loss reduced to 2.324319839477539
+5 trial loss: 2.3243205547332764
+10 trial loss: 2.3243229389190674
+15 trial loss: 2.324321985244751
+20 trial loss: 2.3243215084075928
+25 trial loss: 2.3243227005004883
+0 trial loss: 2.3212437629699707
+Gradient updated, Loss reduced to 2.321242094039917
+Gradient updated, Loss reduced to 2.321241617202759
+5 trial loss: 2.3212411403656006
+Gradient updated, Loss reduced to 2.3212411403656006
+Gradient updated, Loss reduced to 2.3212409019470215
+Gradient updated, Loss reduced to 2.3212389945983887
+10 trial loss: 2.3212428092956543
+15 trial loss: 2.321242094039917
+20 trial loss: 2.321242570877075
+25 trial loss: 2.321242094039917
+0 trial loss: 2.3134818077087402
+Gradient updated, Loss reduced to 2.3134806156158447
+5 trial loss: 2.3134818077087402
+Gradient updated, Loss reduced to 2.3134801387786865
+10 trial loss: 2.3134822845458984
+15 trial loss: 2.3134799003601074
+Gradient updated, Loss reduced to 2.3134799003601074
+20 trial loss: 2.3134806156158447
+25 trial loss: 2.313481330871582
+0 trial loss: 2.329568386077881
+Gradient updated, Loss reduced to 2.329568386077881
+5 trial loss: 2.329569101333618
+10 trial loss: 2.3295679092407227
+Gradient updated, Loss reduced to 2.3295679092407227
+Gradient updated, Loss reduced to 2.3295676708221436
+15 trial loss: 2.329568862915039
+Gradient updated, Loss reduced to 2.3295674324035645
+20 trial loss: 2.3295676708221436
+25 trial loss: 2.3295698165893555
+0 trial loss: 2.3176443576812744
+Gradient updated, Loss reduced to 2.3176422119140625
+5 trial loss: 2.3176441192626953
+10 trial loss: 2.3176450729370117
+15 trial loss: 2.3176448345184326
+20 trial loss: 2.317646026611328
+25 trial loss: 2.3176448345184326
+0 trial loss: 2.3264472484588623
+Gradient updated, Loss reduced to 2.3264472484588623
+5 trial loss: 2.326448440551758
+10 trial loss: 2.326448440551758
+Gradient updated, Loss reduced to 2.326446771621704
+15 trial loss: 2.3264482021331787
+20 trial loss: 2.3264498710632324
+25 trial loss: 2.326446771621704
+0 trial loss: 2.316863775253296
+5 trial loss: 2.316862106323242
+Gradient updated, Loss reduced to 2.316862106323242
+Gradient updated, Loss reduced to 2.316861629486084
+10 trial loss: 2.316863536834717
+15 trial loss: 2.316861867904663
+Gradient updated, Loss reduced to 2.316861391067505
+20 trial loss: 2.3168625831604004
+25 trial loss: 2.316863775253296
+0 trial loss: 2.3233346939086914
+Gradient updated, Loss reduced to 2.3233346939086914
+Gradient updated, Loss reduced to 2.323333978652954
+Gradient updated, Loss reduced to 2.323333263397217
+5 trial loss: 2.3233351707458496
+10 trial loss: 2.323333978652954
+15 trial loss: 2.3233354091644287
+20 trial loss: 2.3233344554901123
+Gradient updated, Loss reduced to 2.3233330249786377
+25 trial loss: 2.323333501815796
+0 trial loss: 2.3152267932891846
+Gradient updated, Loss reduced to 2.3152267932891846
+Gradient updated, Loss reduced to 2.315225601196289
+5 trial loss: 2.3152270317077637
+10 trial loss: 2.315225839614868
+15 trial loss: 2.3152263164520264
+20 trial loss: 2.3152260780334473
+25 trial loss: 2.3152263164520264
+Gradient updated, Loss reduced to 2.315225124359131
+0 trial loss: 2.323007822036743
+Gradient updated, Loss reduced to 2.323007822036743
+Gradient updated, Loss reduced to 2.3230056762695312
+5 trial loss: 2.3230106830596924
+Gradient updated, Loss reduced to 2.3230040073394775
+10 trial loss: 2.3230111598968506
+15 trial loss: 2.3230130672454834
+20 trial loss: 2.323012351989746
+25 trial loss: 2.3230130672454834
+0 trial loss: 2.326498031616211
+Gradient updated, Loss reduced to 2.326498031616211
+Gradient updated, Loss reduced to 2.326497793197632
+5 trial loss: 2.3264975547790527
+Gradient updated, Loss reduced to 2.3264975547790527
+10 trial loss: 2.3264963626861572
+Gradient updated, Loss reduced to 2.3264963626861572
+15 trial loss: 2.3264973163604736
+20 trial loss: 2.326498508453369
+25 trial loss: 2.32649827003479
+0 trial loss: 2.320852518081665
+Gradient updated, Loss reduced to 2.320852518081665
+5 trial loss: 2.320854663848877
+10 trial loss: 2.3208534717559814
+15 trial loss: 2.320852518081665
+20 trial loss: 2.320852756500244
+Gradient updated, Loss reduced to 2.3208518028259277
+25 trial loss: 2.320852279663086
+0 trial loss: 2.320356845855713
+Gradient updated, Loss reduced to 2.320354461669922
+5 trial loss: 2.3203556537628174
+Gradient updated, Loss reduced to 2.3203539848327637
+10 trial loss: 2.320356607437134
+15 trial loss: 2.320356607437134
+20 trial loss: 2.3203556537628174
+25 trial loss: 2.3203556537628174
+0 trial loss: 2.3273227214813232
+Gradient updated, Loss reduced to 2.3273227214813232
+Gradient updated, Loss reduced to 2.3273210525512695
+5 trial loss: 2.3273229598999023
+10 trial loss: 2.3273229598999023
+Gradient updated, Loss reduced to 2.3273208141326904
+15 trial loss: 2.3273212909698486
+20 trial loss: 2.3273236751556396
+25 trial loss: 2.3273234367370605
+0 trial loss: 2.323375701904297
+Gradient updated, Loss reduced to 2.323375701904297
+Gradient updated, Loss reduced to 2.3233754634857178
+5 trial loss: 2.3233766555786133
+Gradient updated, Loss reduced to 2.3233749866485596
+10 trial loss: 2.3233747482299805
+Gradient updated, Loss reduced to 2.3233747482299805
+15 trial loss: 2.3233754634857178
+20 trial loss: 2.323375701904297
+25 trial loss: 2.323376417160034
+Gradient updated, Loss reduced to 2.3233742713928223
+0 trial loss: 2.3234758377075195
+5 trial loss: 2.323474884033203
+Gradient updated, Loss reduced to 2.323474884033203
+10 trial loss: 2.3234758377075195
+15 trial loss: 2.323474884033203
+Gradient updated, Loss reduced to 2.3234734535217285
+20 trial loss: 2.323474645614624
+25 trial loss: 2.3234753608703613
+0 trial loss: 2.3123209476470947
+Gradient updated, Loss reduced to 2.3123209476470947
+Gradient updated, Loss reduced to 2.3123207092285156
+5 trial loss: 2.31231951713562
+Gradient updated, Loss reduced to 2.31231951713562
+10 trial loss: 2.3123209476470947
+15 trial loss: 2.3123228549957275
+20 trial loss: 2.3123202323913574
+25 trial loss: 2.312321186065674
+0 trial loss: 2.3071813583374023
+Gradient updated, Loss reduced to 2.3071796894073486
+5 trial loss: 2.307178258895874
+Gradient updated, Loss reduced to 2.307178258895874
+10 trial loss: 2.307182550430298
+15 trial loss: 2.3071799278259277
+20 trial loss: 2.3071813583374023
+25 trial loss: 2.3071813583374023
+0 trial loss: 2.319589138031006
+Gradient updated, Loss reduced to 2.319589138031006
+Gradient updated, Loss reduced to 2.3195881843566895
+5 trial loss: 2.319591522216797
+10 trial loss: 2.319589376449585
+15 trial loss: 2.319589376449585
+20 trial loss: 2.319589853286743
+25 trial loss: 2.3195905685424805
+0 trial loss: 2.3254611492156982
+Gradient updated, Loss reduced to 2.3254611492156982
+Gradient updated, Loss reduced to 2.325460910797119
+5 trial loss: 2.3254621028900146
+Gradient updated, Loss reduced to 2.325460195541382
+10 trial loss: 2.3254621028900146
+15 trial loss: 2.3254616260528564
+20 trial loss: 2.3254613876342773
+Gradient updated, Loss reduced to 2.3254599571228027
+25 trial loss: 2.325462818145752
+0 trial loss: 2.3155696392059326
+Gradient updated, Loss reduced to 2.3155696392059326
+5 trial loss: 2.315570116043091
+Gradient updated, Loss reduced to 2.3155694007873535
+10 trial loss: 2.315570831298828
+15 trial loss: 2.31557035446167
+Gradient updated, Loss reduced to 2.3155689239501953
+20 trial loss: 2.315570831298828
+25 trial loss: 2.3155696392059326
+Gradient updated, Loss reduced to 2.315568685531616
+0 trial loss: 2.3208415508270264
+5 trial loss: 2.320838689804077
+Gradient updated, Loss reduced to 2.320838689804077
+10 trial loss: 2.3208413124084473
+15 trial loss: 2.3208398818969727
+20 trial loss: 2.32084059715271
+25 trial loss: 2.3208422660827637
+0 trial loss: 2.3243885040283203
+5 trial loss: 2.324387788772583
+Gradient updated, Loss reduced to 2.3243865966796875
+10 trial loss: 2.3243885040283203
+15 trial loss: 2.324387788772583
+20 trial loss: 2.324388027191162
+25 trial loss: 2.324388027191162
+Gradient updated, Loss reduced to 2.3243861198425293
+0 trial loss: 2.3188974857330322
+Gradient updated, Loss reduced to 2.3188974857330322
+5 trial loss: 2.3189001083374023
+10 trial loss: 2.3188998699188232
+15 trial loss: 2.318899393081665
+20 trial loss: 2.318899393081665
+25 trial loss: 2.318898916244507
+0 trial loss: 2.3135454654693604
+Gradient updated, Loss reduced to 2.3135454654693604
+Gradient updated, Loss reduced to 2.3135452270507812
+5 trial loss: 2.313546895980835
+10 trial loss: 2.3135464191436768
+15 trial loss: 2.313547134399414
+20 trial loss: 2.313547372817993
+25 trial loss: 2.313547134399414
+Gradient updated, Loss reduced to 2.313544988632202
+0 trial loss: 2.3113908767700195
+Gradient updated, Loss reduced to 2.3113901615142822
+5 trial loss: 2.3113911151885986
+Gradient updated, Loss reduced to 2.311389684677124
+Gradient updated, Loss reduced to 2.3113887310028076
+10 trial loss: 2.3113911151885986
+15 trial loss: 2.3113903999328613
+20 trial loss: 2.3113906383514404
+25 trial loss: 2.311389923095703
+0 trial loss: 2.3144142627716064
+Gradient updated, Loss reduced to 2.3144142627716064
+Gradient updated, Loss reduced to 2.314413070678711
+5 trial loss: 2.314413547515869
+Gradient updated, Loss reduced to 2.3144121170043945
+10 trial loss: 2.3144149780273438
+15 trial loss: 2.3144140243530273
+20 trial loss: 2.3144147396087646
+25 trial loss: 2.314415216445923
+0 trial loss: 2.325319766998291
+Gradient updated, Loss reduced to 2.325319766998291
+Gradient updated, Loss reduced to 2.325319290161133
+Gradient updated, Loss reduced to 2.3253183364868164
+5 trial loss: 2.3253190517425537
+10 trial loss: 2.3253180980682373
+Gradient updated, Loss reduced to 2.3253180980682373
+15 trial loss: 2.32532000541687
+20 trial loss: 2.3253209590911865
+25 trial loss: 2.3253183364868164
+0 trial loss: 2.3206794261932373
+Gradient updated, Loss reduced to 2.3206772804260254
+5 trial loss: 2.320678949356079
+Gradient updated, Loss reduced to 2.320676803588867
+10 trial loss: 2.320678472518921
+15 trial loss: 2.3206777572631836
+20 trial loss: 2.320678234100342
+25 trial loss: 2.320676803588867
+0 trial loss: 2.3132424354553223
+Gradient updated, Loss reduced to 2.3132424354553223
+Gradient updated, Loss reduced to 2.313241720199585
+5 trial loss: 2.313241720199585
+Gradient updated, Loss reduced to 2.3132410049438477
+10 trial loss: 2.313241720199585
+15 trial loss: 2.313241481781006
+20 trial loss: 2.3132436275482178
+25 trial loss: 2.313241958618164
+Gradient updated, Loss reduced to 2.3132407665252686
+0 trial loss: 2.3265867233276367
+Gradient updated, Loss reduced to 2.3265867233276367
+5 trial loss: 2.326585292816162
+Gradient updated, Loss reduced to 2.326585292816162
+10 trial loss: 2.326587677001953
+15 trial loss: 2.3265860080718994
+Gradient updated, Loss reduced to 2.3265843391418457
+20 trial loss: 2.3265881538391113
+25 trial loss: 2.326586961746216
+0 trial loss: 2.3213324546813965
+5 trial loss: 2.3213322162628174
+Gradient updated, Loss reduced to 2.321331262588501
+10 trial loss: 2.321333169937134
+15 trial loss: 2.32133150100708
+20 trial loss: 2.3213319778442383
+Gradient updated, Loss reduced to 2.3213307857513428
+25 trial loss: 2.3213326930999756
+0 trial loss: 2.3219940662384033
+Gradient updated, Loss reduced to 2.3219940662384033
+Gradient updated, Loss reduced to 2.321993350982666
+5 trial loss: 2.3219947814941406
+10 trial loss: 2.3219945430755615
+15 trial loss: 2.321993589401245
+20 trial loss: 2.3219947814941406
+Gradient updated, Loss reduced to 2.3219926357269287
+25 trial loss: 2.3219943046569824
+0 trial loss: 2.3217337131500244
+Gradient updated, Loss reduced to 2.3217337131500244
+5 trial loss: 2.321734666824341
+10 trial loss: 2.3217363357543945
+Gradient updated, Loss reduced to 2.3217320442199707
+15 trial loss: 2.32173228263855
+20 trial loss: 2.3217339515686035
+25 trial loss: 2.321733236312866
+0 trial loss: 2.323925495147705
+Gradient updated, Loss reduced to 2.3239238262176514
+5 trial loss: 2.3239243030548096
+Gradient updated, Loss reduced to 2.3239235877990723
+10 trial loss: 2.3239243030548096
+15 trial loss: 2.3239245414733887
+20 trial loss: 2.3239264488220215
+25 trial loss: 2.323925256729126
+0 trial loss: 2.324244499206543
+Gradient updated, Loss reduced to 2.324244499206543
+5 trial loss: 2.3242461681365967
+Gradient updated, Loss reduced to 2.324244260787964
+10 trial loss: 2.3242459297180176
+15 trial loss: 2.324246644973755
+20 trial loss: 2.3242475986480713
+25 trial loss: 2.3242475986480713
+0 trial loss: 2.319385051727295
+Gradient updated, Loss reduced to 2.3193838596343994
+5 trial loss: 2.3193845748901367
+Gradient updated, Loss reduced to 2.319383144378662
+10 trial loss: 2.319384813308716
+15 trial loss: 2.3193843364715576
+20 trial loss: 2.319385528564453
+Gradient updated, Loss reduced to 2.319382667541504
+25 trial loss: 2.319385051727295
+0 trial loss: 2.3216259479522705
+Gradient updated, Loss reduced to 2.3216233253479004
+5 trial loss: 2.3216257095336914
+10 trial loss: 2.321624517440796
+15 trial loss: 2.3216238021850586
+20 trial loss: 2.321624994277954
+25 trial loss: 2.3216240406036377
+0 trial loss: 2.3196706771850586
+5 trial loss: 2.319669246673584
+10 trial loss: 2.3196706771850586
+15 trial loss: 2.319669008255005
+20 trial loss: 2.319669723510742
+25 trial loss: 2.319671630859375
+0 trial loss: 2.3105854988098145
+Gradient updated, Loss reduced to 2.3105854988098145
+5 trial loss: 2.3105857372283936
+10 trial loss: 2.310589075088501
+15 trial loss: 2.31058669090271
+20 trial loss: 2.3105883598327637
+25 trial loss: 2.310587167739868
+0 trial loss: 2.317798376083374
+Gradient updated, Loss reduced to 2.317798376083374
+5 trial loss: 2.3177990913391113
+Gradient updated, Loss reduced to 2.3177969455718994
+10 trial loss: 2.317800283432007
+15 trial loss: 2.317798614501953
+20 trial loss: 2.3177995681762695
+25 trial loss: 2.317798614501953
+0 trial loss: 2.3219265937805176
+Gradient updated, Loss reduced to 2.3219265937805176
+5 trial loss: 2.321927785873413
+10 trial loss: 2.3219282627105713
+Gradient updated, Loss reduced to 2.321925163269043
+15 trial loss: 2.321928024291992
+20 trial loss: 2.321925401687622
+25 trial loss: 2.321925640106201
+0 trial loss: 2.323726177215576
+Gradient updated, Loss reduced to 2.323726177215576
+Gradient updated, Loss reduced to 2.323725461959839
+5 trial loss: 2.323726177215576
+Gradient updated, Loss reduced to 2.3237252235412598
+10 trial loss: 2.3237264156341553
+15 trial loss: 2.3237266540527344
+20 trial loss: 2.323725938796997
+25 trial loss: 2.323725938796997
+Gradient updated, Loss reduced to 2.3237245082855225
+0 trial loss: 2.317270040512085
+Gradient updated, Loss reduced to 2.3172693252563477
+Gradient updated, Loss reduced to 2.3172671794891357
+5 trial loss: 2.317270278930664
+10 trial loss: 2.3172707557678223
+15 trial loss: 2.3172695636749268
+20 trial loss: 2.3172709941864014
+25 trial loss: 2.317270278930664
+0 trial loss: 2.3136773109436035
+Gradient updated, Loss reduced to 2.3136751651763916
+5 trial loss: 2.3136770725250244
+10 trial loss: 2.31367826461792
+15 trial loss: 2.313678503036499
+20 trial loss: 2.3136770725250244
+25 trial loss: 2.3136775493621826
+0 trial loss: 2.3210361003875732
+Gradient updated, Loss reduced to 2.3210361003875732
+Gradient updated, Loss reduced to 2.321035385131836
+5 trial loss: 2.3210363388061523
+Gradient updated, Loss reduced to 2.3210344314575195
+10 trial loss: 2.321035861968994
+15 trial loss: 2.3210363388061523
+20 trial loss: 2.3210346698760986
+25 trial loss: 2.3210365772247314
+0 trial loss: 2.3178415298461914
+Gradient updated, Loss reduced to 2.3178415298461914
+Gradient updated, Loss reduced to 2.3178412914276123
+Gradient updated, Loss reduced to 2.317840814590454
+5 trial loss: 2.317840576171875
+Gradient updated, Loss reduced to 2.317840576171875
+Gradient updated, Loss reduced to 2.317840099334717
+10 trial loss: 2.3178415298461914
+15 trial loss: 2.3178417682647705
+20 trial loss: 2.3178420066833496
+25 trial loss: 2.3178420066833496
+0 trial loss: 2.3228096961975098
+Gradient updated, Loss reduced to 2.3228096961975098
+5 trial loss: 2.3228113651275635
+10 trial loss: 2.3228113651275635
+15 trial loss: 2.322810649871826
+20 trial loss: 2.3228113651275635
+25 trial loss: 2.3228116035461426
+Gradient updated, Loss reduced to 2.3228092193603516
+0 trial loss: 2.3267805576324463
+5 trial loss: 2.3267786502838135
+Gradient updated, Loss reduced to 2.3267786502838135
+Gradient updated, Loss reduced to 2.3267781734466553
+10 trial loss: 2.3267812728881836
+15 trial loss: 2.3267810344696045
+20 trial loss: 2.326781988143921
+25 trial loss: 2.326779365539551
+0 trial loss: 2.33339524269104
+Gradient updated, Loss reduced to 2.3333940505981445
+5 trial loss: 2.333394765853882
+Gradient updated, Loss reduced to 2.33339262008667
+10 trial loss: 2.3333945274353027
+15 trial loss: 2.333395481109619
+20 trial loss: 2.3333933353424072
+25 trial loss: 2.333393096923828
+0 trial loss: 2.3324759006500244
+Gradient updated, Loss reduced to 2.3324759006500244
+Gradient updated, Loss reduced to 2.332475185394287
+5 trial loss: 2.332477569580078
+10 trial loss: 2.3324778079986572
+15 trial loss: 2.332476854324341
+20 trial loss: 2.3324759006500244
+Gradient updated, Loss reduced to 2.332474946975708
+25 trial loss: 2.3324763774871826
+0 trial loss: 2.318864583969116
+Gradient updated, Loss reduced to 2.318864583969116
+Gradient updated, Loss reduced to 2.318864345550537
+Gradient updated, Loss reduced to 2.318863868713379
+5 trial loss: 2.318864107131958
+Gradient updated, Loss reduced to 2.3188636302948
+10 trial loss: 2.318864345550537
+15 trial loss: 2.3188652992248535
+20 trial loss: 2.318864107131958
+25 trial loss: 2.3188652992248535
+0 trial loss: 2.3224995136260986
+5 trial loss: 2.3224992752075195
+Gradient updated, Loss reduced to 2.3224992752075195
+Gradient updated, Loss reduced to 2.3224990367889404
+10 trial loss: 2.3225009441375732
+Gradient updated, Loss reduced to 2.3224985599517822
+15 trial loss: 2.3225021362304688
+20 trial loss: 2.322500228881836
+25 trial loss: 2.322500705718994
+0 trial loss: 2.3237552642822266
+Gradient updated, Loss reduced to 2.3237552642822266
+Gradient updated, Loss reduced to 2.3237545490264893
+5 trial loss: 2.3237552642822266
+10 trial loss: 2.3237557411193848
+15 trial loss: 2.3237574100494385
+20 trial loss: 2.3237557411193848
+25 trial loss: 2.323755979537964
+0 trial loss: 2.3132643699645996
+Gradient updated, Loss reduced to 2.3132643699645996
+Gradient updated, Loss reduced to 2.3132641315460205
+5 trial loss: 2.313265085220337
+Gradient updated, Loss reduced to 2.313262462615967
+10 trial loss: 2.313264846801758
+15 trial loss: 2.313263177871704
+20 trial loss: 2.3132643699645996
+25 trial loss: 2.313263416290283
+0 trial loss: 2.3162035942077637
+Gradient updated, Loss reduced to 2.3162035942077637
+5 trial loss: 2.316204786300659
+10 trial loss: 2.3162038326263428
+Gradient updated, Loss reduced to 2.3162028789520264
+15 trial loss: 2.3162035942077637
+20 trial loss: 2.3162033557891846
+Gradient updated, Loss reduced to 2.31620192527771
+25 trial loss: 2.3162052631378174
+0 trial loss: 2.3304107189178467
+Gradient updated, Loss reduced to 2.3304102420806885
+5 trial loss: 2.330411434173584
+Gradient updated, Loss reduced to 2.3304100036621094
+Gradient updated, Loss reduced to 2.330409526824951
+10 trial loss: 2.3304104804992676
+15 trial loss: 2.3304128646850586
+20 trial loss: 2.330411911010742
+25 trial loss: 2.3304097652435303
+0 trial loss: 2.3192436695098877
+Gradient updated, Loss reduced to 2.3192436695098877
+Gradient updated, Loss reduced to 2.319242000579834
+Gradient updated, Loss reduced to 2.319241523742676
+5 trial loss: 2.3192453384399414
+10 trial loss: 2.3192431926727295
+15 trial loss: 2.319247245788574
+Gradient updated, Loss reduced to 2.3192403316497803
+Gradient updated, Loss reduced to 2.319239377975464
+20 trial loss: 2.3192434310913086
+Gradient updated, Loss reduced to 2.319237232208252
+25 trial loss: 2.3192481994628906
+0 trial loss: 2.3282363414764404
+5 trial loss: 2.3282358646392822
+Gradient updated, Loss reduced to 2.328235149383545
+10 trial loss: 2.3282368183135986
+15 trial loss: 2.3282363414764404
+20 trial loss: 2.3282368183135986
+25 trial loss: 2.3282365798950195
+Gradient updated, Loss reduced to 2.3282346725463867
+0 trial loss: 2.338557481765747
+Gradient updated, Loss reduced to 2.338557481765747
+Gradient updated, Loss reduced to 2.338555335998535
+Gradient updated, Loss reduced to 2.338554620742798
+5 trial loss: 2.338555097579956
+Gradient updated, Loss reduced to 2.3385543823242188
+10 trial loss: 2.3385558128356934
+15 trial loss: 2.3385560512542725
+20 trial loss: 2.3385562896728516
+25 trial loss: 2.338557004928589
+0 trial loss: 2.3163232803344727
+Gradient updated, Loss reduced to 2.3163232803344727
+5 trial loss: 2.3163235187530518
+10 trial loss: 2.316324472427368
+Gradient updated, Loss reduced to 2.3163228034973145
+15 trial loss: 2.316322088241577
+Gradient updated, Loss reduced to 2.316322088241577
+20 trial loss: 2.3163232803344727
+25 trial loss: 2.31632399559021
+Gradient updated, Loss reduced to 2.31632137298584
+0 trial loss: 2.32375168800354
+Gradient updated, Loss reduced to 2.323749303817749
+Gradient updated, Loss reduced to 2.323748826980591
+5 trial loss: 2.3237521648406982
+Gradient updated, Loss reduced to 2.3237478733062744
+10 trial loss: 2.3237507343292236
+15 trial loss: 2.323749542236328
+20 trial loss: 2.3237502574920654
+25 trial loss: 2.3237502574920654
+0 trial loss: 2.3237667083740234
+Gradient updated, Loss reduced to 2.3237667083740234
+Gradient updated, Loss reduced to 2.3237664699554443
+5 trial loss: 2.3237674236297607
+Gradient updated, Loss reduced to 2.3237662315368652
+Gradient updated, Loss reduced to 2.323765993118286
+10 trial loss: 2.3237669467926025
+15 trial loss: 2.3237671852111816
+20 trial loss: 2.323767900466919
+Gradient updated, Loss reduced to 2.323765754699707
+25 trial loss: 2.323767900466919
+0 trial loss: 2.3158109188079834
+5 trial loss: 2.315810203552246
+10 trial loss: 2.315810203552246
+15 trial loss: 2.315809726715088
+Gradient updated, Loss reduced to 2.315809726715088
+20 trial loss: 2.315809726715088
+25 trial loss: 2.315810441970825
+0 trial loss: 2.33341383934021
+5 trial loss: 2.3334126472473145
+10 trial loss: 2.3334133625030518
+15 trial loss: 2.3334126472473145
+20 trial loss: 2.3334128856658936
+25 trial loss: 2.3334124088287354
+0 trial loss: 2.331509590148926
+Gradient updated, Loss reduced to 2.331509590148926
+Gradient updated, Loss reduced to 2.331507682800293
+5 trial loss: 2.3315091133117676
+10 trial loss: 2.3315086364746094
+15 trial loss: 2.331508159637451
+20 trial loss: 2.331508159637451
+25 trial loss: 2.331509828567505
+0 trial loss: 2.3188014030456543
+Gradient updated, Loss reduced to 2.3188014030456543
+Gradient updated, Loss reduced to 2.318800926208496
+5 trial loss: 2.3188016414642334
+10 trial loss: 2.318802833557129
+Gradient updated, Loss reduced to 2.318798780441284
+15 trial loss: 2.318800926208496
+20 trial loss: 2.3188023567199707
+25 trial loss: 2.3188018798828125
+0 trial loss: 2.323399305343628
+Gradient updated, Loss reduced to 2.323399305343628
+Gradient updated, Loss reduced to 2.323399066925049
+5 trial loss: 2.3234012126922607
+10 trial loss: 2.323399543762207
+15 trial loss: 2.3234007358551025
+20 trial loss: 2.3234004974365234
+25 trial loss: 2.3234024047851562
+0 trial loss: 2.322277069091797
+5 trial loss: 2.3222744464874268
+Gradient updated, Loss reduced to 2.3222744464874268
+Gradient updated, Loss reduced to 2.3222739696502686
+10 trial loss: 2.322274923324585
+15 trial loss: 2.3222765922546387
+20 trial loss: 2.322275161743164
+25 trial loss: 2.3222761154174805
+0 trial loss: 2.3301618099212646
+Gradient updated, Loss reduced to 2.3301618099212646
+Gradient updated, Loss reduced to 2.3301608562469482
+Gradient updated, Loss reduced to 2.330159902572632
+5 trial loss: 2.3301615715026855
+10 trial loss: 2.330162286758423
+15 trial loss: 2.3301632404327393
+20 trial loss: 2.3301615715026855
+25 trial loss: 2.3301632404327393
+0 trial loss: 2.312774181365967
+Gradient updated, Loss reduced to 2.312771797180176
+5 trial loss: 2.312772274017334
+Gradient updated, Loss reduced to 2.3127715587615967
+10 trial loss: 2.312771797180176
+Gradient updated, Loss reduced to 2.3127713203430176
+15 trial loss: 2.312775135040283
+20 trial loss: 2.3127737045288086
+25 trial loss: 2.3127732276916504
+0 trial loss: 2.3242580890655518
+Gradient updated, Loss reduced to 2.3242580890655518
+5 trial loss: 2.3242592811584473
+10 trial loss: 2.324258327484131
+15 trial loss: 2.3242599964141846
+20 trial loss: 2.3242602348327637
+25 trial loss: 2.3242592811584473
+Gradient updated, Loss reduced to 2.3242578506469727
+0 trial loss: 2.3364741802215576
+5 trial loss: 2.336474657058716
+Gradient updated, Loss reduced to 2.336472988128662
+10 trial loss: 2.336474895477295
+15 trial loss: 2.3364739418029785
+20 trial loss: 2.3364744186401367
+25 trial loss: 2.336472511291504
+Gradient updated, Loss reduced to 2.336472511291504
+0 trial loss: 2.3309757709503174
+5 trial loss: 2.3309736251831055
+Gradient updated, Loss reduced to 2.3309733867645264
+10 trial loss: 2.330972909927368
+Gradient updated, Loss reduced to 2.330972909927368
+Gradient updated, Loss reduced to 2.330972194671631
+15 trial loss: 2.3309731483459473
+20 trial loss: 2.3309738636016846
+25 trial loss: 2.3309755325317383
+0 trial loss: 2.3225536346435547
+Gradient updated, Loss reduced to 2.3225526809692383
+5 trial loss: 2.32255482673645
+10 trial loss: 2.3225536346435547
+15 trial loss: 2.32255482673645
+20 trial loss: 2.3225531578063965
+Gradient updated, Loss reduced to 2.322552442550659
+25 trial loss: 2.322553873062134
+0 trial loss: 2.3270351886749268
+5 trial loss: 2.327035665512085
+10 trial loss: 2.3270363807678223
+15 trial loss: 2.3270349502563477
+20 trial loss: 2.327036142349243
+25 trial loss: 2.3270344734191895
+0 trial loss: 2.323692798614502
+Gradient updated, Loss reduced to 2.323692798614502
+Gradient updated, Loss reduced to 2.3236916065216064
+5 trial loss: 2.3236911296844482
+Gradient updated, Loss reduced to 2.3236911296844482
+10 trial loss: 2.3236911296844482
+Gradient updated, Loss reduced to 2.32369065284729
+15 trial loss: 2.323693037033081
+20 trial loss: 2.323693037033081
+25 trial loss: 2.32369065284729
+0 trial loss: 2.3245816230773926
+Gradient updated, Loss reduced to 2.3245816230773926
+5 trial loss: 2.324582576751709
+10 trial loss: 2.3245832920074463
+15 trial loss: 2.3245835304260254
+Gradient updated, Loss reduced to 2.3245813846588135
+20 trial loss: 2.324582815170288
+25 trial loss: 2.324582576751709
+0 trial loss: 2.3207452297210693
+Gradient updated, Loss reduced to 2.320744276046753
+Gradient updated, Loss reduced to 2.320744037628174
+5 trial loss: 2.3207435607910156
+Gradient updated, Loss reduced to 2.3207435607910156
+Gradient updated, Loss reduced to 2.3207430839538574
+10 trial loss: 2.320744037628174
+Gradient updated, Loss reduced to 2.320742130279541
+15 trial loss: 2.3207437992095947
+Gradient updated, Loss reduced to 2.3207411766052246
+20 trial loss: 2.3207430839538574
+Gradient updated, Loss reduced to 2.3207409381866455
+25 trial loss: 2.3207430839538574
+0 trial loss: 2.3224027156829834
+Gradient updated, Loss reduced to 2.3224027156829834
+5 trial loss: 2.322403907775879
+Gradient updated, Loss reduced to 2.322402238845825
+10 trial loss: 2.3224029541015625
+Gradient updated, Loss reduced to 2.322401762008667
+15 trial loss: 2.3224048614501953
+20 trial loss: 2.3224050998687744
+25 trial loss: 2.3224034309387207
+0 trial loss: 2.314164638519287
+Gradient updated, Loss reduced to 2.3141632080078125
+5 trial loss: 2.314162254333496
+Gradient updated, Loss reduced to 2.314162254333496
+10 trial loss: 2.3141632080078125
+15 trial loss: 2.3141629695892334
+20 trial loss: 2.314162015914917
+Gradient updated, Loss reduced to 2.314162015914917
+25 trial loss: 2.3141636848449707
+0 trial loss: 2.321535348892212
+Gradient updated, Loss reduced to 2.3215317726135254
+Gradient updated, Loss reduced to 2.3215315341949463
+5 trial loss: 2.321532726287842
+Gradient updated, Loss reduced to 2.32153058052063
+10 trial loss: 2.321530342102051
+Gradient updated, Loss reduced to 2.321530342102051
+15 trial loss: 2.3215322494506836
+20 trial loss: 2.3215315341949463
+25 trial loss: 2.3215322494506836
+0 trial loss: 2.3285298347473145
+Gradient updated, Loss reduced to 2.3285298347473145
+Gradient updated, Loss reduced to 2.3285293579101562
+Gradient updated, Loss reduced to 2.3285279273986816
+5 trial loss: 2.3285305500030518
+10 trial loss: 2.3285305500030518
+15 trial loss: 2.3285281658172607
+20 trial loss: 2.32853102684021
+25 trial loss: 2.328529119491577
+0 trial loss: 2.3266937732696533
+Gradient updated, Loss reduced to 2.3266937732696533
+5 trial loss: 2.3266959190368652
+10 trial loss: 2.3266961574554443
+15 trial loss: 2.3266966342926025
+20 trial loss: 2.3266966342926025
+25 trial loss: 2.326695680618286
+0 trial loss: 2.320941686630249
+Gradient updated, Loss reduced to 2.3209407329559326
+Gradient updated, Loss reduced to 2.320939779281616
+5 trial loss: 2.320941925048828
+10 trial loss: 2.320941925048828
+15 trial loss: 2.320941686630249
+20 trial loss: 2.320941925048828
+25 trial loss: 2.320941686630249
+0 trial loss: 2.317582130432129
+Gradient updated, Loss reduced to 2.317582130432129
+5 trial loss: 2.3175814151763916
+Gradient updated, Loss reduced to 2.3175814151763916
+Gradient updated, Loss reduced to 2.317580461502075
+10 trial loss: 2.317582845687866
+15 trial loss: 2.31758189201355
+20 trial loss: 2.3175833225250244
+25 trial loss: 2.3175833225250244
+0 trial loss: 2.319835901260376
+Gradient updated, Loss reduced to 2.319835901260376
+5 trial loss: 2.3198373317718506
+10 trial loss: 2.319836139678955
+Gradient updated, Loss reduced to 2.3198354244232178
+Gradient updated, Loss reduced to 2.3198351860046387
+15 trial loss: 2.3198349475860596
+Gradient updated, Loss reduced to 2.3198349475860596
+Gradient updated, Loss reduced to 2.3198347091674805
+20 trial loss: 2.319836139678955
+Gradient updated, Loss reduced to 2.3198344707489014
+25 trial loss: 2.319836378097534
+0 trial loss: 2.3387451171875
+Gradient updated, Loss reduced to 2.3387451171875
+Gradient updated, Loss reduced to 2.338744640350342
+5 trial loss: 2.338745355606079
+10 trial loss: 2.338747501373291
+15 trial loss: 2.338744878768921
+20 trial loss: 2.338749885559082
+Gradient updated, Loss reduced to 2.3387439250946045
+25 trial loss: 2.338744640350342
+0 trial loss: 2.327390432357788
+Gradient updated, Loss reduced to 2.3273890018463135
+5 trial loss: 2.3273887634277344
+Gradient updated, Loss reduced to 2.3273887634277344
+10 trial loss: 2.327390432357788
+Gradient updated, Loss reduced to 2.327388286590576
+15 trial loss: 2.3273916244506836
+20 trial loss: 2.3273885250091553
+25 trial loss: 2.327388286590576
+0 trial loss: 2.3215067386627197
+Gradient updated, Loss reduced to 2.3215067386627197
+Gradient updated, Loss reduced to 2.321505069732666
+5 trial loss: 2.321507692337036
+Gradient updated, Loss reduced to 2.321504831314087
+10 trial loss: 2.3215081691741943
+15 trial loss: 2.3215060234069824
+20 trial loss: 2.3215086460113525
+25 trial loss: 2.321505308151245
+0 trial loss: 2.325291872024536
+5 trial loss: 2.325291156768799
+Gradient updated, Loss reduced to 2.325289487838745
+10 trial loss: 2.325289726257324
+15 trial loss: 2.325289726257324
+20 trial loss: 2.325291156768799
+25 trial loss: 2.325291872024536
+0 trial loss: 2.3210504055023193
+5 trial loss: 2.3210484981536865
+10 trial loss: 2.3210487365722656
+15 trial loss: 2.3210506439208984
+20 trial loss: 2.321049451828003
+25 trial loss: 2.3210501670837402
+0 trial loss: 2.3299694061279297
+Gradient updated, Loss reduced to 2.3299694061279297
+Gradient updated, Loss reduced to 2.3299691677093506
+Gradient updated, Loss reduced to 2.3299684524536133
+5 trial loss: 2.3299694061279297
+10 trial loss: 2.3299694061279297
+Gradient updated, Loss reduced to 2.329967737197876
+15 trial loss: 2.3299708366394043
+20 trial loss: 2.329970359802246
+25 trial loss: 2.3299691677093506
+0 trial loss: 2.3251945972442627
+Gradient updated, Loss reduced to 2.3251945972442627
+Gradient updated, Loss reduced to 2.3251943588256836
+Gradient updated, Loss reduced to 2.325193405151367
+5 trial loss: 2.3251938819885254
+10 trial loss: 2.32519268989563
+Gradient updated, Loss reduced to 2.32519268989563
+15 trial loss: 2.3251962661743164
+20 trial loss: 2.3251941204071045
+Gradient updated, Loss reduced to 2.325192451477051
+25 trial loss: 2.325192451477051
+0 trial loss: 2.320542097091675
+5 trial loss: 2.320542573928833
+10 trial loss: 2.320542573928833
+15 trial loss: 2.3205394744873047
+Gradient updated, Loss reduced to 2.3205394744873047
+20 trial loss: 2.3205416202545166
+25 trial loss: 2.320539951324463
+0 trial loss: 2.3319449424743652
+Gradient updated, Loss reduced to 2.3319449424743652
+5 trial loss: 2.331944704055786
+Gradient updated, Loss reduced to 2.331944704055786
+10 trial loss: 2.3319449424743652
+15 trial loss: 2.3319461345672607
+20 trial loss: 2.3319458961486816
+25 trial loss: 2.331946849822998
+0 trial loss: 2.3149781227111816
+Gradient updated, Loss reduced to 2.3149781227111816
+5 trial loss: 2.3149771690368652
+Gradient updated, Loss reduced to 2.3149771690368652
+10 trial loss: 2.314979076385498
+15 trial loss: 2.3149800300598145
+Gradient updated, Loss reduced to 2.314976453781128
+20 trial loss: 2.3149797916412354
+25 trial loss: 2.314978837966919
+0 trial loss: 2.324604034423828
+Gradient updated, Loss reduced to 2.324604034423828
+Gradient updated, Loss reduced to 2.324603796005249
+5 trial loss: 2.3246047496795654
+Gradient updated, Loss reduced to 2.324603319168091
+10 trial loss: 2.3246054649353027
+Gradient updated, Loss reduced to 2.3246021270751953
+15 trial loss: 2.3246052265167236
+20 trial loss: 2.324604034423828
+25 trial loss: 2.3246045112609863
+0 trial loss: 2.3209760189056396
+5 trial loss: 2.320976495742798
+Gradient updated, Loss reduced to 2.3209753036499023
+10 trial loss: 2.3209757804870605
+Gradient updated, Loss reduced to 2.320974349975586
+15 trial loss: 2.320977210998535
+20 trial loss: 2.3209760189056396
+25 trial loss: 2.320976972579956
+0 trial loss: 2.314932346343994
+Gradient updated, Loss reduced to 2.314929246902466
+5 trial loss: 2.3149313926696777
+Gradient updated, Loss reduced to 2.3149287700653076
+10 trial loss: 2.3149311542510986
+15 trial loss: 2.314931869506836
+20 trial loss: 2.3149304389953613
+25 trial loss: 2.3149309158325195
+0 trial loss: 2.326016664505005
+Gradient updated, Loss reduced to 2.326016664505005
+5 trial loss: 2.326019287109375
+10 trial loss: 2.3260185718536377
+15 trial loss: 2.326016426086426
+Gradient updated, Loss reduced to 2.326016426086426
+20 trial loss: 2.326018810272217
+25 trial loss: 2.326019048690796
+0 trial loss: 2.3224194049835205
+Gradient updated, Loss reduced to 2.322418212890625
+5 trial loss: 2.3224191665649414
+Gradient updated, Loss reduced to 2.3224174976348877
+Gradient updated, Loss reduced to 2.3224172592163086
+10 trial loss: 2.3224198818206787
+15 trial loss: 2.3224191665649414
+20 trial loss: 2.3224194049835205
+Gradient updated, Loss reduced to 2.3224165439605713
+25 trial loss: 2.3224194049835205
+0 trial loss: 2.317317008972168
+Gradient updated, Loss reduced to 2.317317008972168
+Gradient updated, Loss reduced to 2.317316770553589
+5 trial loss: 2.317316770553589
+10 trial loss: 2.3173184394836426
+15 trial loss: 2.3173184394836426
+20 trial loss: 2.3173182010650635
+25 trial loss: 2.317319393157959
+Gradient updated, Loss reduced to 2.3173165321350098
+Gradient updated, Loss reduced to 2.317315101623535
+0 trial loss: 2.322988271713257
+Gradient updated, Loss reduced to 2.322988271713257
+Gradient updated, Loss reduced to 2.3229877948760986
+5 trial loss: 2.3229894638061523
+10 trial loss: 2.3229880332946777
+15 trial loss: 2.3229899406433105
+20 trial loss: 2.3229894638061523
+25 trial loss: 2.3229894638061523
+Gradient updated, Loss reduced to 2.3229870796203613
+0 trial loss: 2.3191487789154053
+Gradient updated, Loss reduced to 2.319146156311035
+5 trial loss: 2.319147825241089
+10 trial loss: 2.3191487789154053
+15 trial loss: 2.319148063659668
+20 trial loss: 2.319148540496826
+25 trial loss: 2.319148063659668
+0 trial loss: 2.3335132598876953
+Gradient updated, Loss reduced to 2.3335132598876953
+Gradient updated, Loss reduced to 2.3335094451904297
+5 trial loss: 2.3335118293762207
+10 trial loss: 2.3335113525390625
+15 trial loss: 2.3335249423980713
+20 trial loss: 2.333524703979492
+25 trial loss: 2.3335094451904297
+0 trial loss: 2.3326494693756104
+5 trial loss: 2.3326478004455566
+Gradient updated, Loss reduced to 2.3326478004455566
+10 trial loss: 2.332648277282715
+Gradient updated, Loss reduced to 2.3326475620269775
+15 trial loss: 2.332648515701294
+20 trial loss: 2.332648277282715
+25 trial loss: 2.332648515701294
+0 trial loss: 2.324172019958496
+Gradient updated, Loss reduced to 2.324169158935547
+Gradient updated, Loss reduced to 2.3241684436798096
+5 trial loss: 2.324169397354126
+10 trial loss: 2.324172019958496
+15 trial loss: 2.324171304702759
+20 trial loss: 2.3241710662841797
+25 trial loss: 2.3241705894470215
+0 trial loss: 2.329359769821167
+Gradient updated, Loss reduced to 2.3293588161468506
+5 trial loss: 2.329359769821167
+10 trial loss: 2.329359769821167
+Gradient updated, Loss reduced to 2.3293585777282715
+15 trial loss: 2.3293607234954834
+20 trial loss: 2.329360008239746
+25 trial loss: 2.3293588161468506
+Gradient updated, Loss reduced to 2.3293581008911133
+0 trial loss: 2.3289685249328613
+Gradient updated, Loss reduced to 2.3289668560028076
+5 trial loss: 2.3289666175842285
+Gradient updated, Loss reduced to 2.3289666175842285
+10 trial loss: 2.3289682865142822
+15 trial loss: 2.328967809677124
+20 trial loss: 2.3289692401885986
+25 trial loss: 2.3289670944213867
+0 trial loss: 2.3176965713500977
+Gradient updated, Loss reduced to 2.3176965713500977
+5 trial loss: 2.3176980018615723
+10 trial loss: 2.317699432373047
+15 trial loss: 2.3176982402801514
+20 trial loss: 2.317699670791626
+25 trial loss: 2.3176984786987305
+0 trial loss: 2.331843376159668
+Gradient updated, Loss reduced to 2.331838607788086
+5 trial loss: 2.331841468811035
+10 trial loss: 2.3318421840667725
+Gradient updated, Loss reduced to 2.3318376541137695
+15 trial loss: 2.331843137741089
+20 trial loss: 2.3318421840667725
+25 trial loss: 2.3318424224853516
+0 trial loss: 2.341826915740967
+Gradient updated, Loss reduced to 2.341825485229492
+Gradient updated, Loss reduced to 2.3418242931365967
+5 trial loss: 2.341825246810913
+Gradient updated, Loss reduced to 2.3418235778808594
+10 trial loss: 2.341827869415283
+15 trial loss: 2.3418240547180176
+20 trial loss: 2.3418257236480713
+25 trial loss: 2.3418242931365967
+0 trial loss: 2.326218843460083
+Gradient updated, Loss reduced to 2.326218843460083
+Gradient updated, Loss reduced to 2.326218366622925
+Gradient updated, Loss reduced to 2.32621693611145
+5 trial loss: 2.3262200355529785
+10 trial loss: 2.326219320297241
+15 trial loss: 2.326218843460083
+20 trial loss: 2.3262181282043457
+25 trial loss: 2.326218843460083
+0 trial loss: 2.317084550857544
+Gradient updated, Loss reduced to 2.3170835971832275
+5 trial loss: 2.317082643508911
+Gradient updated, Loss reduced to 2.317082643508911
+10 trial loss: 2.317084789276123
+15 trial loss: 2.317084550857544
+20 trial loss: 2.317084789276123
+25 trial loss: 2.3170840740203857
+Gradient updated, Loss reduced to 2.317082405090332
+0 trial loss: 2.3322067260742188
+Gradient updated, Loss reduced to 2.3322067260742188
+5 trial loss: 2.332204580307007
+Gradient updated, Loss reduced to 2.332204580307007
+10 trial loss: 2.3322088718414307
+15 trial loss: 2.3322067260742188
+20 trial loss: 2.332207441329956
+25 trial loss: 2.3322079181671143
+0 trial loss: 2.334800958633423
+Gradient updated, Loss reduced to 2.3348002433776855
+Gradient updated, Loss reduced to 2.3347997665405273
+5 trial loss: 2.33479905128479
+Gradient updated, Loss reduced to 2.33479905128479
+10 trial loss: 2.3347995281219482
+15 trial loss: 2.334798574447632
+Gradient updated, Loss reduced to 2.334798574447632
+Gradient updated, Loss reduced to 2.3347976207733154
+20 trial loss: 2.334800958633423
+25 trial loss: 2.334801197052002
+0 trial loss: 2.3273839950561523
+Gradient updated, Loss reduced to 2.3273839950561523
+Gradient updated, Loss reduced to 2.327383518218994
+5 trial loss: 2.3273842334747314
+10 trial loss: 2.3273844718933105
+15 trial loss: 2.327385663986206
+20 trial loss: 2.327385663986206
+25 trial loss: 2.327385902404785
+0 trial loss: 2.341235637664795
+5 trial loss: 2.341238021850586
+10 trial loss: 2.341235637664795
+Gradient updated, Loss reduced to 2.3412342071533203
+Gradient updated, Loss reduced to 2.341233730316162
+15 trial loss: 2.3412375450134277
+20 trial loss: 2.3412368297576904
+25 trial loss: 2.3412365913391113
+0 trial loss: 2.317917823791504
+Gradient updated, Loss reduced to 2.317917823791504
+Gradient updated, Loss reduced to 2.317917585372925
+Gradient updated, Loss reduced to 2.317915916442871
+5 trial loss: 2.317918062210083
+10 trial loss: 2.317918062210083
+15 trial loss: 2.317915439605713
+Gradient updated, Loss reduced to 2.317915439605713
+20 trial loss: 2.3179192543029785
+25 trial loss: 2.317915439605713
+Gradient updated, Loss reduced to 2.3179147243499756
+0 trial loss: 2.3302879333496094
+Gradient updated, Loss reduced to 2.3302879333496094
+5 trial loss: 2.330292224884033
+10 trial loss: 2.330291271209717
+15 trial loss: 2.330288887023926
+20 trial loss: 2.3302905559539795
+25 trial loss: 2.330289363861084
+Gradient updated, Loss reduced to 2.3302876949310303
+0 trial loss: 2.3338568210601807
+Gradient updated, Loss reduced to 2.3338558673858643
+Gradient updated, Loss reduced to 2.333855628967285
+Gradient updated, Loss reduced to 2.333854913711548
+Gradient updated, Loss reduced to 2.333853006362915
+5 trial loss: 2.3338537216186523
+10 trial loss: 2.333857297897339
+15 trial loss: 2.333854913711548
+20 trial loss: 2.3338558673858643
+25 trial loss: 2.3338558673858643
+0 trial loss: 2.332540273666382
+Gradient updated, Loss reduced to 2.332538366317749
+Gradient updated, Loss reduced to 2.3325371742248535
+5 trial loss: 2.332540512084961
+10 trial loss: 2.332538604736328
+15 trial loss: 2.33253812789917
+20 trial loss: 2.3325395584106445
+25 trial loss: 2.3325400352478027
+0 trial loss: 2.332056760787964
+Gradient updated, Loss reduced to 2.3320541381835938
+5 trial loss: 2.332056760787964
+10 trial loss: 2.332057476043701
+15 trial loss: 2.3320565223693848
+20 trial loss: 2.332057237625122
+25 trial loss: 2.3320553302764893
+0 trial loss: 2.320451021194458
+Gradient updated, Loss reduced to 2.320451021194458
+Gradient updated, Loss reduced to 2.3204495906829834
+Gradient updated, Loss reduced to 2.3204493522644043
+5 trial loss: 2.320451498031616
+10 trial loss: 2.320451259613037
+15 trial loss: 2.320448637008667
+Gradient updated, Loss reduced to 2.320448637008667
+20 trial loss: 2.3204524517059326
+25 trial loss: 2.320450782775879
+Gradient updated, Loss reduced to 2.320448398590088
+0 trial loss: 2.318753719329834
+Gradient updated, Loss reduced to 2.318753719329834
+5 trial loss: 2.318753480911255
+Gradient updated, Loss reduced to 2.318753480911255
+10 trial loss: 2.3187546730041504
+15 trial loss: 2.3187546730041504
+20 trial loss: 2.318755626678467
+25 trial loss: 2.3187575340270996
+0 trial loss: 2.3182380199432373
+Gradient updated, Loss reduced to 2.3182380199432373
+Gradient updated, Loss reduced to 2.318237543106079
+5 trial loss: 2.3182380199432373
+10 trial loss: 2.318239688873291
+Gradient updated, Loss reduced to 2.318237066268921
+Gradient updated, Loss reduced to 2.3182363510131836
+15 trial loss: 2.3182406425476074
+20 trial loss: 2.3182373046875
+25 trial loss: 2.3182411193847656
+0 trial loss: 2.3254265785217285
+Gradient updated, Loss reduced to 2.3254241943359375
+Gradient updated, Loss reduced to 2.325423240661621
+5 trial loss: 2.3254237174987793
+10 trial loss: 2.3254239559173584
+15 trial loss: 2.325427532196045
+20 trial loss: 2.3254265785217285
+25 trial loss: 2.325427532196045
+0 trial loss: 2.334961414337158
+Gradient updated, Loss reduced to 2.334961414337158
+Gradient updated, Loss reduced to 2.3349609375
+Gradient updated, Loss reduced to 2.334960699081421
+5 trial loss: 2.3349616527557373
+Gradient updated, Loss reduced to 2.3349595069885254
+10 trial loss: 2.3349626064300537
+Gradient updated, Loss reduced to 2.3349571228027344
+15 trial loss: 2.3349616527557373
+20 trial loss: 2.334961414337158
+25 trial loss: 2.3349618911743164
+0 trial loss: 2.323072671890259
+Gradient updated, Loss reduced to 2.323068857192993
+Gradient updated, Loss reduced to 2.3230679035186768
+5 trial loss: 2.323070764541626
+10 trial loss: 2.3230721950531006
+15 trial loss: 2.3230693340301514
+20 trial loss: 2.3230702877044678
+Gradient updated, Loss reduced to 2.3230669498443604
+25 trial loss: 2.3230695724487305
+0 trial loss: 2.3319733142852783
+Gradient updated, Loss reduced to 2.331972122192383
+Gradient updated, Loss reduced to 2.3319716453552246
+5 trial loss: 2.3319737911224365
+10 trial loss: 2.3319735527038574
+15 trial loss: 2.3319740295410156
+20 trial loss: 2.331972360610962
+25 trial loss: 2.331973075866699
+0 trial loss: 2.3269431591033936
+Gradient updated, Loss reduced to 2.3269431591033936
+5 trial loss: 2.32694411277771
+Gradient updated, Loss reduced to 2.3269410133361816
+10 trial loss: 2.3269426822662354
+15 trial loss: 2.3269429206848145
+20 trial loss: 2.3269448280334473
+25 trial loss: 2.326944589614868
+0 trial loss: 2.3366634845733643
+5 trial loss: 2.336663007736206
+10 trial loss: 2.336663007736206
+15 trial loss: 2.3366646766662598
+20 trial loss: 2.3366615772247314
+25 trial loss: 2.3366641998291016
+0 trial loss: 2.334559202194214
+Gradient updated, Loss reduced to 2.3345580101013184
+5 trial loss: 2.334559917449951
+10 trial loss: 2.334559917449951
+15 trial loss: 2.3345608711242676
+20 trial loss: 2.3345582485198975
+Gradient updated, Loss reduced to 2.33455753326416
+25 trial loss: 2.3345603942871094
+0 trial loss: 2.326754570007324
+Gradient updated, Loss reduced to 2.326754570007324
+5 trial loss: 2.326756715774536
+10 trial loss: 2.326758861541748
+15 trial loss: 2.3267548084259033
+20 trial loss: 2.3267555236816406
+25 trial loss: 2.3267574310302734
+0 trial loss: 2.3233730792999268
+Gradient updated, Loss reduced to 2.323371648788452
+5 trial loss: 2.323374032974243
+Gradient updated, Loss reduced to 2.323371171951294
+10 trial loss: 2.323373556137085
+15 trial loss: 2.3233752250671387
+20 trial loss: 2.3233730792999268
+25 trial loss: 2.323374032974243
+0 trial loss: 2.3279030323028564
+Gradient updated, Loss reduced to 2.3279030323028564
+5 trial loss: 2.327906608581543
+10 trial loss: 2.3279056549072266
+15 trial loss: 2.3279051780700684
+20 trial loss: 2.32790470123291
+25 trial loss: 2.3279073238372803
+0 trial loss: 2.331214189529419
+Gradient updated, Loss reduced to 2.331214189529419
+Gradient updated, Loss reduced to 2.331212282180786
+5 trial loss: 2.3312137126922607
+10 trial loss: 2.33121657371521
+Gradient updated, Loss reduced to 2.331212043762207
+15 trial loss: 2.331214427947998
+Gradient updated, Loss reduced to 2.331211566925049
+20 trial loss: 2.3312149047851562
+25 trial loss: 2.3312151432037354
+0 trial loss: 2.319035768508911
+5 trial loss: 2.3190360069274902
+10 trial loss: 2.3190369606018066
+Gradient updated, Loss reduced to 2.319033145904541
+15 trial loss: 2.319035291671753
+20 trial loss: 2.319035053253174
+25 trial loss: 2.319035053253174
+0 trial loss: 2.3238139152526855
+Gradient updated, Loss reduced to 2.323812246322632
+5 trial loss: 2.323812961578369
+10 trial loss: 2.3238143920898438
+15 trial loss: 2.3238139152526855
+Gradient updated, Loss reduced to 2.3238120079040527
+20 trial loss: 2.3238131999969482
+25 trial loss: 2.3238143920898438
+0 trial loss: 2.323915719985962
+Gradient updated, Loss reduced to 2.32391357421875
+Gradient updated, Loss reduced to 2.323913335800171
+5 trial loss: 2.323915481567383
+Gradient updated, Loss reduced to 2.3239126205444336
+10 trial loss: 2.3239152431488037
+15 trial loss: 2.3239152431488037
+Gradient updated, Loss reduced to 2.323911428451538
+20 trial loss: 2.3239152431488037
+25 trial loss: 2.3239145278930664
+0 trial loss: 2.3178927898406982
+Gradient updated, Loss reduced to 2.3178913593292236
+Gradient updated, Loss reduced to 2.3178906440734863
+Gradient updated, Loss reduced to 2.3178904056549072
+5 trial loss: 2.317892074584961
+Gradient updated, Loss reduced to 2.317890167236328
+10 trial loss: 2.317892551422119
+Gradient updated, Loss reduced to 2.3178892135620117
+15 trial loss: 2.3178927898406982
+20 trial loss: 2.317892074584961
+25 trial loss: 2.3178908824920654
+0 trial loss: 2.334151268005371
+Gradient updated, Loss reduced to 2.3341495990753174
+5 trial loss: 2.334151029586792
+Gradient updated, Loss reduced to 2.334148406982422
+Gradient updated, Loss reduced to 2.3341481685638428
+10 trial loss: 2.334151268005371
+15 trial loss: 2.3341474533081055
+Gradient updated, Loss reduced to 2.3341474533081055
+20 trial loss: 2.334150791168213
+25 trial loss: 2.3341479301452637
+0 trial loss: 2.3265135288238525
+5 trial loss: 2.326514482498169
+10 trial loss: 2.3265137672424316
+15 trial loss: 2.326514482498169
+20 trial loss: 2.3265132904052734
+25 trial loss: 2.3265135288238525
+0 trial loss: 2.32881498336792
+Gradient updated, Loss reduced to 2.3288135528564453
+5 trial loss: 2.3288142681121826
+10 trial loss: 2.3288145065307617
+15 trial loss: 2.32881498336792
+20 trial loss: 2.3288137912750244
+25 trial loss: 2.3288164138793945
+Gradient updated, Loss reduced to 2.328813314437866
+Gradient updated, Loss reduced to 2.328812837600708
+0 trial loss: 2.3362646102905273
+Gradient updated, Loss reduced to 2.3362646102905273
+Gradient updated, Loss reduced to 2.336263418197632
+5 trial loss: 2.3362646102905273
+Gradient updated, Loss reduced to 2.3362631797790527
+10 trial loss: 2.3362624645233154
+Gradient updated, Loss reduced to 2.3362624645233154
+15 trial loss: 2.336263418197632
+20 trial loss: 2.336263418197632
+25 trial loss: 2.3362650871276855
+0 trial loss: 2.3273890018463135
+Gradient updated, Loss reduced to 2.327385425567627
+5 trial loss: 2.327385663986206
+10 trial loss: 2.3273866176605225
+Gradient updated, Loss reduced to 2.3273842334747314
+15 trial loss: 2.3273866176605225
+20 trial loss: 2.3273866176605225
+25 trial loss: 2.3273861408233643
+0 trial loss: 2.3191235065460205
+Gradient updated, Loss reduced to 2.3191211223602295
+5 trial loss: 2.319122076034546
+Gradient updated, Loss reduced to 2.319120407104492
+10 trial loss: 2.319122076034546
+15 trial loss: 2.319122791290283
+20 trial loss: 2.319122791290283
+25 trial loss: 2.319122314453125
+0 trial loss: 2.3375966548919678
+Gradient updated, Loss reduced to 2.3375966548919678
+5 trial loss: 2.337599992752075
+10 trial loss: 2.337597608566284
+Gradient updated, Loss reduced to 2.3375959396362305
+15 trial loss: 2.3375966548919678
+20 trial loss: 2.3375978469848633
+Gradient updated, Loss reduced to 2.3375957012176514
+Gradient updated, Loss reduced to 2.3375954627990723
+25 trial loss: 2.3375978469848633
+0 trial loss: 2.3284549713134766
+Gradient updated, Loss reduced to 2.3284549713134766
+5 trial loss: 2.3284566402435303
+10 trial loss: 2.328455924987793
+15 trial loss: 2.3284552097320557
+20 trial loss: 2.3284575939178467
+25 trial loss: 2.328456401824951
+0 trial loss: 2.3495430946350098
+Gradient updated, Loss reduced to 2.3495430946350098
+5 trial loss: 2.349543571472168
+Gradient updated, Loss reduced to 2.349541664123535
+10 trial loss: 2.3495430946350098
+Gradient updated, Loss reduced to 2.349541425704956
+15 trial loss: 2.3495447635650635
+20 trial loss: 2.3495423793792725
+25 trial loss: 2.349544048309326
+0 trial loss: 2.332671642303467
+Gradient updated, Loss reduced to 2.332669973373413
+5 trial loss: 2.3326687812805176
+Gradient updated, Loss reduced to 2.3326687812805176
+10 trial loss: 2.3326737880706787
+15 trial loss: 2.332672119140625
+20 trial loss: 2.332669973373413
+25 trial loss: 2.332669496536255
+0 trial loss: 2.3205935955047607
+Gradient updated, Loss reduced to 2.3205935955047607
+5 trial loss: 2.320594549179077
+10 trial loss: 2.3205950260162354
+15 trial loss: 2.320594549179077
+Gradient updated, Loss reduced to 2.320591449737549
+20 trial loss: 2.320591688156128
+25 trial loss: 2.3205931186676025
+0 trial loss: 2.3232433795928955
+Gradient updated, Loss reduced to 2.3232433795928955
+5 trial loss: 2.3232529163360596
+Gradient updated, Loss reduced to 2.323241710662842
+10 trial loss: 2.3232569694519043
+15 trial loss: 2.3232481479644775
+20 trial loss: 2.3232576847076416
+25 trial loss: 2.3232603073120117
+0 trial loss: 2.323955774307251
+Gradient updated, Loss reduced to 2.3239529132843018
+5 trial loss: 2.32395339012146
+Gradient updated, Loss reduced to 2.3239526748657227
+10 trial loss: 2.323953628540039
+Gradient updated, Loss reduced to 2.3239524364471436
+15 trial loss: 2.3239550590515137
+20 trial loss: 2.3239564895629883
+25 trial loss: 2.323953628540039
+0 trial loss: 2.326866388320923
+Gradient updated, Loss reduced to 2.3268635272979736
+5 trial loss: 2.3268635272979736
+Gradient updated, Loss reduced to 2.32686185836792
+10 trial loss: 2.326862335205078
+15 trial loss: 2.32686448097229
+20 trial loss: 2.3268659114837646
+25 trial loss: 2.3268654346466064
+0 trial loss: 2.3348755836486816
+Gradient updated, Loss reduced to 2.3348755836486816
+5 trial loss: 2.3348772525787354
+10 trial loss: 2.3348772525787354
+15 trial loss: 2.33487868309021
+20 trial loss: 2.3348748683929443
+Gradient updated, Loss reduced to 2.3348748683929443
+25 trial loss: 2.3348751068115234
+Gradient updated, Loss reduced to 2.3348746299743652
+0 trial loss: 2.3359739780426025
+Gradient updated, Loss reduced to 2.3359720706939697
+Gradient updated, Loss reduced to 2.335970163345337
+5 trial loss: 2.3359737396240234
+10 trial loss: 2.3359718322753906
+15 trial loss: 2.3359711170196533
+20 trial loss: 2.3359715938568115
+25 trial loss: 2.3359735012054443
+0 trial loss: 2.3319880962371826
+5 trial loss: 2.331988573074341
+Gradient updated, Loss reduced to 2.331986427307129
+10 trial loss: 2.3319876194000244
+15 trial loss: 2.331988573074341
+20 trial loss: 2.3319880962371826
+25 trial loss: 2.331986904144287
+0 trial loss: 2.32588267326355
+Gradient updated, Loss reduced to 2.3258795738220215
+5 trial loss: 2.325881004333496
+10 trial loss: 2.3258821964263916
+15 trial loss: 2.325881004333496
+20 trial loss: 2.3258821964263916
+25 trial loss: 2.3258817195892334
+Gradient updated, Loss reduced to 2.3258790969848633
+0 trial loss: 2.3323476314544678
+Gradient updated, Loss reduced to 2.332345962524414
+Gradient updated, Loss reduced to 2.3323450088500977
+Gradient updated, Loss reduced to 2.332343578338623
+5 trial loss: 2.332343101501465
+Gradient updated, Loss reduced to 2.332343101501465
+10 trial loss: 2.3323469161987305
+Gradient updated, Loss reduced to 2.3323426246643066
+15 trial loss: 2.332343578338623
+20 trial loss: 2.3323428630828857
+25 trial loss: 2.3323464393615723
+0 trial loss: 2.339027166366577
+Gradient updated, Loss reduced to 2.3390257358551025
+Gradient updated, Loss reduced to 2.339024782180786
+5 trial loss: 2.3390276432037354
+10 trial loss: 2.339026927947998
+Gradient updated, Loss reduced to 2.339024305343628
+15 trial loss: 2.339024782180786
+20 trial loss: 2.3390274047851562
+25 trial loss: 2.3390250205993652
+Gradient updated, Loss reduced to 2.3390228748321533
+0 trial loss: 2.339845895767212
+5 trial loss: 2.3398470878601074
+10 trial loss: 2.3398494720458984
+15 trial loss: 2.3398449420928955
+20 trial loss: 2.3398454189300537
+25 trial loss: 2.3398475646972656
+0 trial loss: 2.3373734951019287
+Gradient updated, Loss reduced to 2.3373730182647705
+5 trial loss: 2.3373727798461914
+Gradient updated, Loss reduced to 2.3373727798461914
+Gradient updated, Loss reduced to 2.3373725414276123
+Gradient updated, Loss reduced to 2.337372303009033
+10 trial loss: 2.337374687194824
+Gradient updated, Loss reduced to 2.337371587753296
+15 trial loss: 2.3373754024505615
+20 trial loss: 2.3373749256134033
+25 trial loss: 2.3373732566833496
+0 trial loss: 2.340926170349121
+Gradient updated, Loss reduced to 2.340926170349121
+5 trial loss: 2.3409273624420166
+Gradient updated, Loss reduced to 2.340925455093384
+Gradient updated, Loss reduced to 2.3409252166748047
+10 trial loss: 2.340928316116333
+15 trial loss: 2.340928077697754
+20 trial loss: 2.340928792953491
+Gradient updated, Loss reduced to 2.3409249782562256
+25 trial loss: 2.340925693511963
+0 trial loss: 2.337563991546631
+Gradient updated, Loss reduced to 2.337563991546631
+Gradient updated, Loss reduced to 2.3375630378723145
+Gradient updated, Loss reduced to 2.3375608921051025
+5 trial loss: 2.3375635147094727
+10 trial loss: 2.33756422996521
+15 trial loss: 2.3375630378723145
+20 trial loss: 2.3375651836395264
+25 trial loss: 2.3375656604766846
+0 trial loss: 2.3326895236968994
+Gradient updated, Loss reduced to 2.3326876163482666
+5 trial loss: 2.3326921463012695
+10 trial loss: 2.3326919078826904
+15 trial loss: 2.332688331604004
+20 trial loss: 2.3326919078826904
+25 trial loss: 2.3326902389526367
+Gradient updated, Loss reduced to 2.332686185836792
+0 trial loss: 2.345871925354004
+Gradient updated, Loss reduced to 2.3458688259124756
+5 trial loss: 2.3458709716796875
+10 trial loss: 2.345872640609741
+15 trial loss: 2.345871686935425
+20 trial loss: 2.3458712100982666
+25 trial loss: 2.3458712100982666
+0 trial loss: 2.348740577697754
+Gradient updated, Loss reduced to 2.348740577697754
+Gradient updated, Loss reduced to 2.348738431930542
+5 trial loss: 2.3487420082092285
+10 trial loss: 2.348740577697754
+15 trial loss: 2.348738670349121
+20 trial loss: 2.3487415313720703
+25 trial loss: 2.3487396240234375
+0 trial loss: 2.3324732780456543
+Gradient updated, Loss reduced to 2.3324732780456543
+Gradient updated, Loss reduced to 2.332472562789917
+Gradient updated, Loss reduced to 2.3324713706970215
+5 trial loss: 2.3324735164642334
+10 trial loss: 2.332472801208496
+Gradient updated, Loss reduced to 2.3324708938598633
+15 trial loss: 2.332472324371338
+20 trial loss: 2.3324718475341797
+25 trial loss: 2.3324732780456543
+Gradient updated, Loss reduced to 2.3324694633483887
+0 trial loss: 2.3235294818878174
+Gradient updated, Loss reduced to 2.3235294818878174
+5 trial loss: 2.3235325813293457
+10 trial loss: 2.323532819747925
+Gradient updated, Loss reduced to 2.3235292434692383
+15 trial loss: 2.323531150817871
+Gradient updated, Loss reduced to 2.32352876663208
+20 trial loss: 2.323530912399292
+25 trial loss: 2.3235347270965576
+0 trial loss: 2.3332772254943848
+Gradient updated, Loss reduced to 2.333275318145752
+5 trial loss: 2.333277463912964
+Gradient updated, Loss reduced to 2.3332746028900146
+10 trial loss: 2.333277702331543
+15 trial loss: 2.333277940750122
+20 trial loss: 2.33327579498291
+25 trial loss: 2.3332748413085938
+0 trial loss: 2.3398854732513428
+5 trial loss: 2.3398871421813965
+10 trial loss: 2.33988356590271
+Gradient updated, Loss reduced to 2.339881420135498
+15 trial loss: 2.3398854732513428
+20 trial loss: 2.339885950088501
+25 trial loss: 2.339886426925659
+0 trial loss: 2.327223300933838
+5 trial loss: 2.327223300933838
+Gradient updated, Loss reduced to 2.327220916748047
+10 trial loss: 2.327223777770996
+15 trial loss: 2.3272242546081543
+20 trial loss: 2.3272242546081543
+25 trial loss: 2.327223539352417
+0 trial loss: 2.3326416015625
+5 trial loss: 2.332641124725342
+Gradient updated, Loss reduced to 2.332641124725342
+10 trial loss: 2.3326416015625
+15 trial loss: 2.332644462585449
+20 trial loss: 2.332641363143921
+Gradient updated, Loss reduced to 2.3326408863067627
+25 trial loss: 2.332641839981079
+Gradient updated, Loss reduced to 2.3326404094696045
+0 trial loss: 2.3395936489105225
+Gradient updated, Loss reduced to 2.339592218399048
+Gradient updated, Loss reduced to 2.3395919799804688
+5 trial loss: 2.339592695236206
+Gradient updated, Loss reduced to 2.3395910263061523
+10 trial loss: 2.3395936489105225
+15 trial loss: 2.3395915031433105
+Gradient updated, Loss reduced to 2.339590072631836
+20 trial loss: 2.3395910263061523
+25 trial loss: 2.3395919799804688
+0 trial loss: 2.3235552310943604
+Gradient updated, Loss reduced to 2.3235552310943604
+Gradient updated, Loss reduced to 2.323554515838623
+Gradient updated, Loss reduced to 2.3235538005828857
+5 trial loss: 2.323556661605835
+10 trial loss: 2.3235549926757812
+15 trial loss: 2.3235573768615723
+20 trial loss: 2.3235576152801514
+Gradient updated, Loss reduced to 2.3235535621643066
+25 trial loss: 2.323556423187256
+0 trial loss: 2.332099437713623
+Gradient updated, Loss reduced to 2.332099437713623
+5 trial loss: 2.332101345062256
+10 trial loss: 2.3320999145507812
+Gradient updated, Loss reduced to 2.3320982456207275
+15 trial loss: 2.332102060317993
+20 trial loss: 2.3321001529693604
+25 trial loss: 2.3321006298065186
+0 trial loss: 2.3298635482788086
+Gradient updated, Loss reduced to 2.3298628330230713
+Gradient updated, Loss reduced to 2.329862117767334
+5 trial loss: 2.329862594604492
+Gradient updated, Loss reduced to 2.3298609256744385
+10 trial loss: 2.329862594604492
+15 trial loss: 2.3298637866973877
+20 trial loss: 2.329862117767334
+25 trial loss: 2.329864025115967
+0 trial loss: 2.329197645187378
+Gradient updated, Loss reduced to 2.329193592071533
+5 trial loss: 2.329195737838745
+10 trial loss: 2.3291966915130615
+15 trial loss: 2.329195022583008
+20 trial loss: 2.329192876815796
+Gradient updated, Loss reduced to 2.329192876815796
+25 trial loss: 2.329195022583008
+Gradient updated, Loss reduced to 2.3291923999786377
+0 trial loss: 2.3388891220092773
+Gradient updated, Loss reduced to 2.3388891220092773
+Gradient updated, Loss reduced to 2.338887929916382
+Gradient updated, Loss reduced to 2.3388864994049072
+5 trial loss: 2.3388869762420654
+10 trial loss: 2.3388872146606445
+Gradient updated, Loss reduced to 2.3388850688934326
+15 trial loss: 2.3388876914978027
+20 trial loss: 2.3388898372650146
+25 trial loss: 2.3388891220092773
+0 trial loss: 2.343446731567383
+Gradient updated, Loss reduced to 2.343444585800171
+5 trial loss: 2.3434462547302246
+10 trial loss: 2.3434481620788574
+Gradient updated, Loss reduced to 2.343442678451538
+15 trial loss: 2.343447208404541
+20 trial loss: 2.3434479236602783
+25 trial loss: 2.3434462547302246
+0 trial loss: 2.3315060138702393
+Gradient updated, Loss reduced to 2.3315038681030273
+5 trial loss: 2.331505298614502
+10 trial loss: 2.331505060195923
+15 trial loss: 2.3315045833587646
+Gradient updated, Loss reduced to 2.331501007080078
+20 trial loss: 2.331505060195923
+25 trial loss: 2.331505537033081
+0 trial loss: 2.328524112701416
+Gradient updated, Loss reduced to 2.328524112701416
+Gradient updated, Loss reduced to 2.3285231590270996
+5 trial loss: 2.3285226821899414
+Gradient updated, Loss reduced to 2.3285226821899414
+10 trial loss: 2.3285248279571533
+15 trial loss: 2.3285248279571533
+20 trial loss: 2.328524589538574
+25 trial loss: 2.3285226821899414
+0 trial loss: 2.3432281017303467
+Gradient updated, Loss reduced to 2.343226671218872
+5 trial loss: 2.3432304859161377
+Gradient updated, Loss reduced to 2.343226194381714
+10 trial loss: 2.343228578567505
+Gradient updated, Loss reduced to 2.34322452545166
+15 trial loss: 2.343226909637451
+20 trial loss: 2.343226909637451
+25 trial loss: 2.343226671218872
+0 trial loss: 2.3330917358398438
+Gradient updated, Loss reduced to 2.3330917358398438
+5 trial loss: 2.3330929279327393
+10 trial loss: 2.333091974258423
+15 trial loss: 2.3330938816070557
+20 trial loss: 2.3330934047698975
+25 trial loss: 2.333094596862793
+0 trial loss: 2.3367724418640137
+Gradient updated, Loss reduced to 2.3367724418640137
+Gradient updated, Loss reduced to 2.3367719650268555
+Gradient updated, Loss reduced to 2.3367693424224854
+5 trial loss: 2.336775541305542
+10 trial loss: 2.3367748260498047
+15 trial loss: 2.336773633956909
+20 trial loss: 2.3367738723754883
+25 trial loss: 2.336773157119751
+0 trial loss: 2.338623285293579
+Gradient updated, Loss reduced to 2.338623285293579
+Gradient updated, Loss reduced to 2.338623046875
+5 trial loss: 2.338625192642212
+10 trial loss: 2.338624954223633
+Gradient updated, Loss reduced to 2.3386218547821045
+15 trial loss: 2.338624954223633
+20 trial loss: 2.338622570037842
+25 trial loss: 2.3386263847351074
+0 trial loss: 2.3463664054870605
+Gradient updated, Loss reduced to 2.3463664054870605
+5 trial loss: 2.3463668823242188
+10 trial loss: 2.3463687896728516
+15 trial loss: 2.346369743347168
+Gradient updated, Loss reduced to 2.3463659286499023
+20 trial loss: 2.3463680744171143
+25 trial loss: 2.3463683128356934
+0 trial loss: 2.3298213481903076
+Gradient updated, Loss reduced to 2.329819679260254
+Gradient updated, Loss reduced to 2.3298189640045166
+5 trial loss: 2.329820156097412
+10 trial loss: 2.329821825027466
+Gradient updated, Loss reduced to 2.329817295074463
+15 trial loss: 2.329820156097412
+20 trial loss: 2.329820394515991
+25 trial loss: 2.329819917678833
+0 trial loss: 2.341217517852783
+5 trial loss: 2.3412179946899414
+10 trial loss: 2.3412179946899414
+15 trial loss: 2.3412163257598877
+20 trial loss: 2.3412187099456787
+25 trial loss: 2.3412163257598877
+0 trial loss: 2.329207181930542
+Gradient updated, Loss reduced to 2.329207181930542
+5 trial loss: 2.329209089279175
+Gradient updated, Loss reduced to 2.329206705093384
+Gradient updated, Loss reduced to 2.3292057514190674
+10 trial loss: 2.329206705093384
+15 trial loss: 2.3292064666748047
+Gradient updated, Loss reduced to 2.3292055130004883
+20 trial loss: 2.329207181930542
+25 trial loss: 2.329207181930542
+0 trial loss: 2.332058906555176
+Gradient updated, Loss reduced to 2.332054853439331
+5 trial loss: 2.3320577144622803
+10 trial loss: 2.3320581912994385
+15 trial loss: 2.3320581912994385
+20 trial loss: 2.332057476043701
+25 trial loss: 2.3320555686950684
+0 trial loss: 2.336388349533081
+5 trial loss: 2.3363873958587646
+10 trial loss: 2.336387872695923
+15 trial loss: 2.33638858795166
+20 trial loss: 2.336385488510132
+Gradient updated, Loss reduced to 2.336385488510132
+25 trial loss: 2.3363888263702393
+0 trial loss: 2.334414005279541
+Gradient updated, Loss reduced to 2.334414005279541
+5 trial loss: 2.3344156742095947
+10 trial loss: 2.334413528442383
+Gradient updated, Loss reduced to 2.334413528442383
+Gradient updated, Loss reduced to 2.334411382675171
+15 trial loss: 2.3344101905822754
+Gradient updated, Loss reduced to 2.3344101905822754
+20 trial loss: 2.334416151046753
+25 trial loss: 2.334416627883911
+0 trial loss: 2.3386716842651367
+Gradient updated, Loss reduced to 2.3386683464050293
+Gradient updated, Loss reduced to 2.338667869567871
+5 trial loss: 2.3386709690093994
+Gradient updated, Loss reduced to 2.3386666774749756
+10 trial loss: 2.338672161102295
+15 trial loss: 2.338669538497925
+20 trial loss: 2.3386683464050293
+25 trial loss: 2.338667869567871
+0 trial loss: 2.329089403152466
+Gradient updated, Loss reduced to 2.329089403152466
+5 trial loss: 2.329089403152466
+10 trial loss: 2.3290908336639404
+15 trial loss: 2.329090118408203
+20 trial loss: 2.3290908336639404
+Gradient updated, Loss reduced to 2.329087972640991
+25 trial loss: 2.329089641571045
+0 trial loss: 2.331392288208008
+Gradient updated, Loss reduced to 2.331392288208008
+Gradient updated, Loss reduced to 2.3313915729522705
+5 trial loss: 2.3313941955566406
+10 trial loss: 2.3313939571380615
+15 trial loss: 2.3313934803009033
+Gradient updated, Loss reduced to 2.3313913345336914
+20 trial loss: 2.331392526626587
+25 trial loss: 2.331392765045166
+0 trial loss: 2.339249610900879
+Gradient updated, Loss reduced to 2.339245319366455
+5 trial loss: 2.339249849319458
+10 trial loss: 2.339246988296509
+15 trial loss: 2.3392486572265625
+20 trial loss: 2.339249849319458
+25 trial loss: 2.339247226715088
+0 trial loss: 2.3174259662628174
+Gradient updated, Loss reduced to 2.3174259662628174
+5 trial loss: 2.3174285888671875
+10 trial loss: 2.317429780960083
+15 trial loss: 2.3174262046813965
+Gradient updated, Loss reduced to 2.3174257278442383
+20 trial loss: 2.3174264430999756
+25 trial loss: 2.3174266815185547
+0 trial loss: 2.3223636150360107
+Gradient updated, Loss reduced to 2.3223636150360107
+Gradient updated, Loss reduced to 2.322362184524536
+5 trial loss: 2.3223655223846436
+10 trial loss: 2.3223633766174316
+15 trial loss: 2.3223633766174316
+20 trial loss: 2.32236385345459
+25 trial loss: 2.3223659992218018
+Gradient updated, Loss reduced to 2.322361707687378
+0 trial loss: 2.3327748775482178
+Gradient updated, Loss reduced to 2.3327748775482178
+Gradient updated, Loss reduced to 2.3327667713165283
+Gradient updated, Loss reduced to 2.332765817642212
+5 trial loss: 2.3327674865722656
+Gradient updated, Loss reduced to 2.332763433456421
+10 trial loss: 2.332775592803955
+Gradient updated, Loss reduced to 2.332754135131836
+15 trial loss: 2.332782745361328
+20 trial loss: 2.3327856063842773
+25 trial loss: 2.3327977657318115
+0 trial loss: 2.3333842754364014
+Gradient updated, Loss reduced to 2.3333802223205566
+5 trial loss: 2.333381414413452
+Gradient updated, Loss reduced to 2.3333792686462402
+10 trial loss: 2.3333852291107178
+15 trial loss: 2.3333826065063477
+20 trial loss: 2.333380937576294
+25 trial loss: 2.3333826065063477
+0 trial loss: 2.335827112197876
+Gradient updated, Loss reduced to 2.335827112197876
+Gradient updated, Loss reduced to 2.335826873779297
+Gradient updated, Loss reduced to 2.3358261585235596
+Gradient updated, Loss reduced to 2.3358256816864014
+5 trial loss: 2.3358263969421387
+Gradient updated, Loss reduced to 2.3358237743377686
+10 trial loss: 2.335824728012085
+15 trial loss: 2.335824489593506
+Gradient updated, Loss reduced to 2.335822105407715
+20 trial loss: 2.335825204849243
+25 trial loss: 2.335824966430664
+0 trial loss: 2.3398470878601074
+Gradient updated, Loss reduced to 2.3398444652557373
+Gradient updated, Loss reduced to 2.33984375
+5 trial loss: 2.339843273162842
+Gradient updated, Loss reduced to 2.339843273162842
+10 trial loss: 2.3398449420928955
+15 trial loss: 2.33984637260437
+20 trial loss: 2.339843988418579
+25 trial loss: 2.3398454189300537
+0 trial loss: 2.328596591949463
+5 trial loss: 2.328596591949463
+Gradient updated, Loss reduced to 2.328594446182251
+10 trial loss: 2.328599214553833
+15 trial loss: 2.328594207763672
+Gradient updated, Loss reduced to 2.328594207763672
+Gradient updated, Loss reduced to 2.3285934925079346
+20 trial loss: 2.328598976135254
+25 trial loss: 2.3285956382751465
+Gradient updated, Loss reduced to 2.328592300415039
+0 trial loss: 2.3400707244873047
+Gradient updated, Loss reduced to 2.3400676250457764
+Gradient updated, Loss reduced to 2.3400673866271973
+5 trial loss: 2.3400707244873047
+10 trial loss: 2.3400719165802
+15 trial loss: 2.3400707244873047
+20 trial loss: 2.3400719165802
+25 trial loss: 2.3400704860687256
+0 trial loss: 2.343348979949951
+Gradient updated, Loss reduced to 2.343348979949951
+Gradient updated, Loss reduced to 2.343348264694214
+5 trial loss: 2.3433523178100586
+10 trial loss: 2.343348979949951
+15 trial loss: 2.3433516025543213
+Gradient updated, Loss reduced to 2.3433477878570557
+20 trial loss: 2.343351125717163
+25 trial loss: 2.343348503112793
+0 trial loss: 2.338784694671631
+Gradient updated, Loss reduced to 2.338784694671631
+Gradient updated, Loss reduced to 2.3387837409973145
+Gradient updated, Loss reduced to 2.3387813568115234
+5 trial loss: 2.338784694671631
+10 trial loss: 2.33878755569458
+15 trial loss: 2.3387837409973145
+20 trial loss: 2.3387880325317383
+25 trial loss: 2.338784694671631
+0 trial loss: 2.34590482711792
+Gradient updated, Loss reduced to 2.345902919769287
+5 trial loss: 2.3459060192108154
+10 trial loss: 2.3459036350250244
+Gradient updated, Loss reduced to 2.345900535583496
+15 trial loss: 2.34590482711792
+20 trial loss: 2.34590482711792
+25 trial loss: 2.3459057807922363
+0 trial loss: 2.3445448875427246
+Gradient updated, Loss reduced to 2.3445448875427246
+Gradient updated, Loss reduced to 2.3445446491241455
+Gradient updated, Loss reduced to 2.3445422649383545
+5 trial loss: 2.344543695449829
+10 trial loss: 2.3445465564727783
+Gradient updated, Loss reduced to 2.344541072845459
+15 trial loss: 2.344545364379883
+20 trial loss: 2.3445444107055664
+25 trial loss: 2.3445444107055664
+0 trial loss: 2.3284125328063965
+Gradient updated, Loss reduced to 2.3284125328063965
+5 trial loss: 2.3284127712249756
+10 trial loss: 2.3284122943878174
+Gradient updated, Loss reduced to 2.3284122943878174
+Gradient updated, Loss reduced to 2.32841157913208
+15 trial loss: 2.3284108638763428
+Gradient updated, Loss reduced to 2.3284108638763428
+20 trial loss: 2.328413486480713
+25 trial loss: 2.328413963317871
+0 trial loss: 2.347038984298706
+Gradient updated, Loss reduced to 2.347038984298706
+Gradient updated, Loss reduced to 2.347038507461548
+Gradient updated, Loss reduced to 2.3470370769500732
+5 trial loss: 2.3470373153686523
+Gradient updated, Loss reduced to 2.3470358848571777
+10 trial loss: 2.347041130065918
+15 trial loss: 2.3470401763916016
+20 trial loss: 2.3470406532287598
+25 trial loss: 2.3470399379730225
+0 trial loss: 2.335320234298706
+Gradient updated, Loss reduced to 2.3353185653686523
+Gradient updated, Loss reduced to 2.3353159427642822
+5 trial loss: 2.3353192806243896
+10 trial loss: 2.3353183269500732
+15 trial loss: 2.335320472717285
+20 trial loss: 2.3353185653686523
+25 trial loss: 2.3353190422058105
+0 trial loss: 2.3377954959869385
+Gradient updated, Loss reduced to 2.3377954959869385
+Gradient updated, Loss reduced to 2.337794780731201
+Gradient updated, Loss reduced to 2.3377938270568848
+5 trial loss: 2.3377959728240967
+Gradient updated, Loss reduced to 2.3377931118011475
+10 trial loss: 2.337796211242676
+15 trial loss: 2.3377959728240967
+Gradient updated, Loss reduced to 2.33779239654541
+20 trial loss: 2.3377938270568848
+25 trial loss: 2.3377938270568848
+0 trial loss: 2.336785078048706
+Gradient updated, Loss reduced to 2.336785078048706
+Gradient updated, Loss reduced to 2.336784601211548
+Gradient updated, Loss reduced to 2.3367843627929688
+5 trial loss: 2.3367867469787598
+10 trial loss: 2.336786985397339
+Gradient updated, Loss reduced to 2.3367841243743896
+15 trial loss: 2.3367865085601807
+20 trial loss: 2.336785078048706
+25 trial loss: 2.3367838859558105
+Gradient updated, Loss reduced to 2.3367838859558105
+0 trial loss: 2.3326094150543213
+Gradient updated, Loss reduced to 2.3326046466827393
+5 trial loss: 2.332609176635742
+10 trial loss: 2.332609176635742
+15 trial loss: 2.332608461380005
+20 trial loss: 2.3326056003570557
+25 trial loss: 2.3326075077056885
+0 trial loss: 2.335705280303955
+Gradient updated, Loss reduced to 2.3357012271881104
+5 trial loss: 2.3357045650482178
+10 trial loss: 2.3357062339782715
+15 trial loss: 2.335706949234009
+20 trial loss: 2.3357043266296387
+25 trial loss: 2.335702419281006
+0 trial loss: 2.3351588249206543
+Gradient updated, Loss reduced to 2.335155725479126
+5 trial loss: 2.335155963897705
+10 trial loss: 2.33516001701355
+Gradient updated, Loss reduced to 2.3351547718048096
+15 trial loss: 2.3351564407348633
+20 trial loss: 2.3351593017578125
+25 trial loss: 2.335160970687866
+0 trial loss: 2.34661602973938
+5 trial loss: 2.346614122390747
+10 trial loss: 2.346615791320801
+Gradient updated, Loss reduced to 2.346613883972168
+15 trial loss: 2.346616744995117
+Gradient updated, Loss reduced to 2.3466134071350098
+20 trial loss: 2.346615791320801
+Gradient updated, Loss reduced to 2.3466124534606934
+25 trial loss: 2.3466145992279053
+0 trial loss: 2.3423843383789062
+Gradient updated, Loss reduced to 2.3423843383789062
+5 trial loss: 2.3423874378204346
+10 trial loss: 2.3423848152160645
+15 trial loss: 2.342385768890381
+20 trial loss: 2.3423826694488525
+Gradient updated, Loss reduced to 2.3423826694488525
+25 trial loss: 2.3423867225646973
+0 trial loss: 2.3347482681274414
+Gradient updated, Loss reduced to 2.334747314453125
+5 trial loss: 2.3347480297088623
+Gradient updated, Loss reduced to 2.3347458839416504
+10 trial loss: 2.334750175476074
+Gradient updated, Loss reduced to 2.334744930267334
+15 trial loss: 2.3347485065460205
+20 trial loss: 2.3347487449645996
+25 trial loss: 2.3347465991973877
+0 trial loss: 2.350642681121826
+Gradient updated, Loss reduced to 2.350642681121826
+Gradient updated, Loss reduced to 2.3506410121917725
+5 trial loss: 2.3506438732147217
+10 trial loss: 2.350642442703247
+15 trial loss: 2.3506431579589844
+20 trial loss: 2.3506438732147217
+Gradient updated, Loss reduced to 2.3506388664245605
+25 trial loss: 2.3506436347961426
+0 trial loss: 2.333204507827759
+5 trial loss: 2.3332021236419678
+Gradient updated, Loss reduced to 2.3332021236419678
+10 trial loss: 2.333204507827759
+15 trial loss: 2.333207607269287
+20 trial loss: 2.333207845687866
+25 trial loss: 2.333204746246338
+0 trial loss: 2.350511074066162
+Gradient updated, Loss reduced to 2.350508689880371
+5 trial loss: 2.3505094051361084
+Gradient updated, Loss reduced to 2.350506544113159
+10 trial loss: 2.3505072593688965
+15 trial loss: 2.3505115509033203
+20 trial loss: 2.3505120277404785
+25 trial loss: 2.350512742996216
+0 trial loss: 2.333819627761841
+Gradient updated, Loss reduced to 2.333819627761841
+Gradient updated, Loss reduced to 2.3338184356689453
+Gradient updated, Loss reduced to 2.3338165283203125
+5 trial loss: 2.333817481994629
+Gradient updated, Loss reduced to 2.333815813064575
+10 trial loss: 2.3338191509246826
+15 trial loss: 2.333820343017578
+20 trial loss: 2.3338160514831543
+25 trial loss: 2.333815574645996
+Gradient updated, Loss reduced to 2.333815574645996
+0 trial loss: 2.3353097438812256
+Gradient updated, Loss reduced to 2.3353097438812256
+5 trial loss: 2.335310459136963
+Gradient updated, Loss reduced to 2.3353095054626465
+10 trial loss: 2.3353121280670166
+Gradient updated, Loss reduced to 2.335306406021118
+15 trial loss: 2.335310697555542
+20 trial loss: 2.3353099822998047
+25 trial loss: 2.3353114128112793
+0 trial loss: 2.340087652206421
+5 trial loss: 2.340085506439209
+Gradient updated, Loss reduced to 2.340085506439209
+Gradient updated, Loss reduced to 2.340083360671997
+10 trial loss: 2.3400847911834717
+15 trial loss: 2.340085029602051
+20 trial loss: 2.3400845527648926
+25 trial loss: 2.3400869369506836
+0 trial loss: 2.347231149673462
+Gradient updated, Loss reduced to 2.347231149673462
+5 trial loss: 2.3472297191619873
+Gradient updated, Loss reduced to 2.3472297191619873
+10 trial loss: 2.347231864929199
+15 trial loss: 2.3472342491149902
+20 trial loss: 2.3472328186035156
+Gradient updated, Loss reduced to 2.347229242324829
+25 trial loss: 2.3472325801849365
+0 trial loss: 2.3554039001464844
+Gradient updated, Loss reduced to 2.3554039001464844
+Gradient updated, Loss reduced to 2.355403423309326
+Gradient updated, Loss reduced to 2.355402946472168
+5 trial loss: 2.355402946472168
+Gradient updated, Loss reduced to 2.355402708053589
+10 trial loss: 2.355405330657959
+15 trial loss: 2.355402946472168
+20 trial loss: 2.355402708053589
+25 trial loss: 2.355405807495117
+Gradient updated, Loss reduced to 2.3554019927978516
+0 trial loss: 2.342958450317383
+Gradient updated, Loss reduced to 2.3429555892944336
+5 trial loss: 2.3429551124572754
+Gradient updated, Loss reduced to 2.3429551124572754
+10 trial loss: 2.342957019805908
+15 trial loss: 2.342959403991699
+20 trial loss: 2.3429551124572754
+25 trial loss: 2.3429572582244873
+0 trial loss: 2.337876081466675
+Gradient updated, Loss reduced to 2.3378686904907227
+5 trial loss: 2.3378746509552
+10 trial loss: 2.3378734588623047
+15 trial loss: 2.3378708362579346
+20 trial loss: 2.3378708362579346
+25 trial loss: 2.3378727436065674
+0 trial loss: 2.3388147354125977
+Gradient updated, Loss reduced to 2.3388123512268066
+5 trial loss: 2.3388142585754395
+Gradient updated, Loss reduced to 2.3388113975524902
+10 trial loss: 2.3388144969940186
+15 trial loss: 2.3388166427612305
+20 trial loss: 2.338813304901123
+25 trial loss: 2.3388137817382812
+0 trial loss: 2.3359858989715576
+Gradient updated, Loss reduced to 2.3359858989715576
+5 trial loss: 2.335986852645874
+10 trial loss: 2.335989236831665
+Gradient updated, Loss reduced to 2.335983991622925
+15 trial loss: 2.335987091064453
+20 trial loss: 2.335989236831665
+25 trial loss: 2.335986852645874
+0 trial loss: 2.339235544204712
+5 trial loss: 2.3392386436462402
+Gradient updated, Loss reduced to 2.339232921600342
+10 trial loss: 2.3392350673675537
+15 trial loss: 2.339236259460449
+20 trial loss: 2.339237689971924
+25 trial loss: 2.339237928390503
+0 trial loss: 2.3432435989379883
+Gradient updated, Loss reduced to 2.3432435989379883
+5 trial loss: 2.3432440757751465
+Gradient updated, Loss reduced to 2.3432424068450928
+10 trial loss: 2.343244791030884
+15 trial loss: 2.3432435989379883
+20 trial loss: 2.343243360519409
+25 trial loss: 2.3432443141937256
+0 trial loss: 2.3420989513397217
+Gradient updated, Loss reduced to 2.3420944213867188
+5 trial loss: 2.3420982360839844
+10 trial loss: 2.3420958518981934
+Gradient updated, Loss reduced to 2.3420941829681396
+15 trial loss: 2.342095375061035
+20 trial loss: 2.3420968055725098
+25 trial loss: 2.342095375061035
+0 trial loss: 2.3330392837524414
+Gradient updated, Loss reduced to 2.3330368995666504
+Gradient updated, Loss reduced to 2.333035707473755
+5 trial loss: 2.3330371379852295
+Gradient updated, Loss reduced to 2.3330349922180176
+10 trial loss: 2.333035469055176
+15 trial loss: 2.333036184310913
+20 trial loss: 2.3330366611480713
+25 trial loss: 2.3330366611480713
+0 trial loss: 2.3374481201171875
+Gradient updated, Loss reduced to 2.3374481201171875
+Gradient updated, Loss reduced to 2.337447166442871
+5 trial loss: 2.3374507427215576
+10 trial loss: 2.3374507427215576
+Gradient updated, Loss reduced to 2.337446451187134
+15 trial loss: 2.337449312210083
+20 trial loss: 2.3374481201171875
+25 trial loss: 2.3374476432800293
+0 trial loss: 2.3471555709838867
+Gradient updated, Loss reduced to 2.3471555709838867
+Gradient updated, Loss reduced to 2.3471553325653076
+5 trial loss: 2.347153902053833
+Gradient updated, Loss reduced to 2.347153902053833
+Gradient updated, Loss reduced to 2.3471531867980957
+Gradient updated, Loss reduced to 2.3471527099609375
+10 trial loss: 2.3471572399139404
+15 trial loss: 2.347156047821045
+20 trial loss: 2.3471550941467285
+25 trial loss: 2.3471555709838867
+0 trial loss: 2.331688165664673
+5 trial loss: 2.331686496734619
+Gradient updated, Loss reduced to 2.33168363571167
+10 trial loss: 2.331684112548828
+15 trial loss: 2.3316879272460938
+20 trial loss: 2.331684112548828
+Gradient updated, Loss reduced to 2.331683397293091
+25 trial loss: 2.331686496734619
+0 trial loss: 2.3230388164520264
+Gradient updated, Loss reduced to 2.3230373859405518
+Gradient updated, Loss reduced to 2.3230361938476562
+5 trial loss: 2.323040008544922
+10 trial loss: 2.3230385780334473
+15 trial loss: 2.3230366706848145
+20 trial loss: 2.3230390548706055
+25 trial loss: 2.323038339614868
+0 trial loss: 2.335278272628784
+Gradient updated, Loss reduced to 2.3352761268615723
+Gradient updated, Loss reduced to 2.3352744579315186
+5 trial loss: 2.3352749347686768
+Gradient updated, Loss reduced to 2.335273504257202
+10 trial loss: 2.3352761268615723
+15 trial loss: 2.3352737426757812
+20 trial loss: 2.3352766036987305
+25 trial loss: 2.3352749347686768
+0 trial loss: 2.3459134101867676
+Gradient updated, Loss reduced to 2.3459134101867676
+Gradient updated, Loss reduced to 2.345911741256714
+5 trial loss: 2.345914125442505
+10 trial loss: 2.3459136486053467
+15 trial loss: 2.3459136486053467
+20 trial loss: 2.3459160327911377
+25 trial loss: 2.345918893814087
+0 trial loss: 2.347172737121582
+Gradient updated, Loss reduced to 2.347172737121582
+Gradient updated, Loss reduced to 2.3471696376800537
+5 trial loss: 2.3471736907958984
+10 trial loss: 2.3471732139587402
+Gradient updated, Loss reduced to 2.3471691608428955
+15 trial loss: 2.347172737121582
+20 trial loss: 2.3471736907958984
+25 trial loss: 2.3471710681915283
+0 trial loss: 2.338784694671631
+Gradient updated, Loss reduced to 2.338784694671631
+Gradient updated, Loss reduced to 2.3387835025787354
+Gradient updated, Loss reduced to 2.3387832641601562
+5 trial loss: 2.3387861251831055
+10 trial loss: 2.33878755569458
+15 trial loss: 2.3387880325317383
+20 trial loss: 2.3387868404388428
+Gradient updated, Loss reduced to 2.338782548904419
+25 trial loss: 2.3387868404388428
+0 trial loss: 2.3508951663970947
+Gradient updated, Loss reduced to 2.3508925437927246
+5 trial loss: 2.3508925437927246
+Gradient updated, Loss reduced to 2.3508918285369873
+10 trial loss: 2.3508942127227783
+Gradient updated, Loss reduced to 2.3508899211883545
+15 trial loss: 2.3508944511413574
+20 trial loss: 2.350893020629883
+25 trial loss: 2.3508944511413574
+0 trial loss: 2.3354122638702393
+Gradient updated, Loss reduced to 2.335411548614502
+5 trial loss: 2.335411787033081
+10 trial loss: 2.3354127407073975
+Gradient updated, Loss reduced to 2.3354108333587646
+15 trial loss: 2.3354108333587646
+20 trial loss: 2.3354129791259766
+25 trial loss: 2.335411787033081
+0 trial loss: 2.3327796459198
+Gradient updated, Loss reduced to 2.3327786922454834
+5 trial loss: 2.332780122756958
+10 trial loss: 2.33278226852417
+15 trial loss: 2.332784652709961
+20 trial loss: 2.332780122756958
+Gradient updated, Loss reduced to 2.332777738571167
+Gradient updated, Loss reduced to 2.332777261734009
+25 trial loss: 2.332777261734009
+0 trial loss: 2.333488941192627
+Gradient updated, Loss reduced to 2.333488941192627
+Gradient updated, Loss reduced to 2.3334786891937256
+Gradient updated, Loss reduced to 2.333474636077881
+5 trial loss: 2.333475112915039
+10 trial loss: 2.3334808349609375
+Gradient updated, Loss reduced to 2.3334691524505615
+15 trial loss: 2.333484411239624
+Gradient updated, Loss reduced to 2.333465099334717
+20 trial loss: 2.333481788635254
+25 trial loss: 2.3334782123565674
+0 trial loss: 2.3441343307495117
+5 trial loss: 2.3441314697265625
+Gradient updated, Loss reduced to 2.3441314697265625
+Gradient updated, Loss reduced to 2.3441312313079834
+10 trial loss: 2.344135284423828
+15 trial loss: 2.3441336154937744
+20 trial loss: 2.3441314697265625
+25 trial loss: 2.344132423400879
+0 trial loss: 2.3381807804107666
+Gradient updated, Loss reduced to 2.3381760120391846
+5 trial loss: 2.3381781578063965
+10 trial loss: 2.338181257247925
+15 trial loss: 2.338177442550659
+20 trial loss: 2.33817720413208
+25 trial loss: 2.3381807804107666
+0 trial loss: 2.359042167663574
+Gradient updated, Loss reduced to 2.3590409755706787
+5 trial loss: 2.3590404987335205
+Gradient updated, Loss reduced to 2.3590404987335205
+10 trial loss: 2.359039306640625
+Gradient updated, Loss reduced to 2.359039306640625
+Gradient updated, Loss reduced to 2.3590376377105713
+15 trial loss: 2.3590426445007324
+20 trial loss: 2.359042167663574
+Gradient updated, Loss reduced to 2.359036922454834
+25 trial loss: 2.359041690826416
+0 trial loss: 2.350266218185425
+Gradient updated, Loss reduced to 2.350266218185425
+Gradient updated, Loss reduced to 2.350264549255371
+5 trial loss: 2.3502655029296875
+10 trial loss: 2.350266456604004
+15 trial loss: 2.350266218185425
+20 trial loss: 2.35026478767395
+25 trial loss: 2.350269317626953
+0 trial loss: 2.3454091548919678
+5 trial loss: 2.3454089164733887
+10 trial loss: 2.345411539077759
+Gradient updated, Loss reduced to 2.345407724380493
+15 trial loss: 2.345412254333496
+20 trial loss: 2.345412492752075
+25 trial loss: 2.3454108238220215
+0 trial loss: 2.3488874435424805
+5 trial loss: 2.3488893508911133
+Gradient updated, Loss reduced to 2.348886013031006
+10 trial loss: 2.3488876819610596
+Gradient updated, Loss reduced to 2.3488845825195312
+15 trial loss: 2.3488900661468506
+20 trial loss: 2.348886489868164
+25 trial loss: 2.3488881587982178
+0 trial loss: 2.322664499282837
+Gradient updated, Loss reduced to 2.3226633071899414
+5 trial loss: 2.3226635456085205
+Gradient updated, Loss reduced to 2.322662830352783
+10 trial loss: 2.322666883468628
+15 trial loss: 2.322662353515625
+Gradient updated, Loss reduced to 2.322662353515625
+Gradient updated, Loss reduced to 2.3226613998413086
+20 trial loss: 2.3226633071899414
+25 trial loss: 2.3226635456085205
+Gradient updated, Loss reduced to 2.3226611614227295
+0 trial loss: 2.3631489276885986
+Gradient updated, Loss reduced to 2.3631489276885986
+Gradient updated, Loss reduced to 2.3631484508514404
+5 trial loss: 2.3631534576416016
+10 trial loss: 2.363152503967285
+15 trial loss: 2.363149404525757
+20 trial loss: 2.3631513118743896
+25 trial loss: 2.3631489276885986
+0 trial loss: 2.3501217365264893
+Gradient updated, Loss reduced to 2.3501200675964355
+Gradient updated, Loss reduced to 2.350118398666382
+5 trial loss: 2.3501179218292236
+Gradient updated, Loss reduced to 2.3501179218292236
+Gradient updated, Loss reduced to 2.3501172065734863
+10 trial loss: 2.350118637084961
+15 trial loss: 2.3501219749450684
+20 trial loss: 2.35012149810791
+25 trial loss: 2.3501200675964355
+0 trial loss: 2.353579521179199
+Gradient updated, Loss reduced to 2.353579521179199
+5 trial loss: 2.3535804748535156
+10 trial loss: 2.3535799980163574
+Gradient updated, Loss reduced to 2.3535783290863037
+15 trial loss: 2.3535797595977783
+20 trial loss: 2.3535783290863037
+Gradient updated, Loss reduced to 2.3535773754119873
+25 trial loss: 2.353580951690674
+0 trial loss: 2.33528995513916
+Gradient updated, Loss reduced to 2.335289716720581
+5 trial loss: 2.3352909088134766
+Gradient updated, Loss reduced to 2.335289478302002
+10 trial loss: 2.33528995513916
+Gradient updated, Loss reduced to 2.3352885246276855
+Gradient updated, Loss reduced to 2.3352880477905273
+15 trial loss: 2.335289478302002
+Gradient updated, Loss reduced to 2.3352863788604736
+20 trial loss: 2.3352909088134766
+25 trial loss: 2.335289478302002
+0 trial loss: 2.3410937786102295
+Gradient updated, Loss reduced to 2.341093063354492
+Gradient updated, Loss reduced to 2.341092824935913
+Gradient updated, Loss reduced to 2.341092348098755
+5 trial loss: 2.341092824935913
+10 trial loss: 2.341093063354492
+Gradient updated, Loss reduced to 2.3410916328430176
+15 trial loss: 2.341092348098755
+Gradient updated, Loss reduced to 2.3410911560058594
+20 trial loss: 2.3410894870758057
+Gradient updated, Loss reduced to 2.3410894870758057
+25 trial loss: 2.341092824935913
+0 trial loss: 2.342256784439087
+Gradient updated, Loss reduced to 2.342256784439087
+5 trial loss: 2.3422577381134033
+10 trial loss: 2.3422555923461914
+Gradient updated, Loss reduced to 2.3422555923461914
+15 trial loss: 2.342259168624878
+20 trial loss: 2.342254400253296
+Gradient updated, Loss reduced to 2.342254400253296
+25 trial loss: 2.3422586917877197
+0 trial loss: 2.3469882011413574
+Gradient updated, Loss reduced to 2.3469882011413574
+Gradient updated, Loss reduced to 2.3469858169555664
+Gradient updated, Loss reduced to 2.346982717514038
+5 trial loss: 2.3469886779785156
+10 trial loss: 2.3469882011413574
+15 trial loss: 2.3469903469085693
+20 trial loss: 2.3469865322113037
+25 trial loss: 2.3469879627227783
+0 trial loss: 2.3551816940307617
+Gradient updated, Loss reduced to 2.3551816940307617
+Gradient updated, Loss reduced to 2.355180025100708
+5 trial loss: 2.3551809787750244
+Gradient updated, Loss reduced to 2.355178117752075
+Gradient updated, Loss reduced to 2.3551769256591797
+10 trial loss: 2.3551809787750244
+15 trial loss: 2.35517954826355
+20 trial loss: 2.3551812171936035
+25 trial loss: 2.3551793098449707
+0 trial loss: 2.3444743156433105
+Gradient updated, Loss reduced to 2.3444743156433105
+5 trial loss: 2.3444740772247314
+Gradient updated, Loss reduced to 2.3444740772247314
+Gradient updated, Loss reduced to 2.3444721698760986
+10 trial loss: 2.344478130340576
+15 trial loss: 2.344475030899048
+20 trial loss: 2.344473361968994
+25 trial loss: 2.344475030899048
+0 trial loss: 2.339442253112793
+5 trial loss: 2.3394439220428467
+Gradient updated, Loss reduced to 2.339439630508423
+10 trial loss: 2.3394439220428467
+15 trial loss: 2.3394412994384766
+Gradient updated, Loss reduced to 2.3394393920898438
+20 trial loss: 2.339442014694214
+25 trial loss: 2.3394434452056885
+0 trial loss: 2.355149030685425
+Gradient updated, Loss reduced to 2.355149030685425
+Gradient updated, Loss reduced to 2.3551480770111084
+Gradient updated, Loss reduced to 2.355147361755371
+5 trial loss: 2.355149269104004
+10 trial loss: 2.355152130126953
+15 trial loss: 2.3551506996154785
+20 trial loss: 2.355151414871216
+25 trial loss: 2.3551506996154785
+0 trial loss: 2.347830295562744
+5 trial loss: 2.3478329181671143
+Gradient updated, Loss reduced to 2.347827196121216
+10 trial loss: 2.347829580307007
+15 trial loss: 2.3478283882141113
+20 trial loss: 2.347829818725586
+25 trial loss: 2.3478291034698486
+0 trial loss: 2.359928846359253
+Gradient updated, Loss reduced to 2.359928846359253
+5 trial loss: 2.359930992126465
+10 trial loss: 2.359929084777832
+Gradient updated, Loss reduced to 2.3599281311035156
+Gradient updated, Loss reduced to 2.3599259853363037
+15 trial loss: 2.359928607940674
+20 trial loss: 2.359928607940674
+25 trial loss: 2.3599300384521484
+0 trial loss: 2.33276104927063
+5 trial loss: 2.332756519317627
+Gradient updated, Loss reduced to 2.332756519317627
+10 trial loss: 2.332758903503418
+Gradient updated, Loss reduced to 2.332756280899048
+15 trial loss: 2.3327596187591553
+20 trial loss: 2.3327605724334717
+25 trial loss: 2.3327620029449463
+Gradient updated, Loss reduced to 2.3327560424804688
+0 trial loss: 2.356187343597412
+Gradient updated, Loss reduced to 2.356187343597412
+Gradient updated, Loss reduced to 2.3561863899230957
+5 trial loss: 2.3561885356903076
+10 trial loss: 2.356189250946045
+15 trial loss: 2.3561906814575195
+20 trial loss: 2.356187105178833
+25 trial loss: 2.3561887741088867
+0 trial loss: 2.340418815612793
+5 trial loss: 2.3404176235198975
+10 trial loss: 2.340419054031372
+15 trial loss: 2.340420722961426
+20 trial loss: 2.3404150009155273
+25 trial loss: 2.3404173851013184
+0 trial loss: 2.345564365386963
+Gradient updated, Loss reduced to 2.345564365386963
+5 trial loss: 2.345564842224121
+Gradient updated, Loss reduced to 2.3455629348754883
+10 trial loss: 2.345564603805542
+Gradient updated, Loss reduced to 2.345560073852539
+15 trial loss: 2.3455631732940674
+20 trial loss: 2.345566749572754
+25 trial loss: 2.345564365386963
+0 trial loss: 2.3468692302703857
+Gradient updated, Loss reduced to 2.3468692302703857
+5 trial loss: 2.346872329711914
+10 trial loss: 2.3468687534332275
+Gradient updated, Loss reduced to 2.3468687534332275
+Gradient updated, Loss reduced to 2.346867084503174
+15 trial loss: 2.346869707107544
+20 trial loss: 2.346869468688965
+25 trial loss: 2.346869707107544
+0 trial loss: 2.3507728576660156
+Gradient updated, Loss reduced to 2.350770950317383
+5 trial loss: 2.3507730960845947
+Gradient updated, Loss reduced to 2.3507699966430664
+10 trial loss: 2.3507704734802246
+Gradient updated, Loss reduced to 2.350769281387329
+15 trial loss: 2.350771903991699
+20 trial loss: 2.350773334503174
+25 trial loss: 2.3507728576660156
+0 trial loss: 2.334062099456787
+Gradient updated, Loss reduced to 2.334062099456787
+Gradient updated, Loss reduced to 2.334061861038208
+Gradient updated, Loss reduced to 2.3340580463409424
+5 trial loss: 2.33406400680542
+10 trial loss: 2.334061622619629
+15 trial loss: 2.3340647220611572
+20 trial loss: 2.334061861038208
+25 trial loss: 2.33406138420105
+0 trial loss: 2.344080686569214
+Gradient updated, Loss reduced to 2.344080686569214
+Gradient updated, Loss reduced to 2.344078540802002
+5 trial loss: 2.3440823554992676
+10 trial loss: 2.344083786010742
+15 trial loss: 2.3440818786621094
+20 trial loss: 2.3440797328948975
+25 trial loss: 2.344080924987793
+0 trial loss: 2.349757194519043
+Gradient updated, Loss reduced to 2.349757194519043
+5 trial loss: 2.349759101867676
+Gradient updated, Loss reduced to 2.3497560024261475
+10 trial loss: 2.3497588634490967
+Gradient updated, Loss reduced to 2.3497557640075684
+15 trial loss: 2.3497567176818848
+Gradient updated, Loss reduced to 2.3497555255889893
+20 trial loss: 2.3497602939605713
+Gradient updated, Loss reduced to 2.34975528717041
+25 trial loss: 2.3497607707977295
+0 trial loss: 2.3440260887145996
+5 trial loss: 2.344026803970337
+10 trial loss: 2.3440263271331787
+Gradient updated, Loss reduced to 2.344022750854492
+15 trial loss: 2.344024896621704
+20 trial loss: 2.344024181365967
+25 trial loss: 2.344024419784546
+0 trial loss: 2.3463923931121826
+Gradient updated, Loss reduced to 2.3463923931121826
+5 trial loss: 2.3463940620422363
+10 trial loss: 2.3463964462280273
+Gradient updated, Loss reduced to 2.3463916778564453
+15 trial loss: 2.3463947772979736
+20 trial loss: 2.3463921546936035
+25 trial loss: 2.346395492553711
+0 trial loss: 2.354163408279419
+Gradient updated, Loss reduced to 2.3541595935821533
+5 trial loss: 2.3541595935821533
+10 trial loss: 2.3541619777679443
+Gradient updated, Loss reduced to 2.354159116744995
+15 trial loss: 2.354161262512207
+20 trial loss: 2.354158878326416
+Gradient updated, Loss reduced to 2.354158878326416
+25 trial loss: 2.3541629314422607
+0 trial loss: 2.350992202758789
+Gradient updated, Loss reduced to 2.3509907722473145
+Gradient updated, Loss reduced to 2.3509905338287354
+5 trial loss: 2.3509936332702637
+Gradient updated, Loss reduced to 2.3509886264801025
+10 trial loss: 2.3509879112243652
+Gradient updated, Loss reduced to 2.3509879112243652
+15 trial loss: 2.3509931564331055
+20 trial loss: 2.350992441177368
+25 trial loss: 2.3509914875030518
+0 trial loss: 2.3353824615478516
+Gradient updated, Loss reduced to 2.335378408432007
+5 trial loss: 2.3353846073150635
+10 trial loss: 2.3353817462921143
+15 trial loss: 2.335383892059326
+20 trial loss: 2.3353805541992188
+25 trial loss: 2.335380792617798
+0 trial loss: 2.339146375656128
+Gradient updated, Loss reduced to 2.339146375656128
+Gradient updated, Loss reduced to 2.339146137237549
+5 trial loss: 2.3391480445861816
+10 trial loss: 2.3391475677490234
+Gradient updated, Loss reduced to 2.3391454219818115
+15 trial loss: 2.339146852493286
+20 trial loss: 2.3391478061676025
+25 trial loss: 2.3391478061676025
+Gradient updated, Loss reduced to 2.3391451835632324
+0 trial loss: 2.3334691524505615
+Gradient updated, Loss reduced to 2.333467483520508
+5 trial loss: 2.333468437194824
+10 trial loss: 2.333468437194824
+Gradient updated, Loss reduced to 2.3334662914276123
+15 trial loss: 2.333465814590454
+Gradient updated, Loss reduced to 2.333465814590454
+20 trial loss: 2.3334689140319824
+25 trial loss: 2.3334691524505615
+0 trial loss: 2.3476555347442627
+Gradient updated, Loss reduced to 2.347653865814209
+Gradient updated, Loss reduced to 2.3476531505584717
+5 trial loss: 2.3476555347442627
+10 trial loss: 2.347655773162842
+15 trial loss: 2.3476526737213135
+Gradient updated, Loss reduced to 2.3476526737213135
+Gradient updated, Loss reduced to 2.347651243209839
+20 trial loss: 2.3476545810699463
+25 trial loss: 2.347656726837158
+0 trial loss: 2.336749792098999
+5 trial loss: 2.336750030517578
+Gradient updated, Loss reduced to 2.336747884750366
+10 trial loss: 2.336747646331787
+Gradient updated, Loss reduced to 2.336747646331787
+15 trial loss: 2.336747884750366
+Gradient updated, Loss reduced to 2.336745500564575
+20 trial loss: 2.3367505073547363
+25 trial loss: 2.3367490768432617
+0 trial loss: 2.3396341800689697
+Gradient updated, Loss reduced to 2.3396341800689697
+Gradient updated, Loss reduced to 2.3396334648132324
+5 trial loss: 2.3396358489990234
+10 trial loss: 2.339634656906128
+15 trial loss: 2.339632749557495
+Gradient updated, Loss reduced to 2.339632749557495
+20 trial loss: 2.3396365642547607
+25 trial loss: 2.339637517929077
+0 trial loss: 2.3326501846313477
+Gradient updated, Loss reduced to 2.332648754119873
+Gradient updated, Loss reduced to 2.332648515701294
+5 trial loss: 2.3326516151428223
+10 trial loss: 2.332650899887085
+15 trial loss: 2.3326492309570312
+Gradient updated, Loss reduced to 2.3326473236083984
+20 trial loss: 2.3326528072357178
+25 trial loss: 2.332650661468506
+Gradient updated, Loss reduced to 2.3326470851898193
+0 trial loss: 2.3504247665405273
+Gradient updated, Loss reduced to 2.3504207134246826
+5 trial loss: 2.350423574447632
+10 trial loss: 2.350421905517578
+15 trial loss: 2.3504230976104736
+20 trial loss: 2.3504230976104736
+25 trial loss: 2.3504199981689453
+Gradient updated, Loss reduced to 2.3504199981689453
+0 trial loss: 2.341949224472046
+Gradient updated, Loss reduced to 2.3419435024261475
+5 trial loss: 2.341944456100464
+10 trial loss: 2.341947555541992
+15 trial loss: 2.3419432640075684
+Gradient updated, Loss reduced to 2.3419432640075684
+20 trial loss: 2.341945171356201
+25 trial loss: 2.3419487476348877
+0 trial loss: 2.3497414588928223
+Gradient updated, Loss reduced to 2.3497414588928223
+Gradient updated, Loss reduced to 2.349738597869873
+5 trial loss: 2.3497395515441895
+10 trial loss: 2.349740743637085
+15 trial loss: 2.3497393131256104
+Gradient updated, Loss reduced to 2.3497374057769775
+20 trial loss: 2.349738359451294
+25 trial loss: 2.3497366905212402
+Gradient updated, Loss reduced to 2.3497366905212402
+0 trial loss: 2.3482744693756104
+Gradient updated, Loss reduced to 2.3482744693756104
+Gradient updated, Loss reduced to 2.348273754119873
+Gradient updated, Loss reduced to 2.348273515701294
+5 trial loss: 2.3482730388641357
+Gradient updated, Loss reduced to 2.3482730388641357
+Gradient updated, Loss reduced to 2.3482720851898193
+10 trial loss: 2.348273992538452
+15 trial loss: 2.348275899887085
+20 trial loss: 2.3482706546783447
+Gradient updated, Loss reduced to 2.3482706546783447
+25 trial loss: 2.3482747077941895
+0 trial loss: 2.3608460426330566
+Gradient updated, Loss reduced to 2.3608460426330566
+Gradient updated, Loss reduced to 2.3608455657958984
+Gradient updated, Loss reduced to 2.3608453273773193
+5 trial loss: 2.3608460426330566
+Gradient updated, Loss reduced to 2.360844135284424
+10 trial loss: 2.360847234725952
+15 trial loss: 2.360846757888794
+20 trial loss: 2.3608462810516357
+25 trial loss: 2.3608508110046387
+0 trial loss: 2.3550052642822266
+Gradient updated, Loss reduced to 2.3550052642822266
+Gradient updated, Loss reduced to 2.355003595352173
+Gradient updated, Loss reduced to 2.3550033569335938
+5 trial loss: 2.355006694793701
+10 trial loss: 2.3550071716308594
+15 trial loss: 2.3550024032592773
+Gradient updated, Loss reduced to 2.3550024032592773
+20 trial loss: 2.355003595352173
+25 trial loss: 2.3550050258636475
+Gradient updated, Loss reduced to 2.355001926422119
+0 trial loss: 2.3340201377868652
+Gradient updated, Loss reduced to 2.3340201377868652
+Gradient updated, Loss reduced to 2.334019899368286
+Gradient updated, Loss reduced to 2.334019422531128
+Gradient updated, Loss reduced to 2.3340184688568115
+5 trial loss: 2.3340189456939697
+Gradient updated, Loss reduced to 2.3340182304382324
+10 trial loss: 2.3340182304382324
+15 trial loss: 2.334019184112549
+20 trial loss: 2.334017753601074
+Gradient updated, Loss reduced to 2.334017753601074
+25 trial loss: 2.334016799926758
+Gradient updated, Loss reduced to 2.334016799926758
+0 trial loss: 2.341773748397827
+Gradient updated, Loss reduced to 2.341773748397827
+5 trial loss: 2.3417775630950928
+Gradient updated, Loss reduced to 2.3417725563049316
+10 trial loss: 2.3417673110961914
+Gradient updated, Loss reduced to 2.3417673110961914
+Gradient updated, Loss reduced to 2.341758966445923
+15 trial loss: 2.341790199279785
+20 trial loss: 2.3417766094207764
+25 trial loss: 2.3417789936065674
+0 trial loss: 2.3332269191741943
+Gradient updated, Loss reduced to 2.3332269191741943
+5 trial loss: 2.333230495452881
+10 trial loss: 2.3332297801971436
+Gradient updated, Loss reduced to 2.3332266807556152
+15 trial loss: 2.3332300186157227
+20 trial loss: 2.33322811126709
+25 trial loss: 2.3332316875457764
+0 trial loss: 2.350851058959961
+Gradient updated, Loss reduced to 2.350851058959961
+Gradient updated, Loss reduced to 2.3508501052856445
+Gradient updated, Loss reduced to 2.3508474826812744
+Gradient updated, Loss reduced to 2.350846529006958
+5 trial loss: 2.350851058959961
+10 trial loss: 2.3508501052856445
+15 trial loss: 2.350848436355591
+20 trial loss: 2.3508496284484863
+Gradient updated, Loss reduced to 2.3508458137512207
+25 trial loss: 2.350846767425537
+0 trial loss: 2.3471364974975586
+Gradient updated, Loss reduced to 2.347134590148926
+5 trial loss: 2.347137212753296
+Gradient updated, Loss reduced to 2.3471333980560303
+10 trial loss: 2.3471341133117676
+15 trial loss: 2.347137689590454
+Gradient updated, Loss reduced to 2.347133159637451
+20 trial loss: 2.3471364974975586
+25 trial loss: 2.3471338748931885
+0 trial loss: 2.3610424995422363
+Gradient updated, Loss reduced to 2.3610424995422363
+Gradient updated, Loss reduced to 2.36104154586792
+Gradient updated, Loss reduced to 2.361041307449341
+5 trial loss: 2.361042022705078
+10 trial loss: 2.3610408306121826
+Gradient updated, Loss reduced to 2.3610408306121826
+Gradient updated, Loss reduced to 2.361039161682129
+15 trial loss: 2.361042022705078
+20 trial loss: 2.3610446453094482
+25 trial loss: 2.3610403537750244
+0 trial loss: 2.3602020740509033
+Gradient updated, Loss reduced to 2.3602020740509033
+Gradient updated, Loss reduced to 2.3601999282836914
+5 trial loss: 2.360201120376587
+Gradient updated, Loss reduced to 2.360199451446533
+10 trial loss: 2.360201597213745
+Gradient updated, Loss reduced to 2.3601956367492676
+15 trial loss: 2.3602001667022705
+20 trial loss: 2.360203742980957
+25 trial loss: 2.360201835632324
+0 trial loss: 2.3510212898254395
+Gradient updated, Loss reduced to 2.3510191440582275
+5 trial loss: 2.3510212898254395
+10 trial loss: 2.351020336151123
+15 trial loss: 2.351022481918335
+20 trial loss: 2.3510208129882812
+25 trial loss: 2.3510236740112305
+0 trial loss: 2.3395450115203857
+Gradient updated, Loss reduced to 2.3395426273345947
+Gradient updated, Loss reduced to 2.3395423889160156
+Gradient updated, Loss reduced to 2.33954119682312
+5 trial loss: 2.339542865753174
+10 trial loss: 2.339543342590332
+15 trial loss: 2.3395419120788574
+20 trial loss: 2.339538812637329
+Gradient updated, Loss reduced to 2.339538812637329
+25 trial loss: 2.339543104171753
+0 trial loss: 2.3442928791046143
+Gradient updated, Loss reduced to 2.3442928791046143
+Gradient updated, Loss reduced to 2.344291925430298
+5 trial loss: 2.3442916870117188
+Gradient updated, Loss reduced to 2.3442916870117188
+Gradient updated, Loss reduced to 2.3442914485931396
+Gradient updated, Loss reduced to 2.3442893028259277
+10 trial loss: 2.344294548034668
+15 trial loss: 2.344295024871826
+20 trial loss: 2.344292640686035
+25 trial loss: 2.3442938327789307
+0 trial loss: 2.346362352371216
+Gradient updated, Loss reduced to 2.3463587760925293
+Gradient updated, Loss reduced to 2.34635853767395
+5 trial loss: 2.3463594913482666
+Gradient updated, Loss reduced to 2.3463573455810547
+10 trial loss: 2.3463618755340576
+15 trial loss: 2.346357822418213
+Gradient updated, Loss reduced to 2.3463563919067383
+20 trial loss: 2.3463597297668457
+25 trial loss: 2.3463611602783203
+0 trial loss: 2.339900493621826
+Gradient updated, Loss reduced to 2.339900493621826
+Gradient updated, Loss reduced to 2.3398959636688232
+5 trial loss: 2.3398983478546143
+10 trial loss: 2.3399009704589844
+15 trial loss: 2.3399012088775635
+20 trial loss: 2.3398990631103516
+25 trial loss: 2.339900016784668
+0 trial loss: 2.353158950805664
+Gradient updated, Loss reduced to 2.353158950805664
+5 trial loss: 2.3531594276428223
+10 trial loss: 2.3531625270843506
+15 trial loss: 2.353158712387085
+Gradient updated, Loss reduced to 2.353158712387085
+20 trial loss: 2.3531572818756104
+Gradient updated, Loss reduced to 2.3531572818756104
+25 trial loss: 2.353158712387085
+0 trial loss: 2.349426507949829
+Gradient updated, Loss reduced to 2.349421501159668
+5 trial loss: 2.349426031112671
+Gradient updated, Loss reduced to 2.3494200706481934
+10 trial loss: 2.3494246006011963
+15 trial loss: 2.349426031112671
+20 trial loss: 2.3494253158569336
+25 trial loss: 2.349423408508301
+0 trial loss: 2.3515267372131348
+Gradient updated, Loss reduced to 2.3515267372131348
+5 trial loss: 2.3515307903289795
+10 trial loss: 2.351531505584717
+15 trial loss: 2.3515305519104004
+20 trial loss: 2.351526975631714
+25 trial loss: 2.3515264987945557
+Gradient updated, Loss reduced to 2.3515264987945557
+0 trial loss: 2.3623857498168945
+Gradient updated, Loss reduced to 2.3623836040496826
+5 trial loss: 2.3623876571655273
+10 trial loss: 2.3623859882354736
+Gradient updated, Loss reduced to 2.3623831272125244
+15 trial loss: 2.3623859882354736
+20 trial loss: 2.3623838424682617
+Gradient updated, Loss reduced to 2.362382411956787
+25 trial loss: 2.3623862266540527
+0 trial loss: 2.3524317741394043
+Gradient updated, Loss reduced to 2.3524317741394043
+5 trial loss: 2.352433681488037
+10 trial loss: 2.3524341583251953
+15 trial loss: 2.3524329662323
+Gradient updated, Loss reduced to 2.352431297302246
+20 trial loss: 2.352430820465088
+Gradient updated, Loss reduced to 2.352430820465088
+25 trial loss: 2.352435350418091
+0 trial loss: 2.3550260066986084
+Gradient updated, Loss reduced to 2.35502290725708
+5 trial loss: 2.3550240993499756
+Gradient updated, Loss reduced to 2.3550217151641846
+10 trial loss: 2.3550262451171875
+15 trial loss: 2.3550260066986084
+Gradient updated, Loss reduced to 2.355020761489868
+20 trial loss: 2.3550233840942383
+25 trial loss: 2.3550243377685547
+0 trial loss: 2.370403528213501
+Gradient updated, Loss reduced to 2.370403528213501
+Gradient updated, Loss reduced to 2.3704018592834473
+Gradient updated, Loss reduced to 2.370401382446289
+5 trial loss: 2.3704042434692383
+Gradient updated, Loss reduced to 2.370400905609131
+10 trial loss: 2.370403528213501
+15 trial loss: 2.3704028129577637
+20 trial loss: 2.3704068660736084
+Gradient updated, Loss reduced to 2.3703997135162354
+25 trial loss: 2.3704049587249756
+0 trial loss: 2.367060899734497
+5 trial loss: 2.367058038711548
+10 trial loss: 2.367056369781494
+15 trial loss: 2.367058277130127
+20 trial loss: 2.367056131362915
+Gradient updated, Loss reduced to 2.367055892944336
+25 trial loss: 2.3670594692230225
+0 trial loss: 2.35054612159729
+Gradient updated, Loss reduced to 2.3505451679229736
+5 trial loss: 2.35054612159729
+10 trial loss: 2.3505489826202393
+15 trial loss: 2.3505468368530273
+Gradient updated, Loss reduced to 2.350543260574341
+20 trial loss: 2.3505499362945557
+25 trial loss: 2.3505470752716064
+0 trial loss: 2.352141857147217
+Gradient updated, Loss reduced to 2.352137327194214
+5 trial loss: 2.352140426635742
+10 trial loss: 2.352138042449951
+15 trial loss: 2.352139949798584
+20 trial loss: 2.352141857147217
+25 trial loss: 2.352137804031372
+0 trial loss: 2.3531625270843506
+Gradient updated, Loss reduced to 2.353159189224243
+5 trial loss: 2.3531618118286133
+10 trial loss: 2.3531651496887207
+15 trial loss: 2.353165626525879
+20 trial loss: 2.3531627655029297
+25 trial loss: 2.3531622886657715
+0 trial loss: 2.351893186569214
+5 trial loss: 2.3518919944763184
+Gradient updated, Loss reduced to 2.3518893718719482
+10 trial loss: 2.3518903255462646
+Gradient updated, Loss reduced to 2.3518874645233154
+15 trial loss: 2.351890802383423
+20 trial loss: 2.3518922328948975
+25 trial loss: 2.3518893718719482
+0 trial loss: 2.344219207763672
+Gradient updated, Loss reduced to 2.344219207763672
+Gradient updated, Loss reduced to 2.3442184925079346
+Gradient updated, Loss reduced to 2.34421706199646
+5 trial loss: 2.34421968460083
+10 trial loss: 2.3442177772521973
+Gradient updated, Loss reduced to 2.3442156314849854
+15 trial loss: 2.344217300415039
+20 trial loss: 2.3442189693450928
+25 trial loss: 2.344223737716675
+0 trial loss: 2.3483455181121826
+Gradient updated, Loss reduced to 2.3483426570892334
+5 trial loss: 2.3483455181121826
+Gradient updated, Loss reduced to 2.348341703414917
+10 trial loss: 2.3483457565307617
+15 trial loss: 2.3483424186706543
+Gradient updated, Loss reduced to 2.3483383655548096
+20 trial loss: 2.3483450412750244
+25 trial loss: 2.348348617553711
+0 trial loss: 2.374140977859497
+5 trial loss: 2.3741400241851807
+10 trial loss: 2.374138832092285
+15 trial loss: 2.374140501022339
+20 trial loss: 2.374140977859497
+25 trial loss: 2.374141216278076
+Gradient updated, Loss reduced to 2.374135732650757
+0 trial loss: 2.3487629890441895
+Gradient updated, Loss reduced to 2.348759889602661
+Gradient updated, Loss reduced to 2.348759174346924
+5 trial loss: 2.348761796951294
+10 trial loss: 2.3487625122070312
+15 trial loss: 2.3487606048583984
+20 trial loss: 2.3487634658813477
+25 trial loss: 2.3487610816955566
+0 trial loss: 2.3551557064056396
+Gradient updated, Loss reduced to 2.3551557064056396
+Gradient updated, Loss reduced to 2.3551552295684814
+5 trial loss: 2.355156183242798
+Gradient updated, Loss reduced to 2.355153799057007
+10 trial loss: 2.355158805847168
+15 trial loss: 2.3551571369171143
+20 trial loss: 2.3551547527313232
+25 trial loss: 2.355156898498535
+0 trial loss: 2.3335886001586914
+Gradient updated, Loss reduced to 2.333585262298584
+5 trial loss: 2.3335862159729004
+Gradient updated, Loss reduced to 2.333582639694214
+10 trial loss: 2.3335893154144287
+15 trial loss: 2.333587169647217
+20 trial loss: 2.333584785461426
+25 trial loss: 2.3335886001586914
+0 trial loss: 2.3476080894470215
+Gradient updated, Loss reduced to 2.3476080894470215
+Gradient updated, Loss reduced to 2.3476059436798096
+Gradient updated, Loss reduced to 2.3476057052612305
+5 trial loss: 2.3476099967956543
+Gradient updated, Loss reduced to 2.3476052284240723
+10 trial loss: 2.347606658935547
+15 trial loss: 2.347608804702759
+20 trial loss: 2.347604990005493
+Gradient updated, Loss reduced to 2.347604990005493
+Gradient updated, Loss reduced to 2.347604274749756
+25 trial loss: 2.347607374191284
+Gradient updated, Loss reduced to 2.3476037979125977
+0 trial loss: 2.347409248352051
+Gradient updated, Loss reduced to 2.347409248352051
+Gradient updated, Loss reduced to 2.3474059104919434
+5 trial loss: 2.3474087715148926
+10 trial loss: 2.347409963607788
+15 trial loss: 2.3474063873291016
+Gradient updated, Loss reduced to 2.3474044799804688
+20 trial loss: 2.347407579421997
+25 trial loss: 2.347409248352051
+0 trial loss: 2.3491504192352295
+5 trial loss: 2.349153757095337
+10 trial loss: 2.3491525650024414
+15 trial loss: 2.3491506576538086
+Gradient updated, Loss reduced to 2.349146842956543
+20 trial loss: 2.349152088165283
+25 trial loss: 2.3491501808166504
+0 trial loss: 2.34329891204834
+Gradient updated, Loss reduced to 2.34329891204834
+Gradient updated, Loss reduced to 2.343297243118286
+Gradient updated, Loss reduced to 2.343296527862549
+5 trial loss: 2.3432955741882324
+Gradient updated, Loss reduced to 2.3432955741882324
+10 trial loss: 2.3433010578155518
+15 trial loss: 2.343296766281128
+20 trial loss: 2.343299388885498
+25 trial loss: 2.3432979583740234
+Gradient updated, Loss reduced to 2.343294858932495
+0 trial loss: 2.32553768157959
+Gradient updated, Loss reduced to 2.32553768157959
+Gradient updated, Loss reduced to 2.3255369663238525
+5 trial loss: 2.325538158416748
+10 trial loss: 2.3255391120910645
+15 trial loss: 2.325540542602539
+20 trial loss: 2.3255398273468018
+25 trial loss: 2.3255410194396973
+0 trial loss: 2.3621084690093994
+Gradient updated, Loss reduced to 2.3621058464050293
+5 trial loss: 2.362109661102295
+Gradient updated, Loss reduced to 2.36210560798645
+Gradient updated, Loss reduced to 2.3621041774749756
+10 trial loss: 2.362105369567871
+15 trial loss: 2.362107753753662
+20 trial loss: 2.3621060848236084
+Gradient updated, Loss reduced to 2.3621015548706055
+25 trial loss: 2.3621063232421875
+0 trial loss: 2.3318686485290527
+Gradient updated, Loss reduced to 2.3318686485290527
+Gradient updated, Loss reduced to 2.3318676948547363
+5 trial loss: 2.3318686485290527
+Gradient updated, Loss reduced to 2.33186674118042
+10 trial loss: 2.3318684101104736
+Gradient updated, Loss reduced to 2.3318660259246826
+15 trial loss: 2.3318705558776855
+20 trial loss: 2.3318686485290527
+25 trial loss: 2.3318679332733154
+0 trial loss: 2.361008405685425
+Gradient updated, Loss reduced to 2.361008405685425
+5 trial loss: 2.36100697517395
+Gradient updated, Loss reduced to 2.36100697517395
+10 trial loss: 2.361011505126953
+15 trial loss: 2.3610081672668457
+20 trial loss: 2.3610100746154785
+25 trial loss: 2.361008644104004
+0 trial loss: 2.370844602584839
+Gradient updated, Loss reduced to 2.3708415031433105
+Gradient updated, Loss reduced to 2.370840311050415
+5 trial loss: 2.370842933654785
+Gradient updated, Loss reduced to 2.3708393573760986
+10 trial loss: 2.370842933654785
+Gradient updated, Loss reduced to 2.370838165283203
+15 trial loss: 2.370842218399048
+20 trial loss: 2.3708441257476807
+25 trial loss: 2.370844602584839
+0 trial loss: 2.356812000274658
+Gradient updated, Loss reduced to 2.3568084239959717
+5 trial loss: 2.356809139251709
+Gradient updated, Loss reduced to 2.3568081855773926
+10 trial loss: 2.3568103313446045
+15 trial loss: 2.3568108081817627
+20 trial loss: 2.3568105697631836
+25 trial loss: 2.356812000274658
+0 trial loss: 2.3400685787200928
+5 trial loss: 2.340070962905884
+Gradient updated, Loss reduced to 2.3400659561157227
+Gradient updated, Loss reduced to 2.3400635719299316
+10 trial loss: 2.3400659561157227
+15 trial loss: 2.34006667137146
+20 trial loss: 2.340066909790039
+25 trial loss: 2.3400678634643555
+0 trial loss: 2.348505973815918
+Gradient updated, Loss reduced to 2.3485043048858643
+Gradient updated, Loss reduced to 2.348504066467285
+Gradient updated, Loss reduced to 2.3485031127929688
+5 trial loss: 2.3485050201416016
+10 trial loss: 2.3485050201416016
+Gradient updated, Loss reduced to 2.3485026359558105
+Gradient updated, Loss reduced to 2.3485023975372314
+15 trial loss: 2.348503351211548
+20 trial loss: 2.348501205444336
+Gradient updated, Loss reduced to 2.348501205444336
+25 trial loss: 2.348503828048706
+0 trial loss: 2.35044527053833
+Gradient updated, Loss reduced to 2.350442886352539
+5 trial loss: 2.35044527053833
+Gradient updated, Loss reduced to 2.3504419326782227
+10 trial loss: 2.3504457473754883
+15 trial loss: 2.3504436016082764
+20 trial loss: 2.350447177886963
+25 trial loss: 2.3504459857940674
+0 trial loss: 2.3578293323516846
+Gradient updated, Loss reduced to 2.357825756072998
+5 trial loss: 2.3578264713287354
+Gradient updated, Loss reduced to 2.35782527923584
+10 trial loss: 2.3578267097473145
+Gradient updated, Loss reduced to 2.3578243255615234
+15 trial loss: 2.35782790184021
+20 trial loss: 2.35782527923584
+25 trial loss: 2.3578286170959473
+0 trial loss: 2.3511176109313965
+Gradient updated, Loss reduced to 2.3511126041412354
+5 trial loss: 2.3511157035827637
+Gradient updated, Loss reduced to 2.351112127304077
+10 trial loss: 2.3511135578155518
+15 trial loss: 2.3511147499084473
+20 trial loss: 2.3511130809783936
+25 trial loss: 2.3511154651641846
+0 trial loss: 2.3550021648406982
+Gradient updated, Loss reduced to 2.3550021648406982
+5 trial loss: 2.355004072189331
+Gradient updated, Loss reduced to 2.355001926422119
+10 trial loss: 2.355008125305176
+15 trial loss: 2.355004072189331
+20 trial loss: 2.35500431060791
+25 trial loss: 2.3550057411193848
+0 trial loss: 2.3329741954803467
+Gradient updated, Loss reduced to 2.3329741954803467
+5 trial loss: 2.3329787254333496
+Gradient updated, Loss reduced to 2.332972526550293
+10 trial loss: 2.3329741954803467
+15 trial loss: 2.3329741954803467
+20 trial loss: 2.3329761028289795
+25 trial loss: 2.332976818084717
+0 trial loss: 2.3550801277160645
+Gradient updated, Loss reduced to 2.3550779819488525
+5 trial loss: 2.3550779819488525
+10 trial loss: 2.35507869720459
+15 trial loss: 2.3550827503204346
+20 trial loss: 2.3550820350646973
+25 trial loss: 2.3550803661346436
+0 trial loss: 2.341398000717163
+Gradient updated, Loss reduced to 2.341398000717163
+Gradient updated, Loss reduced to 2.3413949012756348
+5 trial loss: 2.3414056301116943
+10 trial loss: 2.3414032459259033
+15 trial loss: 2.341402769088745
+20 trial loss: 2.341399908065796
+25 trial loss: 2.3414034843444824

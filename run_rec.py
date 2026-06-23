@@ -1,500 +1,249 @@
-"""Run reconstruction in a terminal prompt.
-Optional arguments can be found in inversefed/options.py
-
-This CLI can recover the baseline experiments.
+"""Automated script implementing macro-batch warm-starting (B=32) 
+before mutating to an active CENSOR evaluation track at Batch Size 1 on CIFAR-100.
 """
 import os
-#limit the visual gpus
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
-# os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 import torch
 import torchvision
 import torch.nn as nn
 import yaml
 import numpy as np
-
-import inversefed
-torch.backends.cudnn.benchmark = inversefed.consts.BENCHMARK
-
-from collections import defaultdict
-import datetime
-import time
-
-import json
-import hashlib
-import csv
-import copy
-import pickle
-import defense
-import lpips
-
 import datetime
 import logging
+import defense
+import inversefed
 
-def init_logger(output_dir, log_level=logging.INFO):
-    """Initialize and configure the root logger."""
-    # Configure the root logger
+def init_logger(output_dir):
     root_logger = logging.getLogger()
-    root_logger.setLevel(log_level)
+    root_logger.setLevel(logging.INFO)
+    if root_logger.hasHandlers():
+        root_logger.handlers.clear()
 
-    # File Handler
-    fh = logging.FileHandler(os.path.join(output_dir, "main.log"))
-    fh.setLevel(log_level)
-    fh_formatter = logging.Formatter('%(message)s')  # Only message content
-    fh.setFormatter(fh_formatter)
+    fh = logging.FileHandler(os.path.join(output_dir, "hybrid_bs_study.log"), encoding='utf-8')
+    fh.setFormatter(logging.Formatter('%(message)s'))
     root_logger.addHandler(fh)
 
-    # Stream Handler (Console)
     sh = logging.StreamHandler()
-    sh.setLevel(log_level)
-    sh_formatter = logging.Formatter('%(message)s')  # Only message content
-    sh.setFormatter(sh_formatter)
+    sh.setFormatter(logging.Formatter('%(message)s'))
     root_logger.addHandler(sh)
-
-    root_logger.info("-" * 80)
-
     return root_logger
 
-nclass_dict = {'I32': 1000, 'I64': 1000, 'I128': 1000, 
-               'CIFAR10': 10, 'CIFAR100': 100, 'CA': 8, 'ImageNet':1000, 'IMAGENET_IO' : 1000,
-               'FFHQ': 10, 'FFHQ64': 10, 'FFHQ128': 10, 'OOD_FFHQ':10, 'OOD_IMAGENET':1000
-               }
-# Parse input arguments
-
-parser = inversefed.options()
-
-parser.add_argument('--seed', default=1234, type=float, help='Local learning rate for federated averaging')
-parser.add_argument('--batch_size', default=4, type=int, help='Number of mini batch for federated averaging')
-parser.add_argument('--local_lr', default=1e-4, type=float, help='Local learning rate for federated averaging')
-parser.add_argument('--checkpoint_path', default='', type=str, help='Local learning rate for federated averaging')
-parser.add_argument('--gan', default='stylegan2', type=str, help='GAN model option:[stylegan2, biggan]')
-parser.add_argument('--config', default='./config_stylegan2', type=str, help='Path of selected config file.')
-
-args = parser.parse_args()
-if args.target_id is None:
-    args.target_id = 0
-args.save_image = True
-
-# Parse training strategy
-defs = inversefed.training_strategy('conservative')
-defs.epochs = args.epochs
-
-
-def load_config(config_path):
-    with open(config_path, "r") as f:
-        config = yaml.load(f, Loader=yaml.FullLoader)
-    f.close()
-    return config
-
-def save_experiment_config(config_path, save_dir):
-    # Generate a unique identifier for the experiment
-    experiment_id = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
-    saved_config_file = os.path.join(save_dir, f"experiment_config_{experiment_id}.yml")
-
-    # Read and save a copy of the configuration
-    with open(config_path, "r") as f:
-        config = yaml.load(f, Loader=yaml.FullLoader)
-
-    with open(saved_config_file, 'w') as file:
-        yaml.dump(config, file)
-
-    return saved_config_file
-
-
-
 if __name__ == "__main__":
-    # Choose GPU device and print status information:
     current_time = datetime.datetime.now().strftime("%b.%d_%H.%M.%S")
-    
-    start_time = time.time()
-    #read config
-    config_path = args.config
-    config = load_config(config_path=config_path)
+    with open("./configs_gan_free.yml", "r") as f:
+        config = yaml.load(f, Loader=yaml.FullLoader)
 
-    # change the exp path
-    config['exp_name'] = config['exp_name'] + '_num_images_' + str(config['num_images']) + '_defense_'+ str(config['defense_method']) + '_' + current_time
-    save_dir = os.path.join(config['output_dir'], config['exp_name'])
+    save_dir = os.path.join(config['output_dir'], f"hybrid_study_{current_time}")
     os.makedirs(save_dir, exist_ok=True)
     logger = init_logger(save_dir)
-    # Log the process ID
-    pid = os.getpid()
-    logging.info(f"Process ID: {pid}")
-    logger.info("output_dir: {}".format(save_dir))
 
-
-    setup = inversefed.utils.system_startup(args)
-
-    save_experiment_config(config_path, save_dir)
-    logger.info(f"Config for this experiment is saved")
-    # Prepare for training
-    # Get data:
-
-    loss_fn, trainloader, validloader = inversefed.construct_dataloaders(config['dataset'], defs, data_path=config['data_path'])
-
-    set_seed = config['set_seed']
-    if isinstance(set_seed, int):
-        logger.info("Set seed:{}".format(set_seed))
-        torch.manual_seed(set_seed)
+    setup = dict(device=torch.device('cuda:0' if torch.cuda.is_available() else 'cpu'), dtype=torch.float)
     
-    model, model_seed = inversefed.construct_model(config['model'], num_classes=nclass_dict[config['dataset']], num_channels=3, seed=set_seed)
+    # ----------------------------------------------------------------=====
+    # PHASE 1: HIGH-STABILITY MACRO-BATCH INTEL ACCUMULATION (B=32)
+    # ----------------------------------------------------------------=====
+    print("\n" + "="*80)
+    print(" >>> PHASE 1: Launching High-Stability Dataloader (Batch Size = 32)...")
+    print("="*80)
+    
+    defs_warm = inversefed.training_strategy('conservative')
+    defs_warm.epochs = 5
+    defs_warm.lr = 0.01  
+    defs_warm.batch_size = 32
+
+    loss_fn, trainloader_32, validloader_32 = inversefed.construct_dataloaders(
+        config['dataset'], defs_warm, data_path=config['data_path']
+    )
+
+    # Force strict CIFAR-100 dimension limits
+    num_classes = 100
+    model, _ = inversefed.construct_model(config['model'], num_classes=num_classes, num_channels=3, seed=config['set_seed'])
     model.to(**setup)
+
+    optimizer = torch.optim.SGD(model.parameters(), lr=defs_warm.lr, momentum=0.9, weight_decay=defs_warm.weight_decay)
     
-    if config['dataset'].startswith('FFHQ') or config['dataset'].endswith('FFHQ'):
-        dm = torch.as_tensor(getattr(inversefed.consts, f'cifar10_mean'), **setup)[:, None, None]
-        ds = torch.as_tensor(getattr(inversefed.consts, f'cifar10_std'), **setup)[:, None, None]
-    else:
-        dataset = config['dataset']
-        dm = torch.as_tensor(getattr(inversefed.consts, f'{dataset.lower()}_mean'), **setup)[:, None, None]
-        ds = torch.as_tensor(getattr(inversefed.consts, f'{dataset.lower()}_std'), **setup)[:, None, None]
-
-    # optimizer, scheduler = inversefed.training.set_optimizer(model, defs)
-    optimizer = torch.optim.SGD(model.parameters(), lr=defs.lr, momentum=0.9,
-                                    weight_decay=defs.weight_decay)
-    logger.info(f"Optimizer: {optimizer}")
+    warm_start_complete = False
+    calibration_epoch = 0
     
-    # train the model and save the model checkpoint at each epoch
-    for epoch in range(config['train_epochs']):
-        # add the epoch folder
-        save_dir = os.path.join(config['output_dir'], config['exp_name'], f'epoch_{epoch}')
-        os.makedirs(save_dir, exist_ok=True)
-        logger.info(f"Epoch {epoch} started,saved at {save_dir}")
-
-        # model = nn.DataParallel(model)
-        model.eval()
-
-        if config['optim'] == 'GAN_based':
-            config_m = dict(cost_fn=config['cost_fn'],
-                        indices=config['indices'],
-                        weights=config['weights'],
-                        lr=config['lr'] if config['lr'] is not None else 0.1,
-                        optim='adam',
-                        restarts=config['restarts'],
-                        max_iterations=config['max_iterations'],
-                        total_variation=config['total_variation'],
-                        bn_stat=config['bn_stat'],
-                        image_norm=config['image_norm'],
-                        z_norm= args.z_norm,
-                        group_lazy=config['group_lazy'],
-                        init=config['init'],
-                        lr_decay=True,
-                        dataset=config['dataset'],
-                        #params for inter optim
-                        ckpt= config['ckpt'],
-                        gifd = config['gifd'],
-                        steps =  config['steps'],
-                        lr_io =  config['lr_io'],
-                        start_layer = config['start_layer'],
-                        end_layer = config['end_layer'],  
-                        do_project_gen_out = config['do_project_gen_out'],
-                        do_project_noises = config['do_project_noises'],
-                        do_project_latent = config['do_project_latent'],
-                        max_radius_gen_out = config['max_radius_gen_out'],
-                        max_radius_noises = config['max_radius_noises'],
-                        max_radius_latent = config['max_radius_latent'],
-                        #defense
-                        defense_method = config['defense_method'],
-                        defense_setting = config['defense_setting'],
-
-                                                    
-                        generative_model=config['generative_model'],
-                        gen_dataset=config['gen_dataset'],
-                        giml='',
-                        gias= config['gias'],
-                        ggl = config['ggl'],
-                        cma_budget = config['cma_budget'],
-                        num_sample = config['num_sample'],
-                        KLD = config['KLD'],
-                        gias_lr=config['gias_lr'],
-                        gias_iterations=config['gias_iterations'],
-                        )
-        elif config['optim'] == 'GAN_free':
-            config_m = dict(cost_fn=config['cost_fn'],
-                        indices=config['indices'],
-                        weights=config['weights'],
-                        lr=config['lr'] if config['lr'] is not None else 0.1,
-                        optim='adam',
-                        restarts=config['restarts'],
-                        max_iterations=config['max_iterations'],
-                        total_variation=config['total_variation'],
-                        bn_stat=config['bn_stat'],
-                        image_norm=config['image_norm'],
-                        z_norm=args.z_norm,
-                        group_lazy=config['group_lazy'],
-                        init=config['init'],
-                        lr_decay=True,
-                        dataset=config['dataset'],
-                        geiping=config['geiping'],
-                        yin=config['yin'],
-                        generative_model='',
-                        gen_dataset='',
-                        giml=False,
-                        gias=False,
-                        gias_lr=0.0,
-                        gias_iterations=0,
-                        )
-
-        G = None
-        if args.checkpoint_path:
-            with open(args.checkpoint_path, 'rb') as f:
-                G, _ = pickle.load(f)
-                G = G.requires_grad_(True).to(setup['device'])
-
-        #Save the config file first
-        inversefed.utils.save_to_table(os.path.join(config['output_dir'], config['exp_name']), name='configs', dryrun=args.dryrun, **config)
-        target_id = config['target_id']
-        iter_dryrun = False
-
-        for i in range(config['num_exp']): 
-
-            # indicator dictionary
-            psnrs = {}
-            lpips_sc ={}
-            lpips_sc_a = {}
-            ssim = {}
-            mse_i = {}
-
-            target_id = config['target_id'] + i * 1000
-
-            tid_list = []
-
-            print(f"Dataset size: {len(validloader.dataset)}")
-            print(f"Attempting to access index: {target_id}")
-
-            if config['num_images'] == 1:
-                ground_truth, labels = validloader.dataset[target_id]
-                ground_truth, labels = ground_truth.unsqueeze(0).to(**setup), torch.as_tensor((labels,), device=setup['device'])
-                target_id_ = target_id + 1
-                logger.info(f"loaded img {target_id_ - 1}")
-                tid_list.append(target_id_ - 1)
-            else:
-                ground_truth, labels = [], []
-                target_id_ = target_id
-                while len(labels) < config['num_images']:
-                    img, label = validloader.dataset[target_id_]
-                    target_id_ += 1
-                    if (label not in labels):         
-                        logger.info("loaded img %d" % (target_id_ - 1))
-                        labels.append(torch.as_tensor((label,), device=setup['device']))
-                        ground_truth.append(img.to(**setup))
-                        tid_list.append(target_id_ - 1)
-
-                ground_truth = torch.stack(ground_truth)
-                labels = torch.cat(labels)
-            img_shape = (3, ground_truth.shape[2], ground_truth.shape[3])
-
-            # Run reconstruction
-            if config['bn_stat'] > 0:
-                bn_layers = []
-                for module in model.modules():
-                    if isinstance(module, nn.BatchNorm2d):
-                        bn_layers.append(inversefed.BNStatisticsHook(module))
-
-            if args.accumulation == 0:
-                logger.info("Ground truth's size:{}".format(ground_truth[0].shape))
-                target_loss, _, _ = loss_fn(model(ground_truth), labels)
-                input_gradient = torch.autograd.grad(target_loss, model.parameters())
-
-                # compute the input_gradient norm
-                input_gradient_norm = torch.norm(torch.cat([g.view(-1) for g in input_gradient]), p=2)
-                # move the input_gradient norm to the cpu
-                input_gradient_tmp = input_gradient_norm.cpu().detach().numpy()
-
-                logger.info(f"Input gradient norm: {input_gradient_norm}")
-                logger.info(f"Target loss: {target_loss.item()}")
-
-                # save the input_gradient norm and the target_loss to a csv file, use the save to table function, only save the input_gradient norm and the target_loss
-                inversefed.utils.save_to_table(os.path.join(save_dir), name=f'{epoch}_epoch_input_gradient_norm', dryrun=args.dryrun, input_gradient_norm=input_gradient_tmp, target_loss=target_loss.item(), target_id=target_id, seed=model_seed)
-
-                best_noise_loss = target_loss
-
-                bn_prior = []
-                if config['bn_stat'] > 0:
-                    for idx, mod in enumerate(bn_layers):
-                        mean_var = mod.mean_var[0].detach(), mod.mean_var[1].detach()
-                        bn_prior.append(mean_var)
-
-                #apply defense strategy
-                if config['defense_method'] is None:
-                    logger.info('No defense applied.')
-                    d_param = config['defense_setting']
-                else:
-                    if config['defense_method'] == 'noise':
-                        d_param = 0.01 if config['defense_setting']['noise'] is None else config['defense_setting']['noise']
-                        input_gradient = defense.additive_noise(model, input_gradient, save_dir, std=d_param)
-                        overhead_end_time = time.time()
-                    if config['defense_method'] == 'clipping':
-                        d_param = 4 if  config['defense_setting']['clipping'] is None else config['defense_setting']['clipping']
-                        input_gradient = defense.gradient_clipping(input_gradient, bound=d_param)
-                    if config['defense_method'] == 'compression':
-                        d_param = 20 if  config['defense_setting']['compression'] is None else config['defense_setting']['compression']
-                        input_gradient = defense.gradient_compression(input_gradient, percentage=d_param)
-                    if config['defense_method'] == 'representation':
-                        d_param = 10 if config['defense_setting']['representation'] is None else config['defense_setting']['representation']
-                        input_gradient = defense.perturb_representation(input_gradient, model, ground_truth, pruning_rate=d_param)
-                    if config['defense_method'] == 'orthogonal' and epoch in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
-                        logger.info('Orthogonal applied in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9].')
-                        optimizer = torch.optim.SGD(model.parameters(), lr=1e-4, momentum=0.9,
-                                    weight_decay=defs.weight_decay)
-                        d_param = 1e-4 if config['defense_setting']['orthogonal'] is None else config['defense_setting']['orthogonal']
-                        input_gradient, best_noise_loss = defense.orthogonal_gradient(input_gradient, model, ground_truth, labels, trials=config['our_num_tries'], epsilon=d_param, best_loss = target_loss)
-                    elif config['defense_method'] == 'orthogonal' and epoch not in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
-                        optimizer = torch.optim.SGD(model.parameters(), lr=defs.lr, momentum=0.9,
-                                    weight_decay=defs.weight_decay)
-                        logger.info('Orthogonal applied in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], no defense applied later.')
-
-                rec_machine = inversefed.GradientReconstructor(model, setup['device'], (dm, ds), config_m, num_images=config['num_images'], bn_prior=bn_prior, G=G)
-
-                if G is None:
-                    G = rec_machine.G
-                logger.info("Real labels:{}".format(labels))
-                result = rec_machine.reconstruct(input_gradient, labels, img_shape=img_shape, dryrun=iter_dryrun)
-                if iter_dryrun:
-                    continue
-            else:
-                local_gradient_steps = args.accumulation
-                local_lr = args.local_lr
-                batch_size = args.batch_size
-                input_parameters = inversefed.reconstruction_algorithms.loss_steps(model, ground_truth,
-                                                                                labels,
-                                                                                lr=local_lr,
-                                                                                local_steps=local_gradient_steps, use_updates=True, batch_size=batch_size)
-                input_parameters = [p.detach() for p in input_parameters]
-
-                rec_machine = inversefed.FedAvgReconstructor(model, (dm, ds), local_gradient_steps,
-                                                            local_lr, config_m,
-                                                            num_images=config['num_images'], use_updates=True,
-                                                            batch_size=batch_size)
-                if G is None:
-                    if rec_machine.generative_model_name in ['stylegan2']:
-                        G = rec_machine.G_synthesis
-                    else:
-                        G = rec_machine.G
-                result = rec_machine.reconstruct(input_parameters, labels, img_shape=img_shape, dryrun=args.dryrun)
-
-            #lpips
-            lpips_loss = lpips.LPIPS(net='vgg', spatial=False).to(**setup)
-            lpips_loss_a = lpips.LPIPS(net='alex', spatial=False).to(**setup)
-
-            #Record the best layer if GIFD is applied
-            Best_layer_num = -1
-            for idx, item in enumerate(result):
-                # Compute stats and save to a table:
-                file_name = item[0]
-                output = item[1]
-                stats = item[2]
-
-                if file_name == "Best_layer_num":
-                    Best_layer_num = int(output) 
-                    continue
-                    
-                if output is None :  #some layers were skiped 
-                    test_psnr = -1
-                    lpips_score = -1
-                    lpips_score_a = -1
-                    ssim_score = -1
-                    test_mse = -1
-                    feat_mse = -1
-                elif output.shape[-1] != ground_truth.shape[-1]:
-                    test_psnr = -1
-                    lpips_score = -1
-                    lpips_score_a = -1
-                    ssim_score = -1
-                    test_mse = -1
-                    feat_mse = -1
-                    output_den = torch.clamp(output * ds + dm, 0, 1)
-                else:
-                    output_den = torch.clamp(output * ds + dm, 0, 1)
-                    ground_truth_den = torch.clamp(ground_truth * ds + dm, 0, 1)
-                    # logger.info("output's dimension:{} ground_truth's dimension:{}".format(output.shape, ground_truth.shape))
-                    feat_mse = (model(output) - model(ground_truth)).pow(2).mean().item()
-                    test_mse = (output_den - ground_truth_den).pow(2).mean().item()
-                    ssim_score, _ = inversefed.metrics.ssim_batch(output, ground_truth)
-                    with torch.no_grad():
-                        lpips_score = lpips_loss(output, ground_truth).squeeze().mean().item()
-                        lpips_score_a = lpips_loss_a(output, ground_truth).squeeze().mean().item()
-                    logger.info("output_den's dimension:{}".format(output_den.shape))
-                    test_psnr = inversefed.metrics.psnr(output_den, ground_truth_den, factor=1)
-                    logger.info(f"Rec. loss: {stats['opt']:2.4f} | MSE: {test_mse:2.4f} | LPIPS(VGG): {lpips_score:2.4f} | LPIPS(ALEX): {lpips_score_a:2.4f} | SSIM: {ssim_score:2.4f} | PSNR: {test_psnr:4.2f} | FMSE: {feat_mse:2.4e} | ")
-
-                ouput_dir = os.path.join(save_dir, file_name)
-                
-                psnrs[file_name +'_psnr'] = test_psnr
-                lpips_sc[file_name +'_lpips(vgg)'] = lpips_score
-                lpips_sc_a[file_name +'_lpips(alex)'] = lpips_score_a
-                ssim[file_name +'_ssim'] = ssim_score
-                mse_i[file_name + '_mse_i'] = test_mse
-
-                os.makedirs(os.path.join(ouput_dir), exist_ok=True)
-
-                exp_name = config['exp_name']
-                inversefed.utils.save_to_table(os.path.join(ouput_dir), name=f'{exp_name}', dryrun=args.dryrun,
-                                            rec_loss=stats["opt"],
-                                            psnr=test_psnr,
-                                            LPIPS_VGG=lpips_score,
-                                            LPIPS_ALEX=lpips_score_a,
-                                            ssim=ssim_score,
-                                            test_mse=test_mse,
-                                            feat_mse=feat_mse,
-
-                                            target_id=target_id,
-                                            seed=model_seed
-                                            )
-
-
-                # Save the resulting image
-                if args.save_image and output is not None:
-                    for j in range(config['num_images']):
-                        torchvision.utils.save_image(output_den[j:j + 1, ...], os.path.join(ouput_dir, f'{tid_list[j]}_gen.png'))
-                # Update target id
-                target_id = target_id_
-                
-            if Best_layer_num >= 0:                    
-                inversefed.utils.save_to_table(os.path.join(save_dir), name='Metrics', dryrun=args.dryrun, target_id=int(target_id - 1), Best_layer_num=Best_layer_num ,**psnrs, **lpips_sc, **lpips_sc_a, **ssim, **mse_i)
-            else:
-                inversefed.utils.save_to_table(os.path.join(save_dir), name='Metrics', dryrun=args.dryrun, target_id=int(target_id - 1), **psnrs, **lpips_sc, **lpips_sc_a, **ssim, **mse_i)
-                
-
-            for j in range(config['num_images']):
-                torchvision.utils.save_image(ground_truth_den[j:j + 1, ...], os.path.join(save_dir, f'{tid_list[j]}_gt.png'))
-            #one row represents psnrs of a batch
-        
-        learning_rate = 0.001
-        # after inversion, we need to update the model with input_gradient
-        with torch.no_grad():
-            for param, best_grad in zip(model.parameters(), input_gradient):
-                param.data -= best_grad * learning_rate
-            logger.info("Model updated with best gradient.")
-
-        noisy_input_gradient_norm = torch.norm(torch.stack([g.norm() for g in input_gradient]), 2)
-        logger.info('Best noise gradient L2 norm: {}'.format(noisy_input_gradient_norm))
-        inversefed.utils.save_to_table(os.path.join(save_dir), name=f'{epoch}_epoch_noise_gradient_norm', dryrun=args.dryrun, noisy_input_gradient_norm=str(noisy_input_gradient_norm.item()), best_noise_loss=best_noise_loss.item(), target_id=target_id, seed=model_seed)
-
-        # simulate FL training, train the model with more instances, then evaluate the model
+    while not warm_start_complete:
         model.train()
-        for i, (inputs, targets) in enumerate(trainloader):
-            logger.info(f"Epoch {epoch} batch {i} started")
+        for batch_idx, (inputs_tr, targets_tr) in enumerate(trainloader_32):
+            # Scaled up to 1500 to allow the 100-class space adequate optimization time
+            if batch_idx >= 1500: break 
+            inputs_tr, targets_tr = inputs_tr.to(**setup), targets_tr.to(**setup).long()
             optimizer.zero_grad()
-            inputs = inputs.to(**setup)
-            targets = targets.to(**setup)
-            targets = targets.long()
-            outputs = model(inputs)
-            loss, _, _ = loss_fn(outputs, targets)
-            loss.backward()
+            out_tr = model(inputs_tr)
+            l_tr, _, _ = loss_fn(out_tr, targets_tr)
+            l_tr.backward()
             optimizer.step()
-            logger.info(f"loss: {loss.item()} at epoch {epoch} batch {i}")
+            
+        # Check validation pool over a strict balanced subset slice
+        model.eval()
+        val_correct, val_total = 0, 0
+        with torch.no_grad():
+            for idx, (inputs_v, targets_v) in enumerate(validloader_32):
+                if idx >= 64: break # 64 * 32 = 2048 high-accuracy profile points
+                inputs_v, targets_v = inputs_v.to(**setup), targets_v.to(**setup).long()
+                val_preds = model(inputs_v).argmax(dim=1)
+                val_correct += (val_preds == targets_v).sum().item()
+                val_total += targets_v.size(0)
+                
+        current_acc = (val_correct / val_total) * 100
+        calibration_epoch += 1
+        print(f" >>> [Warm-up Epoch {calibration_epoch:02d}] Global Validation Accuracy: {current_acc:.2f}%")
         
-        logger.info(f"Epoch {epoch} training loss: {loss.item()}")
+        # Target calibration accuracy set to a realistic baseline for CIFAR-100 from scratch
+        if current_acc >= 50.0:
+            print("\n >>> [SUCCESS] 50% CIFAR-100 target reached. Freezing network weights.")
+            print(" >>> Shutting down Batch Size 32 dataloaders completely.\n")
+            warm_start_complete = True
 
-        # save the model checkpoint at each epoch
-        save_path = os.path.join(save_dir, f"model_epoch_{epoch}.pt")
-        torch.save(model.state_dict(), save_path)
-        logger.info(f"Model {epoch} epoch checkpoint saved at {save_path}")
-
-    # Print final timestamp
-    logger.info(datetime.datetime.now().strftime("%A, %d %B %Y %I:%M%p"))
-    logger.info('---------------------------------------------------')
-    logger.info(f'Finished computations with time: {str(datetime.timedelta(seconds=time.time() - start_time))}')
-    logger.info("output_dir: {}".format(save_dir))
-    logger.info('-------------Job finished.-------------------------')
+    # ----------------------------------------------------------------=====
+    # PHASE 2: CONVERT ENVIRONMENT TO CENSOR STRATEGY (B=1)
+    # ----------------------------------------------------------------=====
+    print("="*80)
+    print(" >>> PHASE 2: Spawning Evaluation Track Loader Slices (Batch Size = 1)...")
+    print("="*80)
     
+    defs_eval = inversefed.training_strategy('conservative')
+    defs_eval.epochs = config['train_epochs']
+    defs_eval.lr = 0.001  
+    defs_eval.batch_size = 1
+
+    _, trainloader_1, validloader_1 = inversefed.construct_dataloaders(
+        config['dataset'], defs_eval, data_path=config['data_path']
+    )
+
+    optimizer = torch.optim.SGD(model.parameters(), lr=defs_eval.lr, momentum=0.9, weight_decay=defs_eval.weight_decay)
+    scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=defs_eval.epochs)
+    
+    # Mount local CIFAR-100 label mapping vector
+    try:
+        cifar10_classes = trainloader_1.dataset.classes
+    except Exception:
+        cifar10_classes = [f"Class_{i}" for i in range(100)]
+
+    global_total_attacks = 0  
+    global_successful_leaks = 0
+    epoch_metrics_log = []
+
+    print("\n" + "="*105)
+    print("                CENSOR ACTIVE PIPELINE: BATCH SIZE 1 PRIVACY DECAY EXPERIMENT                ")
+    print("="*105)
+
+    eval_iter = iter(trainloader_1)
+
+    for epoch in range(defs_eval.epochs):
+        model.eval()
+        val_correct, val_total = 0, 0
+        with torch.no_grad():
+            for idx, (inputs_v, targets_v) in enumerate(validloader_1):
+                # FIXED: Shifted from 200 to 2000 to match strict class distribution scales
+                if idx >= 2000: break  
+                inputs_v, targets_v = inputs_v.to(**setup), targets_v.to(**setup).long()
+                val_preds = model(inputs_v).argmax(dim=1)
+                val_correct += (val_preds == targets_v).sum().item()
+                val_total += targets_v.size(0)
+        epoch_val_acc = (val_correct / val_total) * 100
+
+        print(f"\n[EPOCH {epoch:02d}/{defs_eval.epochs:02d}] Global Model Validation Base: {epoch_val_acc:.2f}%")
+        print("-"*105)
+        print(f"{'Test Node':<10} | {'True Class Label':<20} | {'Model Prediction':<20} | {'Attack Guess':<20} | {'Privacy State':<10}")
+        print("-"*105)
+
+        epoch_attacks = 0
+        epoch_leaks = 0
+
+        for step in range(10):
+            try:
+                inputs, targets = next(eval_iter)
+            except StopIteration:
+                eval_iter = iter(trainloader_1)
+                inputs, targets = next(eval_iter)
+                
+            inputs, targets = inputs.to(**setup), targets.to(**setup).long()
+
+            model.eval()
+            with torch.no_grad():
+                outputs = model(inputs)
+                pred_idx = outputs.argmax(dim=1).item()
+
+            model.train()
+            optimizer.zero_grad()
+            loss_outputs = model(inputs)
+            loss, _, _ = loss_fn(loss_outputs, targets)
+            loss.backward()
+            raw_gradients = [p.grad.clone() for p in model.parameters() if p.grad is not None]
+            optimizer.zero_grad()
+
+            d_param = config['defense_setting']['orthogonal']
+            protected_gradients, _ = defense.orthogonal_gradient(
+                raw_gradients, model, inputs, targets, 
+                trials=config['our_num_tries'], epsilon=d_param, best_loss=loss
+            )
+
+            target_fc_grad = None
+            for g_tensor in protected_gradients:
+                if g_tensor is not None and len(g_tensor.shape) == 2 and g_tensor.shape[0] == num_classes:
+                    target_fc_grad = g_tensor.clone().detach()
+                    break
+
+            if target_fc_grad is not None:
+                row_norms = torch.norm(target_fc_grad, dim=1)
+                inferred_label_idx = row_norms.argmax().item()
+                
+                label_item = targets.item()
+                is_leaked = inferred_label_idx == label_item
+                
+                if is_leaked:
+                    epoch_leaks += 1
+                    global_successful_leaks += 1
+                epoch_attacks += 1
+                global_total_attacks += 1  
+
+                true_str = cifar10_classes[label_item]
+                pred_str = cifar10_classes[pred_idx]
+                guess_str = cifar10_classes[inferred_label_idx]
+                state_str = "🚨 LEAKED" if is_leaked else "🛡️ SHIELDED"
+
+                print(f"Sample {step:02d}  | {true_str:<20} | {pred_str:<20} | {guess_str:<20} | {state_str:<10}")
+
+            model.train()
+            for sub_step in range(50):
+                try:
+                    inputs_tr, targets_tr = next(eval_iter)
+                except StopIteration:
+                    eval_iter = iter(trainloader_1)
+                    inputs_tr, targets_tr = next(eval_iter)
+                    
+                inputs_tr, targets_tr = inputs_tr.to(**setup), targets_tr.to(**setup).long()
+                optimizer.zero_grad()
+                out_tr = model(inputs_tr)
+                l_tr, _, _ = loss_fn(out_tr, targets_tr)
+                l_tr.backward()
+                optimizer.step()
+
+        scheduler.step()
+        epoch_leak_pct = (epoch_leaks / epoch_attacks) * 100 if epoch_attacks > 0 else 0.0
+        epoch_metrics_log.append((epoch, epoch_val_acc, epoch_leak_pct))
+        print("-"*105)
+        print(f" >>> EPOCH SUMMARY: Model Accuracy = {epoch_val_acc:.2f}% | Attack Leakage Rate = {epoch_leak_pct:.2f}%")
+        print("="*105)
+
+    # --- FINAL PROGRESSION PROFILE SUMMARY ---
+    print("\n" + "#"*70)
+    print("               FINAL RESEARCH EXPERIMENT METRICS REPORT              ")
+    print("#"*70)
+    print(f" Target Network Profile Architecture : {config['model']}")
+    print(f" Batch Slicing Configuration        : Size = 1 (Isolated Nodes)")
+    print(f" Defense System Core Mechanism      : CENSOR Subspace Projections")
+    print("-"*70)
+    print(f"{'Epoch Index':<12} | {'Global Model Accuracy':<25} | {'Label Inference Leak Rate':<25}")
+    print("-"*70)
+    for ep, acc, lk in epoch_metrics_log:
+        print(f"Epoch {ep:02d}       | {acc:05.2f}%                    | {lk:05.2f}%")
+    print("-"*70)
+    final_leak_total = (global_successful_leaks / global_total_attacks) * 100
+    print(f" >>> Aggregated Global Experiment Leakage Rate: {final_leak_total:.2f}%")
+    print("#"*70)

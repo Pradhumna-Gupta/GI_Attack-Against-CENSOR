@@ -1,0 +1,38 @@
+Introduction: GAN-free methods for gradient inversion attack.
+bn_stat: 0
+ckpt: None
+cost_fn: sim_cmpr0
+data_path: ./data
+dataset: CIFAR10
+defense_method: orthogonal
+defense_setting:
+  clipping: None
+  compression: None
+  noise: 0.01
+  orthogonal: 0.0001
+  representation: None
+exp_name: cifar10_censor_li_profile
+geiping: true
+gen_dataset: ''
+generative_model: ''
+gias_lr: 1.0e-05
+group_lazy: 0.01
+image_norm: 1.0e-06
+indices: def
+init: randn
+lr: 0.1
+lr_same_pace: false
+max_iterations: 15000
+model: ResNet18
+num_exp: 10
+num_images: 1
+optim: GAN_free
+our_num_tries: 30
+output_dir: ./results_gan_free/
+restarts: 4
+set_seed: null
+target_id: 0
+total_variation: 0.0001
+train_epochs: 10
+weights: equal
+yin: false

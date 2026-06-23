@@ -1,0 +1,17 @@
+--------------------------------------------------------------------------------
+Process ID: 38928
+output_dir: ./results_gan_free/cifar10_censor_li_profile_num_images_1_defense_orthogonal_Jun.16_11.56.54
+Config for this experiment is saved
+Optimizer: SGD (
+Parameter Group 0
+    dampening: 0
+    differentiable: False
+    foreach: None
+    fused: None
+    lr: 0.1
+    maximize: False
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0005
+)
+Epoch 0 started,saved at ./results_gan_free/cifar10_censor_li_profile_num_images_1_defense_orthogonal_Jun.16_11.56.54\epoch_0

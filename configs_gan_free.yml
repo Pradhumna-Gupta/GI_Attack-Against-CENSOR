@@ -1,56 +1,43 @@
-  Introduction : 'GAN-free methods for gradient inversion attack.'
-  
-  optim : 'GAN_free'    #optim method, ['GAN_based', 'GAN_free']
-  cost_fn : 'sim_cmpr0'   #the type of loss function 
-  set_seed :       # random seed. Following geiping et. al., we do not give random seed for GAN-free methods.
-  indices : 'def'      #decide which part of gradients to be involved in the final gradients match loss.
-  weights : 'equal'    #weight of every graident scalar's matching loss
-  init : 'randn'     #how we initial the original latent code.
-  model : 'ResNet18'   #FL model
-  restarts : 4
+# =====================================================================
+# CENSOR DYNAMIC PERFORMANCE PROFILE: BATCH SIZE 1 EVALUATION
+# =====================================================================
+Introduction : 'GAN-free methods for gradient inversion attack.'
+optim : 'GAN_free'        
+cost_fn : 'sim_cmpr0'     
+set_seed : 1234           
+indices : 'def'           
+weights : 'equal'         
+init : 'randn'            
+model : 'ResNet18'        
+restarts : 4
 
-  num_images : 1   # the number of images to reconstruct at a batch
-  num_exp : 10     # the number of experiments
-  target_id : 9000
-  lr : 0.1            #learning rate for Yin et al.
-  total_variation : 0.0001     #the coefficient of total variation 
-  image_norm : 0.000001    #the coefficient of norm regularizer for Yin et al.
-  group_lazy : 0.01    #choose if we use group lazy regularization for Yin et al.
-  
-  bn_stat : 0       #choose if we use bn statistic to regularizer 
+# --- STRICT BATCH SIZE 1 BOUNDARY ---
+batch_size: 1             # Forces single-image processing chunks
+num_images : 1           
+num_exp : 10              
+target_id : 0             
 
-  max_iterations : 15000    #Maximum number of iterations for reconstruction.
+# --- DATA ENVIRONMENT CONFIGURATIONS ---
+generative_model : ''
+gen_dataset : ''          
+dataset: 'CIFAR100'        
+data_path: './data' 
+exp_name: 'imagenet_bs1_maturation_study' 
+output_dir: './results_gan_free/'       
 
-  gias_lr : 0.00001   #For biggan, we'd better choose smaller learning rate. 
+geiping : true
+yin : false
+train_epochs: 10          # Evaluates over 10 active progression epochs
 
-  # For input data
-  generative_model : ''
-  gen_dataset : 'ImageNet64'    # ['ImageNet64', 'FFHQ64']
-  dataset : 'IMAGENET_IO'       
-  data_path : '/depot/ninghui/data/imagenet/val'  # specify your dataset path
-
-  #For output data
-  exp_name : 'ex1_gan_free_imagenet'   #Same latent space search
-  output_dir : '/scratch/gilbreth/zhan4057/gradinv/results_gan_free/'
-
-  #Choice for GAN-free methods
-  geiping : true
-  yin : false
-
-  train_epochs: 12
-  our_num_tries : 20
-  #Defense parameter
-  defense_method : 'noise'
-  defense_setting : 
+# --- ORIGINAL REPO CENSOR DEFENSE TUNING ---
+our_num_tries : 30        # Locked to original repo baseline trials
+defense_method : 'orthogonal'  
+defense_setting : 
       noise : 0.01
       clipping : None
       compression : None
       representation : None
-      orthogonal : null
+      orthogonal : 0.005  # Calibrated search elasticity for rapid convergence
 
-
-  # The pre-trained StyleGAN checkpoint
-  ckpt: None
-
-  #LR pace for training
-  lr_same_pace: false 
+ckpt: None
+lr_same_pace: false
